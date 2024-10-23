@@ -18,7 +18,7 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 50vh;
+  height: 40vh;
   color: white;
 }
 
@@ -26,7 +26,7 @@ footer {
   display: flex;
   background-color: #2C497e;
   opacity: 0.8;
-  height: 50vh;
+  height: 40vh;
 }
 
 .foot-tittle {
