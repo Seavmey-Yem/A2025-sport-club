@@ -31,11 +31,16 @@ footer {
 
 .foot-tittle {
   display: flex;
-  margin-top: 5%;
+  margin-top: 2%;
+  font-size: 13px;
+  font-family: inter;
+}
+.foot-tittle h3 {
+  font-size: 18px;
 }
 
 .logo img {
-  width: 40%;
+  width: 50%;
   margin-left: 30%;
-  margin-top: 20%;
+  margin-top: 8%;
 }/*# sourceMappingURL=main.css.map */
