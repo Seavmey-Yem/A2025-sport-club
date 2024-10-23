@@ -4,7 +4,7 @@
 }
 
 .title {
-  margin-right: 190px;
+  margin-right: 180px;
 }
 .title h3 {
   font-size: 20px;
@@ -14,7 +14,7 @@
 }
 
 footer {
-  background-image: url(/images/foot.png);
+  background-image: url(../../images/foot.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
