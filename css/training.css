@@ -55,8 +55,39 @@
   color: white;
 }
 
+.container-training {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 .card {
-  width: 100%;
+  border: 1px solid;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.card img {
+  width: 70%;
+  margin-left: 10%;
+}
+
+.card1 {
+  display: flex;
+}
+.card1 h4 {
+  font-size: 35px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.card1 h2 {
+  margin-bottom: 5%;
+  font-size: 40px;
+}
+.card1 p {
+  margin-bottom: 10%;
+  font-style: 20px;
 }
 
 .title {
