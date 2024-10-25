@@ -163,7 +163,7 @@ iframe {
   position: absolute;
   width: 100%;
   min-height: 240px;
-  background-image: url(../images/contact-image/rady.png);
+  background-image: url(../../images/contact-image/rady.png);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
