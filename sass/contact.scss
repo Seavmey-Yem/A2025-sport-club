@@ -1,15 +1,13 @@
-$bg-left:#E0EBFF;
-$bg-right:#9FC1FF;
-$login-bg:#5084E4;
-$icon-bg:#DFEAFF;
-$text-color:#001E56;
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap');
 *{
     font-family: "Inter", sans-serif;
     font-weight: 450;
 }
+@import"../sass/components/variable";
 body h2{
     text-align: center;
+    margin: 40px;
 }
 .container{
     display: flex;
@@ -49,6 +47,7 @@ body h2{
 @import"../sass/components/mixin";
 input[type="email"], input[type="password"]{
     @include border();
+    background: #A8C7FF;
 }
 input[type="password"]{
     margin-top: 0;
@@ -104,7 +103,7 @@ input[type="password"]{
     @include display();
 }
 iframe{
-    width: 80%;
+    width: 70%;
     height: 70vh;
     margin-bottom: 100px;
     outline: 3px solid gray;
@@ -114,8 +113,105 @@ iframe{
 .span{
     font-size: 25px;
     @include display();
-    margin: 30px;
+    margin: 40px;
     gap: 15px;
+}
+.background-foot{
+    position:absolute;
+    width: 100%;
+    min-height: 240px;
+    background-image: url(../images/contact-image/rady.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #cccc;
+    min-height: 200px;
+    
+}
+.foot-img img{
+    width: 55%;
+    margin-left: 100px;
+    padding: 10px;
+    
+}
+.about ul li{
+    list-style-type: none;
+    color: #000;
+    margin-bottom: 7px;
+}
+.about ul li:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 104);
+}
+.contact-us li:hover{
+    text-decoration: underline;
+}
+.title p{
+    font-size: 20px;
+    margin-bottom: 17px;
 }
 
 
+.nav-bar-header {
+    display: flex;
+    .left-nav {
+        @include display();
+      color: #fff;
+      background: #113B89;
+      width: 40%;
+      padding: 19px;
+      clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+      position: absolute;
+  
+      .logo-header {
+        width: 70px;
+        height: 60px;
+        margin-right: 20px;
+      }
+  
+      .h1 {
+        color: #fff;
+        padding: 20px;  
+      }
+    }
+  
+    .right-nav{
+      width: 100%;
+      .fisrt {
+        height:20px;
+        display: flex;
+        justify-content: right;
+        background: #00205A;
+        color: #ffff;
+        padding: 20px;
+  
+        .icon-nav {
+          display: flex;
+        }
+  
+      }
+  
+      ul {
+        display: flex;
+        justify-content: right;
+        background: #474747;
+  
+        li {
+          padding: 10px;
+          list-style: none;
+        }
+        a{
+          text-decoration: none;
+          color: #ffff;
+  
+        }
+  
+      }
+    }
+  }

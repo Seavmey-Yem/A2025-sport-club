@@ -6,6 +6,7 @@
 
 body h2 {
   text-align: center;
+  margin: 40px;
 }
 
 .container {
@@ -59,6 +60,7 @@ input[type=email], input[type=password] {
   width: 70%;
   margin-top: 10px;
   margin-bottom: 15px;
+  background: #A8C7FF;
 }
 
 input[type=password] {
@@ -140,7 +142,7 @@ input[type=password] {
 }
 
 iframe {
-  width: 80%;
+  width: 70%;
   height: 70vh;
   margin-bottom: 100px;
   outline: 3px solid gray;
@@ -153,6 +155,103 @@ iframe {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px;
+  margin: 40px;
   gap: 15px;
+}
+
+.background-foot {
+  position: absolute;
+  width: 100%;
+  min-height: 240px;
+  background-image: url(../images/contact-image/rady.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: rgba(204, 204, 204, 0.8);
+  min-height: 200px;
+}
+
+.foot-img img {
+  width: 55%;
+  margin-left: 100px;
+  padding: 10px;
+}
+
+.about ul li {
+  list-style-type: none;
+  color: #000;
+  margin-bottom: 7px;
+}
+
+.about ul li:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 104);
+}
+
+.contact-us li:hover {
+  text-decoration: underline;
+}
+
+.title p {
+  font-size: 20px;
+  margin-bottom: 17px;
+}
+
+.nav-bar-header {
+  display: flex;
+}
+.nav-bar-header .left-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #113B89;
+  width: 40%;
+  padding: 19px;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+  position: absolute;
+}
+.nav-bar-header .left-nav .logo-header {
+  width: 70px;
+  height: 60px;
+  margin-right: 20px;
+}
+.nav-bar-header .left-nav .h1 {
+  color: #fff;
+  padding: 20px;
+}
+.nav-bar-header .right-nav {
+  width: 100%;
+}
+.nav-bar-header .right-nav .fisrt {
+  height: 20px;
+  display: flex;
+  justify-content: right;
+  background: #00205A;
+  color: white;
+  padding: 20px;
+}
+.nav-bar-header .right-nav .fisrt .icon-nav {
+  display: flex;
+}
+.nav-bar-header .right-nav ul {
+  display: flex;
+  justify-content: right;
+  background: #474747;
+}
+.nav-bar-header .right-nav ul li {
+  padding: 10px;
+  list-style: none;
+}
+.nav-bar-header .right-nav ul a {
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=contact.css.map */
