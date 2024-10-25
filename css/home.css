@@ -63,14 +63,14 @@
 }
 .header-page .imag .image-header {
   width: 100%;
-  height: 560px;
+  height: 580px;
 }
 .header-page .text-header {
   text-align: center;
   background: rgba(13, 47, 105, 0.7529411765);
   position: absolute;
   width: 100%;
-  margin-top: 275px;
+  margin-top: 295px;
   padding: 20px 0 20px;
 }
 .header-page .text-header h1 {
@@ -90,6 +90,7 @@
   width: 150px;
   border-top-right-radius: 12px;
   border-bottom-left-radius: 12px;
+  border: 2px solid #fff;
   border: none;
   margin-right: 10px;
 }
@@ -99,6 +100,76 @@
   border-top-left-radius: 12px;
   border-bottom-right-radius: 12px;
   border: none;
+}
+
+.container-page {
+  padding: 20px;
+  margin-top: 20px;
+}
+.container-page h1 {
+  text-align: center;
+  padding: 10px;
+}
+.container-page p {
+  text-align: center;
+  padding: 10px;
+}
+.container-page .our-gallery {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1.2fr 1.2fr 1fr 1fr;
+  grid-template-rows: 1.2fr 1fr 1.5fr;
+  grid-template-areas: "header header main main" "header header menu right" "footer footer footer footer";
+  height: 100vh;
+}
+.container-page .our-gallery div {
+  padding: 20px;
+  text-align: center;
+}
+.container-page .header {
+  grid-area: header;
+  background-image: url(../images/imag-home-1.png);
+}
+.container-page .menu {
+  grid-area: menu;
+  background-image: url(../images/imag-home-2.png);
+}
+.container-page .main {
+  grid-area: main;
+  background-image: url(../images/imag-home-3.png);
+}
+.container-page .right {
+  grid-area: right;
+  background-image: url(../images/imag-home-4.png);
+}
+.container-page .footer {
+  grid-area: footer;
+  background-image: url(../images/imag-home-5.png);
+}
+
+.footer-page-home {
+  padding: 20px;
+  margin-top: 20px;
+}
+.footer-page-home h1 {
+  padding: 10px;
+}
+.footer-page-home .join-team-home {
+  display: flex;
+}
+.footer-page-home .join-team-home .text {
+  width: 100%;
+  background: #ECE8FF;
+}
+.footer-page-home .join-team-home .right-card {
+  width: 40%;
+  height: 350px;
+  background: #174395;
+}
+.footer-page-home .join-team-home .image-footer-home img {
+  position: absolute;
+  width: 150px;
+  height: 100px;
 }
 
 .title {
