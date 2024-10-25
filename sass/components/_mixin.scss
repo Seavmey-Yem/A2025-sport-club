@@ -1,0 +1,21 @@
+@mixin display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin border(){
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+@mixin padding(){
+    display: flex;
+    border: 1px solid gray;
+    margin-top: 15px;
+    padding: 5px;
+}
