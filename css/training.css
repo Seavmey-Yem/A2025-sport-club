@@ -14,8 +14,7 @@
   padding: 19px;
   justify-content: center;
   align-items: center;
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
-          clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
   position: absolute;
 }
 .nav-bar-header .left .logo-header {
