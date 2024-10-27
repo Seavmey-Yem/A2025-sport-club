@@ -3,35 +3,34 @@
   margin: 0;
 }
 
-<<<<<<< HEAD
 .nav-bar-header {
   display: flex;
 }
-.nav-bar-header .left {
-  color: #fff;
+.nav-bar-header .left-nav {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
   background: #113B89;
   width: 40%;
   padding: 19px;
-  justify-content: center;
-  align-items: center;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
           clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
   position: absolute;
 }
-.nav-bar-header .left .logo-header {
+.nav-bar-header .left-nav .logo-header {
   width: 70px;
   height: 60px;
   margin-right: 20px;
 }
-.nav-bar-header .left .h1 {
+.nav-bar-header .left-nav .h1 {
   color: #fff;
   padding: 20px;
 }
-.nav-bar-header .right {
+.nav-bar-header .right-nav {
   width: 100%;
 }
-.nav-bar-header .right .fisrt {
+.nav-bar-header .right-nav .fisrt {
   height: 20px;
   display: flex;
   justify-content: right;
@@ -39,21 +38,50 @@
   color: white;
   padding: 20px;
 }
-.nav-bar-header .right .fisrt .icon {
+.nav-bar-header .right-nav .fisrt .text {
+  margin-right: 180px;
+  font-size: 17px;
+  align-items: center;
+  cursor: pointer;
   display: flex;
+  gap: 1rem;
+  font-style: italic;
 }
-.nav-bar-header .right ul {
+.nav-bar-header .right-nav .fisrt .text .fa-brands {
+  font-size: 30px;
+}
+.nav-bar-header .right-nav .fisrt .text .fa-brands:hover {
+  color: orangered;
+}
+.nav-bar-header .right-nav ul {
   display: flex;
   justify-content: right;
   background: #474747;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.nav-bar-header .right ul li {
+.nav-bar-header .right-nav ul .active-link {
+  background-color: #fff;
+  color: darkblue;
   padding: 10px;
-  list-style: none;
+  text-shadow: 2px 0 3px gray;
 }
-.nav-bar-header .right ul a {
+.nav-bar-header .right-nav ul li {
+  padding: 10px;
+  list-style-type: none;
+  margin-right: 50px;
+}
+.nav-bar-header .right-nav ul li .fa-magnifying-glass {
+  background-color: rgb(49, 49, 224);
+  position: absolute;
+  font-size: 30px;
+  margin-top: -10px;
+  padding: 5px;
+  margin-left: -25px;
+}
+.nav-bar-header .right-nav ul a {
   text-decoration: none;
   color: white;
+  font-weight: bold;
 }
 
 .container-training {
@@ -61,8 +89,6 @@
   padding-bottom: 5%;
 }
 
-=======
->>>>>>> f87dc5ccbfb976bce9094219de24e0e7cb4cd259
 .card {
   border: 1px solid;
   margin-left: 10%;
