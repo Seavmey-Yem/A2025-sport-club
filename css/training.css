@@ -3,58 +3,6 @@
   margin: 0;
 }
 
-.nav-bar-header {
-  display: flex;
-}
-.nav-bar-header .left {
-  color: #fff;
-  display: flex;
-  background: #113B89;
-  width: 40%;
-  padding: 19px;
-  justify-content: center;
-  align-items: center;
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
-          clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
-  position: absolute;
-}
-.nav-bar-header .left .logo-header {
-  width: 70px;
-  height: 60px;
-  margin-right: 20px;
-}
-.nav-bar-header .left .h1 {
-  color: #fff;
-  padding: 20px;
-}
-.nav-bar-header .right {
-  width: 100%;
-}
-.nav-bar-header .right .fisrt {
-  height: 20px;
-  display: flex;
-  justify-content: right;
-  background: #00205A;
-  color: white;
-  padding: 20px;
-}
-.nav-bar-header .right .fisrt .icon {
-  display: flex;
-}
-.nav-bar-header .right ul {
-  display: flex;
-  justify-content: right;
-  background: #474747;
-}
-.nav-bar-header .right ul li {
-  padding: 10px;
-  list-style: none;
-}
-.nav-bar-header .right ul a {
-  text-decoration: none;
-  color: white;
-}
-
 .card {
   width: 100%;
 }
@@ -98,6 +46,7 @@ footer {
   list-style-type: none;
   color: #000;
   margin-bottom: 7px;
+  font-size: 14px;
 }
 
 .about ul li:hover {
