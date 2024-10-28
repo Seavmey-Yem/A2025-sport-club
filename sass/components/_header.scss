@@ -1,5 +1,6 @@
-@import"../components/mixin";
+@import "./mixin";
 .nav-bar-header {
+  
   display: flex;
   .left-nav {
     @include display();

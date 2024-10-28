@@ -1,5 +1,6 @@
 // <!-- Nav bar page-->//
 @import "./components/_header";
+@import "./components/variable";
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap');
 
 * {
@@ -251,7 +252,7 @@
                 }
             }
 
-            button {
+            .btn-top {
                 padding: 15px;
                 background: #174395;
                 width: 200px;
@@ -266,10 +267,34 @@
                 transition: 400ms;
             }
 
-            button:hover {
+            .btn-top:hover {
                 transform: scale(1.03);
                 text-decoration: underline;
 
+            }
+
+            .btn-join {
+                margin-left: 28px;
+                border: none;
+                background-color:#5084E4 ;
+                padding: 7px;
+                color: white;
+                border-radius: 8px;
+                transition: 400ms;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                .fa-arrow-right{
+                    border: 1px solid;
+                    padding: 5px;
+                    border-radius: 50%;
+                    color: $login-bg;
+                    background-color: white;
+                }
+            }
+        
+
+            .btn-join:hover {
+                transform: scale(1.03);
+                text-decoration: underline;
             }
 
             .right-card {
@@ -278,7 +303,7 @@
                 height: 370px;
                 background: #174395;
                 position: absolute;
-                margin-top: -262px;
+                margin-top: -302px;
                 margin-left: 604px;
                 clip-path: polygon(37% 0, 100% 0%, 100% 100%, 0% 100%);
                 border-top-right-radius: 10px;

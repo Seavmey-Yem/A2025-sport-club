@@ -283,7 +283,7 @@
   color: #fff;
   margin-left: 30px;
 }
-.footer-page-home .join-team-home .text button {
+.footer-page-home .join-team-home .text .btn-top {
   padding: 15px;
   background: #174395;
   width: 200px;
@@ -297,7 +297,28 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: 400ms;
 }
-.footer-page-home .join-team-home .text button:hover {
+.footer-page-home .join-team-home .text .btn-top:hover {
+  transform: scale(1.03);
+  text-decoration: underline;
+}
+.footer-page-home .join-team-home .text .btn-join {
+  margin-left: 28px;
+  border: none;
+  background-color: #5084E4;
+  padding: 7px;
+  color: white;
+  border-radius: 8px;
+  transition: 400ms;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.footer-page-home .join-team-home .text .btn-join .fa-arrow-right {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 50%;
+  color: #5084E4;
+  background-color: white;
+}
+.footer-page-home .join-team-home .text .btn-join:hover {
   transform: scale(1.03);
   text-decoration: underline;
 }
@@ -307,7 +328,7 @@
   height: 370px;
   background: #174395;
   position: absolute;
-  margin-top: -262px;
+  margin-top: -302px;
   margin-left: 604px;
   clip-path: polygon(37% 0, 100% 0%, 100% 100%, 0% 100%);
   border-top-right-radius: 10px;
