@@ -1,6 +1,11 @@
-@mixin display{
+@mixin display(){
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+@mixin display-start(){
+    display: flex;
+    justify-content: start;
     align-items: center;
 }
 @mixin border(){
@@ -55,4 +60,22 @@
         color: $text-color;
         font-weight: bold;
     }
+}
+@mixin memeber(){
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    margin:70px;
+    text-shadow: 0 2px 5px gray;
+}
+@mixin bg-image(){
+    position:absolute;
+    z-index: -1;
+    margin-top: -25px;
+    height: 275px;
+    width: 538px;
+    object-fit: fill;
+    margin-left: -26px;
+    border-radius: 8px;
+    opacity: 0.4;
 }
