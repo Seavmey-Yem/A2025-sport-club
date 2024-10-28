@@ -232,9 +232,10 @@ footer .group-footer {
   position: absolute;
 }
 footer .group-footer .foot-img img {
-  width: 60%;
+  width: 54%;
   margin-left: 40px;
   padding: 10px;
+  padding-top: 30px;
 }
 footer .group-footer .about ul li {
   list-style-type: none;
@@ -251,8 +252,14 @@ footer .group-footer .contact-us li:hover {
 }
 footer .group-footer .title p {
   font-size: 20px;
-<<<<<<< HEAD
-  margin-bottom: 17px;
+  margin-bottom: 20px;
+}
+footer .background-foot {
+  width: 100%;
+  min-height: 275px;
+  background-image: url(../../images/foot.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .mix-sport {
@@ -345,20 +352,6 @@ footer .group-footer .title p {
   transition: 0.3s;
 }
 
-.cr7 img {
-  width: 60%;
-  margin-left: 250px;
-  rotate: y -180deg;
-  filter: grayscale(100%);
-}
-
-.cr7 img:hover {
-  filter: contrast(100%);
-  transition: 0.5s;
-  transform: translateY(-7px);
-  cursor: pointer;
-}
-
 .about-event {
   text-align: center;
   margin: 70px;
@@ -366,6 +359,8 @@ footer .group-footer .title p {
 .about-event h1 {
   font-size: 45px;
   font-weight: bold;
+  color: #001E56;
+  margin-bottom: 20px;
 }
 .about-event p {
   font-size: 19px;
@@ -502,7 +497,6 @@ footer .group-footer .title p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 30px;
   margin-top: 10px;
   background: rgba(46, 104, 212, 0.6666666667);
   padding: 15px;
@@ -516,7 +510,6 @@ footer .group-footer .title p {
 }
 .mini-content .event-football-card .btn-learn-more button {
   border-radius: 30px;
-  margin-left: 65px;
 }
 .mini-content .event-football-card .btn-learn-more button .btn-learn-more button {
   margin-top: 20px;
@@ -544,17 +537,8 @@ footer .group-footer .title p {
   font-size: 18px;
   display: flex;
   gap: 6px;
-  margin-left: -50px;
+  margin-left: -10px;
 }
 .mini-content .icon-share .fa-heart, .mini-content .icon-share .fa-share, .mini-content .icon-share .fa-bookmark, .mini-content .icon-share .fa-message {
   color: #001E56;
-=======
-  margin-bottom: 20px;
-}
-footer .background-foot {
-  width: 100%;
-  min-height: 270px;
-  background-image: url(../../images/foot.png);
-  background-position: center;
->>>>>>> d4b7bb07ee84adb7cd9966f1d3917117df226f45
 }/*# sourceMappingURL=training.css.map */

@@ -64,18 +64,6 @@
     }
 }
 @include btn-shape();
-.cr7 img{
-    width:  60%;
-    margin-left: 250px;
-    rotate: y -180deg;
-    filter: grayscale(100%);
-}
-.cr7 img:hover{
-    filter: contrast(100%);
-    transition: 0.5s;
-    transform: translateY(-7px);
-    cursor: pointer;
-}
 .about-event{
     @include main-h1();
 }
@@ -178,7 +166,6 @@
         }
         .date-day{
             @include display();
-            margin-left: 30px;
             margin-top:10px;
             background:#2e68d4aa;
             padding: 15px;
@@ -193,7 +180,6 @@
         .btn-learn-more button{
             @include btn-shape();
             border-radius: 30px;
-            margin-left: 65px;
         }
     }
     .icon-share{
@@ -201,7 +187,7 @@
         font-size: 18px;
         display: flex;
         gap: 6px;
-        margin-left: -50px;
+        margin-left: -10px;
         .fa-heart, .fa-share, .fa-bookmark, .fa-message{
             color:$text-color;
         }

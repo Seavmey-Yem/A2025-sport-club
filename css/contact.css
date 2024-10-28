@@ -181,9 +181,10 @@ footer .group-footer {
   position: absolute;
 }
 footer .group-footer .foot-img img {
-  width: 60%;
+  width: 54%;
   margin-left: 40px;
   padding: 10px;
+  padding-top: 30px;
 }
 footer .group-footer .about ul li {
   list-style-type: none;
@@ -204,9 +205,10 @@ footer .group-footer .title p {
 }
 footer .background-foot {
   width: 100%;
-  min-height: 270px;
+  min-height: 275px;
   background-image: url(../../images/foot.png);
   background-position: center;
+  background-size: cover;
 }
 
 .nav-bar-header {
