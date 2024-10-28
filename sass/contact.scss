@@ -15,7 +15,7 @@ body h2{
 }
 .span{
     @include display();
-    .fa-map-location-dot{
+    .fa-location-dot{
         font-size: 30px;
         color:rgb(212, 3, 3);
     }
