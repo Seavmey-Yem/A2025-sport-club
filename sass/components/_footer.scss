@@ -1,29 +1,38 @@
-footer{
+.background-foot{
+    position:absolute;
+    width: 100%;
+    min-height: 240px;
     background-image: url(../../images/foot.png);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    height: 40vh;
-    color: white;
+    z-index:-1;
 }
-.foot{
-    display: flex;
-    background-color: #2C497e;
-    opacity: 0.8;
-    height: 40vh;
+@import"./mixin";
+footer{
+    @include display();
+    padding: 20px;
+    background: #174395;
+    min-height: 200px;   
 }
-.foot-tittle{
-    display: flex;
-    margin-top: 2%;
-    font-size: 13px;
-    font-family: inter;
-    h3{
-        font-size: 18px;
-        
-    }
+.foot-img img{
+    width: 55%;
+    margin-left: 100px;
+    padding: 10px; 
 }
-.logo img{
-    width: 50%;
-    margin-left: 30%;
-    margin-top: 8%;
+.about ul li{
+    list-style-type: none;
+    color: #000;
+    margin-bottom: 7px;
+    font-size: 14px;
+}
+.about ul li:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 104);
+}
+.contact-us li:hover{
+    text-decoration: underline;
+}
+.title p{
+    font-size: 20px;
+    margin-bottom: 17px;
 }

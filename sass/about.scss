@@ -1,0 +1,88 @@
+@import"../sass/components/header";
+@import"../sass/components/footer";
+@import"../sass/components/variable";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+    font-weight: 450;
+}
+@import"../sass/components/mixin";
+.about-container{
+    display: flex;
+    justify-content: center;
+    flex: 4;
+    gap: 5%;
+    width: 100%;
+    background: $bg-left;
+    height: 100vh;
+}
+.mix-sport{
+    // flex: 2;
+    margin-left: 2%;    
+    margin: 20px;
+}
+.mix-sport .football-image{
+    width: 25%;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 3px solid #000;
+    margin-left: 70px;
+}
+.mix-sport .ruby-image{
+    width: 25%;
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 190px;
+    border-radius: 15px;
+    border: 3px solid #000;
+    position: absolute;
+}
+.mix-sport .photo-image{
+    width: 25%;
+    position: absolute;
+    margin-top: 350px;
+    border-radius: 15px;
+    margin-left: -315px;
+    border: 3px solid #000;
+}
+.title-club-sport{
+    flex: 2;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 50px;
+    width: 500px;
+    h2{
+        font-size: 40px;
+        color: #fff;
+        padding: 10px;
+        font-family: "Vast Shadow", serif;
+        background: $text-color;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    p{
+        color: $text-color;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .detail-club{
+        margin-top: 80px
+    }
+}
+.btn-learn-more button{
+    margin-top: 20px;
+    padding: 10px;
+    background: $login-bg;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.cr7 img{
+    width:  60%;
+    margin-left: 250px;
+    rotate: y -180deg;
+    filter: grayscale(100%);
+}

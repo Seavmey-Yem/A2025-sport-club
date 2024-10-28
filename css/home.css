@@ -1,35 +1,31 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
 .nav-bar-header {
   display: flex;
 }
-.nav-bar-header .left {
-  color: #fff;
+.nav-bar-header .left-nav {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
   background: #113B89;
   width: 40%;
   padding: 19px;
-  justify-content: center;
-  align-items: center;
   clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
   position: absolute;
 }
-.nav-bar-header .left .logo-header {
+.nav-bar-header .left-nav .logo-header {
   width: 70px;
   height: 60px;
   margin-right: 20px;
 }
-.nav-bar-header .left .h1 {
+.nav-bar-header .left-nav .h1 {
   color: #fff;
   padding: 20px;
 }
-.nav-bar-header .right {
+.nav-bar-header .right-nav {
   width: 100%;
 }
-.nav-bar-header .right .fisrt {
+.nav-bar-header .right-nav .fisrt {
   height: 20px;
   display: flex;
   justify-content: right;
@@ -37,21 +33,55 @@
   color: white;
   padding: 20px;
 }
-.nav-bar-header .right .fisrt .icon {
+.nav-bar-header .right-nav .fisrt .text {
+  margin-right: 180px;
+  font-size: 17px;
+  align-items: center;
+  cursor: pointer;
   display: flex;
+  gap: 1rem;
+  font-style: italic;
 }
-.nav-bar-header .right ul {
+.nav-bar-header .right-nav .fisrt .text .fa-brands {
+  font-size: 30px;
+}
+.nav-bar-header .right-nav .fisrt .text .fa-brands:hover {
+  color: orangered;
+}
+.nav-bar-header .right-nav ul {
   display: flex;
   justify-content: right;
   background: #474747;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.nav-bar-header .right ul li {
+.nav-bar-header .right-nav ul .active-link {
+  background-color: #fff;
+  color: darkblue;
   padding: 10px;
-  list-style: none;
+  text-shadow: 2px 0 3px gray;
 }
-.nav-bar-header .right ul a {
+.nav-bar-header .right-nav ul li {
+  padding: 10px;
+  list-style-type: none;
+  margin-right: 50px;
+}
+.nav-bar-header .right-nav ul li .fa-magnifying-glass {
+  background-color: rgb(49, 49, 224);
+  position: absolute;
+  font-size: 30px;
+  margin-top: -10px;
+  padding: 5px;
+  margin-left: -25px;
+}
+.nav-bar-header .right-nav ul a {
   text-decoration: none;
   color: white;
+  font-weight: bold;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 450;
 }
 
 .header-page {
@@ -69,16 +99,18 @@
   background: rgba(13, 47, 105, 0.7529411765);
   position: absolute;
   width: 100%;
-  margin-top: 292px;
+  margin-top: 281px;
   padding: 20px 0 20px;
 }
 .header-page .text-header h1 {
   color: #fff;
   font-size: 80px;
+  font-weight: bold;
 }
 .header-page .text-header h2 {
   color: #FFC107;
   font-size: 50px;
+  font-weight: bold;
 }
 .header-page .text-header p {
   color: #fff;
@@ -97,6 +129,7 @@
 }
 .header-page .text-header .btn-left:hover {
   transform: scaleX(1.03);
+  text-decoration: underline;
 }
 .header-page .text-header .btn-right {
   border: 1.5px solid #fff;
@@ -110,6 +143,7 @@
 }
 .header-page .text-header .btn-right:hover {
   transform: scaleX(1.03);
+  text-decoration: underline;
 }
 
 .container-page {
@@ -119,10 +153,13 @@
 .container-page h1 {
   text-align: center;
   padding: 10px;
+  font-weight: bold;
+  color: #174395;
 }
 .container-page p {
   text-align: center;
   padding: 0px 30px 30px 30px;
+  color: #174395;
 }
 .container-page .our-gallery {
   display: grid;
@@ -204,12 +241,16 @@
 .footer-page-home h1 {
   padding: 10px;
   text-align: center;
+  font-weight: bold;
+  color: #174395;
 }
 .footer-page-home .join-team-home {
   display: flex;
 }
 .footer-page-home .join-team-home h1 {
   padding: 20px;
+  font-weight: bold;
+  color: #174395;
 }
 .footer-page-home .join-team-home .text {
   padding: 10px;
@@ -221,12 +262,20 @@
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .footer-page-home .join-team-home .text h2 {
-  padding: 30px;
+  padding: 40px 30px 20px 30px;
+  font-weight: bold;
+  color: #174395;
+}
+.footer-page-home .join-team-home .text h2 span {
+  font-weight: bold;
+  color: #d4a106;
 }
 .footer-page-home .join-team-home .text p {
   padding: 0px 30px 30px 30px;
+  font-size: 17px;
+  color: #174395;
 }
-.footer-page-home .join-team-home .text span {
+.footer-page-home .join-team-home .text p span {
   padding: 10px;
   background: #5084E4;
   width: 150px;
@@ -250,15 +299,16 @@
 }
 .footer-page-home .join-team-home .text button:hover {
   transform: scale(1.03);
+  text-decoration: underline;
 }
 .footer-page-home .join-team-home .text .right-card {
   margin-top: 80px;
-  width: 40%;
+  width: 45%;
   height: 370px;
   background: #174395;
   position: absolute;
-  margin-top: -264px;
-  margin-left: 667px;
+  margin-top: -262px;
+  margin-left: 604px;
   clip-path: polygon(37% 0, 100% 0%, 100% 100%, 0% 100%);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -281,34 +331,48 @@
   padding-top: 15px;
 }
 
-footer {
+.background-foot {
+  position: absolute;
+  width: 100%;
+  min-height: 240px;
   background-image: url(../../images/foot.png);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
-  height: 40vh;
-  color: white;
+  z-index: -1;
 }
 
-.foot {
+footer {
   display: flex;
-  background-color: #2C497e;
-  opacity: 0.8;
-  height: 40vh;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #174395;
+  min-height: 200px;
 }
 
-.foot-tittle {
-  display: flex;
-  margin-top: 2%;
-  font-size: 13px;
-  font-family: inter;
-}
-.foot-tittle h3 {
-  font-size: 18px;
+.foot-img img {
+  width: 55%;
+  margin-left: 100px;
+  padding: 10px;
 }
 
-.logo img {
-  width: 50%;
-  margin-left: 30%;
-  margin-top: 8%;
+.about ul li {
+  list-style-type: none;
+  color: #000;
+  margin-bottom: 7px;
+  font-size: 14px;
+}
+
+.about ul li:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 104);
+}
+
+.contact-us li:hover {
+  text-decoration: underline;
+}
+
+.title p {
+  font-size: 20px;
+  margin-bottom: 17px;
 }/*# sourceMappingURL=home.css.map */

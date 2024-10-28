@@ -1,11 +1,11 @@
 // <!-- Nav bar page-->//
+@import "./components/_header";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 450;
 }
-
-@import "./components/_header";
 
 // <!-- Nav bar page-->//
 // <!-- container page -->//
@@ -26,17 +26,19 @@
         background: #0d2f69c0;
         position: absolute;
         width: 100%;
-        margin-top: 292px;
+        margin-top: 281px;
         padding: 20px 0 20px;
 
         h1 {
             color: #fff;
             font-size: 80px;
+            font-weight: bold;
         }
 
         h2 {
             color: #FFC107;
             font-size: 50px;
+            font-weight: bold;
         }
 
         p {
@@ -59,6 +61,7 @@
 
         .btn-left:hover {
             transform: scaleX(1.03);
+            text-decoration: underline;
         }
 
         .btn-right {
@@ -74,6 +77,7 @@
 
         .btn-right:hover {
             transform: scaleX(1.03);
+            text-decoration: underline;
         }
 
     }
@@ -86,11 +90,14 @@
     h1 {
         text-align: center;
         padding: 10px;
+        font-weight: bold;
+        color: #174395;
     }
 
     p {
         text-align: center;
         padding: 0px 30px 30px 30px;
+        color: #174395;
     }
 
 
@@ -153,10 +160,11 @@
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         transition: 400ms;
     }
+
     .main:hover {
         transform: scale(1.03);
     }
-    
+
     .right {
         grid-area: right;
         background-image: url(../images/imag-home-4.png);
@@ -193,6 +201,8 @@
     h1 {
         padding: 10px;
         text-align: center;
+        font-weight: bold;
+        color: #174395;
     }
 
     .join-team-home {
@@ -200,6 +210,8 @@
 
         h1 {
             padding: 20px;
+            font-weight: bold;
+            color: #174395;
         }
 
         .text {
@@ -212,23 +224,31 @@
             box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 
             h2 {
-                padding: 30px;
+                padding: 40px 30px 20px 30px;
+                font-weight: bold;
+                color: #174395;
+
+                span {
+                    font-weight: bold;
+                    color: #d4a106;
+                }
 
             }
 
             p {
                 padding: 0px 30px 30px 30px;
+                font-size: 17px;
+                color: #174395;
 
-            }
+                span {
+                    padding: 10px;
+                    background: #5084E4;
+                    width: 150px;
+                    border-radius: 8px;
+                    color: #fff;
+                    margin-left: 30px;
 
-            span {
-                padding: 10px;
-                background: #5084E4;
-                width: 150px;
-                border-radius: 8px;
-                color: #fff;
-                margin-left: 30px;
-
+                }
             }
 
             button {
@@ -248,16 +268,18 @@
 
             button:hover {
                 transform: scale(1.03);
+                text-decoration: underline;
+
             }
 
             .right-card {
                 margin-top: 80px;
-                width: 40%;
+                width: 45%;
                 height: 370px;
                 background: #174395;
                 position: absolute;
-                margin-top: -264px;
-                margin-left: 667px;
+                margin-top: -262px;
+                margin-left: 604px;
                 clip-path: polygon(37% 0, 100% 0%, 100% 100%, 0% 100%);
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -285,5 +307,5 @@
 // <!-- container page -->//
 // <!-- footer page-->//
 @import "./components/_title";
-@import "./components/_footer";
+@import "../sass/components/footer";
 // <!-- footer page -->//

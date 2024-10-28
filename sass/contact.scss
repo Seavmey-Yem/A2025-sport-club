@@ -1,121 +1,24 @@
-$bg-left:#E0EBFF;
-$bg-right:#9FC1FF;
-$login-bg:#5084E4;
-$icon-bg:#DFEAFF;
-$text-color:#001E56;
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap');
 *{
     font-family: "Inter", sans-serif;
     font-weight: 450;
 }
+@import"../sass/components/variable";
+@import"../sass/components/sign_in";
 body h2{
     text-align: center;
-}
-.container{
-    display: flex;
-    flex: 4;
-    width: 70%;
-    margin: 20px auto;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 20px;
-}
-.left{
-    flex: 2;
-    background: $bg-left;
-    text-align: center;
-    padding: 20px;
-}
-.left{
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-.right{
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-.left h3,.right h3{
-    font-size: 30px;
-    margin-bottom: 30px;
-}
-.right h3{
-    margin-bottom: 20px;
-}
-.right{
-    flex: 2;
-    background: $bg-right;
-    text-align: center;
-    padding: 20px;
-}
-@import"../sass/components/mixin";
-input[type="email"], input[type="password"]{
-    @include border();
-}
-input[type="password"]{
-    margin-top: 0;
-}
-// input[type="email"]:hover, input[type="password"]:hover{
-//     // background: #f2f2f2;
-// }
-.btn{
-    @include border();
-    background: $login-bg;
-    color: #fff;
-    font-size: 15px;
-    width: 75%;
-    margin-top: 35px;
-}
-.forget ,a{
-    margin-top: 17px;
-    font-size: 15px;
-}
-.icon-img img{
-    width: 30px;
-}
-.icon-img{
-    @include display();
-    margin-top: 20px;
-    gap: 5%;
-}
-.icon-2 p{
-    font-size: 17px; 
-}
-.icon-2{
-    margin-left: 12%;
-}
-.icon-2 h4{
-    margin-left:-12% ;
-}
-.png img{
-    width: 30px;
-    display: flex;
-}
-.png{
-    @include padding();
-    @include display();
-    justify-content: space-between;
-    border-radius: 30px;
-    width: 80%;
-}
-.container h4{
-    margin-top: 20px;
-    font-size: 18px;
-}
-.section-2{
-    @include display();
-}
-iframe{
-    width: 80%;
-    height: 70vh;
-    margin-bottom: 100px;
-    outline: 3px solid gray;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: 40px;
+    font-size: 26px;
+    font-weight: bold;
+    color: darkblue;
 }
 .span{
-    font-size: 25px;
     @include display();
-    margin: 30px;
-    gap: 15px;
+    .fa-map-location-dot{
+        font-size: 30px;
+        color:rgb(212, 3, 3);
+    }
 }
-
-
+@import"../sass/components/footer";
+@import"../sass/components/header";
