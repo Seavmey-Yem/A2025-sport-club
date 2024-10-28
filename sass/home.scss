@@ -24,7 +24,8 @@
 
     .text-header {
         text-align: center;
-        background: #0d2f69c0;
+        // background: #0d2f69c0;
+        background: linear-gradient(0deg, rgba(13,46,105,1) 18%, rgba(13,46,105,0.5664390756302521) 68%, rgba(23,103,255,0) 100%);
         position: absolute;
         width: 100%;
         margin-top: 322px;
@@ -34,6 +35,9 @@
             color: #fff;
             font-size: 80px;
             font-weight: bold;
+        }
+        h1{
+            
         }
 
         h2 {
@@ -301,7 +305,8 @@
                 margin-top: 80px;
                 width: 45%;
                 height: 370px;
-                background: #174395;
+                // background: #174395;
+                background: radial-gradient(circle, rgba(23,67,149,1) 0%, rgba(80,132,228,1) 0%, rgba(23,67,149,1) 54%);
                 position: absolute;
                 margin-top: -302px;
                 margin-left: 604px;

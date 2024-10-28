@@ -96,7 +96,7 @@
 }
 .header-page .text-header {
   text-align: center;
-  background: rgba(13, 47, 105, 0.7529411765);
+  background: linear-gradient(0deg, rgb(13, 46, 105) 18%, rgba(13, 46, 105, 0.5664390756) 68%, rgba(23, 103, 255, 0) 100%);
   position: absolute;
   width: 100%;
   margin-top: 322px;
@@ -326,7 +326,7 @@
   margin-top: 80px;
   width: 45%;
   height: 370px;
-  background: #174395;
+  background: radial-gradient(circle, rgb(23, 67, 149) 0%, rgb(80, 132, 228) 0%, rgb(23, 67, 149) 54%);
   position: absolute;
   margin-top: -302px;
   margin-left: 604px;
