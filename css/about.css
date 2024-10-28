@@ -85,7 +85,7 @@
   position: absolute;
   width: 100%;
   min-height: 240px;
-  background-image: url(../../images/contact-image/rady.png);
+  background-image: url(../../images/foot.png);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
@@ -96,7 +96,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background: rgba(204, 204, 204, 0.8);
+  background: #174395;
   min-height: 200px;
 }
 
