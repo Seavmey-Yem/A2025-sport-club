@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&family=Vast+Shadow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Changa+One:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Righteous&family=Vast+Shadow&display=swap");
@@ -24,6 +25,11 @@
 .nav-bar-header .left-nav .h1 {
   color: #fff;
   padding: 20px;
+}
+.nav-bar-header .left-nav .title-name {
+  font-weight: bold;
+  font-family: "Audiowide", sans-serif;
+  font-size: 32px;
 }
 .nav-bar-header .right-nav {
   width: 100%;
@@ -80,6 +86,7 @@
   text-decoration: none;
   color: white;
   font-weight: bold;
+  font-size: 17px;
 }
 
 .background-foot {

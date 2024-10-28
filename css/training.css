@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -26,6 +27,11 @@
 .nav-bar-header .left-nav .h1 {
   color: #fff;
   padding: 20px;
+}
+.nav-bar-header .left-nav .title-name {
+  font-weight: bold;
+  font-family: "Audiowide", sans-serif;
+  font-size: 32px;
 }
 .nav-bar-header .right-nav {
   width: 100%;
@@ -82,6 +88,7 @@
   text-decoration: none;
   color: white;
   font-weight: bold;
+  font-size: 17px;
 }
 
 .card {
