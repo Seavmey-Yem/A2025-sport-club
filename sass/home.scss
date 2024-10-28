@@ -26,7 +26,7 @@
         background: #0d2f69c0;
         position: absolute;
         width: 100%;
-        margin-top: 295px;
+        margin-top: 292px;
         padding: 20px 0 20px;
 
         h1 {
@@ -47,21 +47,35 @@
         .btn-left {
             padding: 12px;
             width: 150px;
+            background: fixed;
             border-top-right-radius: 12px;
             border-bottom-left-radius: 12px;
-            border: 2px solid #fff;
-            border: none;
+            border: 1.5px solid #fff;
+            color: #fff;
             margin-right: 10px;
+            transition: 400ms;
+
+        }
+
+        .btn-left:hover {
+            transform: scaleX(1.03);
         }
 
         .btn-right {
+            border: 1.5px solid #fff;
+            color: #fff;
+            background: fixed;
             padding: 12px;
             width: 150px;
             border-top-left-radius: 12px;
             border-bottom-right-radius: 12px;
-            border: none;
-
+            transition: 400ms;
         }
+
+        .btn-right:hover {
+            transform: scaleX(1.03);
+        }
+
     }
 }
 
@@ -76,7 +90,7 @@
 
     p {
         text-align: center;
-        padding: 10px;
+        padding: 0px 30px 30px 30px;
     }
 
 
@@ -105,8 +119,15 @@
         background-position: center;
         background-size: 700px;
         border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        transition: 400ms;
 
     }
+
+    .header:hover {
+        transform: scale(1.03);
+    }
+
 
     .menu {
         grid-area: menu;
@@ -114,6 +135,13 @@
         background-position: bottom;
         background-size: 310px;
         border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        transition: 400ms;
+
+    }
+
+    .menu:hover {
+        transform: scale(1.03);
     }
 
     .main {
@@ -122,16 +150,25 @@
         background-position: center;
         border-radius: 10px;
         background-size: 600px;
-
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        transition: 400ms;
     }
-
+    .main:hover {
+        transform: scale(1.03);
+    }
+    
     .right {
         grid-area: right;
         background-image: url(../images/imag-home-4.png);
         background-position: center;
         border-radius: 10px;
-        background-size: 300px;
+        background-size: 310px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        transition: 400ms;
+    }
 
+    .right:hover {
+        transform: scale(1.03);
     }
 
     .footer {
@@ -140,8 +177,12 @@
         background-position: center;
         background-size: 1300px;
         border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        transition: 400ms;
+    }
 
-
+    .footer:hover {
+        transform: scale(1.03);
     }
 }
 
@@ -168,6 +209,7 @@
             height: 350px;
             background: #ECE8FF;
             border-radius: 15px;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 
             h2 {
                 padding: 30px;
@@ -200,6 +242,12 @@
                 position: absolute;
                 margin-top: -40px;
                 margin-left: 50px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                transition: 400ms;
+            }
+
+            button:hover {
+                transform: scale(1.03);
             }
 
             .right-card {
