@@ -101,6 +101,7 @@
     .join{
         margin-left: 10%;
         border: none;
+        
         background-color: $login-bg;
         padding: 10px;
         padding-top: 5px;
@@ -109,7 +110,7 @@
         border-radius: 10px;
     }
     .fa-arrow-right{
-        border: 1px solid;
+        font-weight: bold;
         padding: 5px;
         border-radius: 50%;
         color: $login-bg;
