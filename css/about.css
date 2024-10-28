@@ -1,1 +1,218 @@
-/*# sourceMappingURL=about.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&family=Vast+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
+.nav-bar-header {
+  display: flex;
+}
+.nav-bar-header .left-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #113B89;
+  width: 40%;
+  padding: 19px;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+  position: absolute;
+}
+.nav-bar-header .left-nav .logo-header {
+  width: 70px;
+  height: 60px;
+  margin-right: 20px;
+}
+.nav-bar-header .left-nav .h1 {
+  color: #fff;
+  padding: 20px;
+}
+.nav-bar-header .right-nav {
+  width: 100%;
+}
+.nav-bar-header .right-nav .fisrt {
+  height: 20px;
+  display: flex;
+  justify-content: right;
+  background: #00205A;
+  color: white;
+  padding: 20px;
+}
+.nav-bar-header .right-nav .fisrt .text {
+  margin-right: 180px;
+  font-size: 17px;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 1rem;
+  font-style: italic;
+}
+.nav-bar-header .right-nav .fisrt .text .fa-brands {
+  font-size: 30px;
+}
+.nav-bar-header .right-nav .fisrt .text .fa-brands:hover {
+  color: orangered;
+}
+.nav-bar-header .right-nav ul {
+  display: flex;
+  justify-content: right;
+  background: #474747;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.nav-bar-header .right-nav ul .active-link {
+  background-color: #fff;
+  color: darkblue;
+  padding: 10px;
+  text-shadow: 2px 0 3px gray;
+}
+.nav-bar-header .right-nav ul li {
+  padding: 10px;
+  list-style-type: none;
+  margin-right: 50px;
+}
+.nav-bar-header .right-nav ul li .fa-magnifying-glass {
+  background-color: rgb(49, 49, 224);
+  position: absolute;
+  font-size: 30px;
+  margin-top: -10px;
+  padding: 5px;
+  margin-left: -25px;
+}
+.nav-bar-header .right-nav ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.background-foot {
+  position: absolute;
+  width: 100%;
+  min-height: 240px;
+  background-image: url(../../images/contact-image/rady.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: rgba(204, 204, 204, 0.8);
+  min-height: 200px;
+}
+
+.foot-img img {
+  width: 55%;
+  margin-left: 100px;
+  padding: 10px;
+}
+
+.about ul li {
+  list-style-type: none;
+  color: #000;
+  margin-bottom: 7px;
+  font-size: 14px;
+}
+
+.about ul li:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 104);
+}
+
+.contact-us li:hover {
+  text-decoration: underline;
+}
+
+.title p {
+  font-size: 20px;
+  margin-bottom: 17px;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 450;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  flex: 4;
+  gap: 5%;
+  width: 100%;
+  background: #E0EBFF;
+  height: 100vh;
+}
+
+.mix-sport {
+  margin-left: 2%;
+  margin: 20px;
+}
+
+.mix-sport .football-image {
+  width: 25%;
+  margin-top: 30px;
+  border-radius: 15px;
+  border: 3px solid #000;
+  margin-left: 70px;
+}
+
+.mix-sport .ruby-image {
+  width: 25%;
+  position: absolute;
+  margin-left: -150px;
+  margin-top: 190px;
+  border-radius: 15px;
+  border: 3px solid #000;
+  position: absolute;
+}
+
+.mix-sport .photo-image {
+  width: 25%;
+  position: absolute;
+  margin-top: 350px;
+  border-radius: 15px;
+  margin-left: -315px;
+  border: 3px solid #000;
+}
+
+.title-club-sport {
+  flex: 2;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 50px;
+  width: 500px;
+}
+.title-club-sport h2 {
+  font-size: 40px;
+  color: #fff;
+  padding: 10px;
+  font-family: "Vast Shadow", serif;
+  background: #001E56;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.title-club-sport p {
+  color: #001E56;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.title-club-sport .detail-club {
+  margin-top: 80px;
+}
+
+.btn-learn-more button {
+  margin-top: 20px;
+  padding: 10px;
+  background: #5084E4;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.cr7 img {
+  width: 60%;
+  margin-left: 250px;
+  rotate: y -180deg;
+  filter: grayscale(100%);
+}/*# sourceMappingURL=about.css.map */
