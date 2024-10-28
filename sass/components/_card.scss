@@ -10,7 +10,7 @@
     margin-right: 10%;
     padding-top: 3%;
     padding-bottom: 3%;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    box-shadow: $box-shadow;
 }
 .card1 img{
     width: 90%;
@@ -69,7 +69,7 @@
     margin-right: 10%;
     padding-top: 3%;
     padding-bottom: 3%;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    box-shadow: $box-shadow;
 }
 .card2 img{
     width: 90%;
