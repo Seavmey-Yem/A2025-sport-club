@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
 * {
   font-family: "Inter", sans-serif;
   padding: 0;
@@ -104,7 +106,7 @@
   margin-right: 10%;
   padding-top: 3%;
   padding-bottom: 3%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
 .card1 img {
@@ -165,7 +167,7 @@
   margin-right: 10%;
   padding-top: 3%;
   padding-bottom: 3%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
 .card2 img {
@@ -262,7 +264,7 @@ footer .group-footer .title p {
 }
 footer .background-foot {
   width: 100%;
-  min-height: 275px;
+  min-height: 270px;
   background-image: url(../../images/foot.png);
   background-position: center;
   background-size: cover;

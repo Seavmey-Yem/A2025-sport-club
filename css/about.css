@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&family=Vast+Shadow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Changa+One:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Righteous&family=Vast+Shadow&display=swap");
@@ -125,7 +126,7 @@ footer .group-footer .title p {
 }
 footer .background-foot {
   width: 100%;
-  min-height: 275px;
+  min-height: 270px;
   background-image: url(../../images/foot.png);
   background-position: center;
   background-size: cover;
@@ -134,6 +135,16 @@ footer .background-foot {
 * {
   font-family: "Inter", sans-serif;
   font-weight: 450;
+}
+
+.title {
+  margin-right: 180px;
+}
+.title h3 {
+  font-size: 21px;
+}
+.title p {
+  padding-top: 15px;
 }
 
 .about-container {

@@ -1,13 +1,14 @@
-
-@import"./components/footer";
-@import"./components/title";
+@import "./components/_title";
+@import "./components/footer";
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap');
+
 *{
     font-family: "Inter", sans-serif;
     font-weight: 450;
 }
 @import"../sass/components/variable";
 @import"../sass/components/sign_in";
+
 body h2{
     text-align: center;
     margin: 40px;

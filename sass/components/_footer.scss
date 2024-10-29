@@ -1,5 +1,4 @@
 @import "../components/mixin";
-
 footer {
     display: flex;
     .group-footer {
@@ -40,7 +39,7 @@ footer {
 
     .background-foot {
         width: 100%;
-        min-height: 275px;
+        min-height: 270px;
         background-image: url(../../images/foot.png);
         background-position: center;
         background-size: cover;
