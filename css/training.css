@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
-=======
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
->>>>>>> d4b7bb07ee84adb7cd9966f1d3917117df226f45
 * {
   font-family: "Inter", sans-serif;
   padding: 0;
@@ -108,7 +104,7 @@
   margin-right: 10%;
   padding-top: 3%;
   padding-bottom: 3%;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .card1 img {
@@ -169,7 +165,7 @@
   margin-right: 10%;
   padding-top: 3%;
   padding-bottom: 3%;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .card2 img {
