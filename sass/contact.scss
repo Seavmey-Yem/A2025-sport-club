@@ -13,7 +13,7 @@ body h2{
     text-align: center;
     margin: 40px;
     font-size: 26px;
-    font-weight: bold;
+    font-weight: $font-weight;
     color: darkblue;
 }
 .span{
@@ -114,10 +114,9 @@ body h2{
             height: 70px;
           }
           .title-name{
-            font-weight: bold;
+            font-weight: $font-weight;
             font-size: 27px;
             letter-spacing: 2px;
-            font-family: "Bruno Ace", sans-serif;
           }
         }
         .right-nav{
@@ -134,4 +133,74 @@ body h2{
         }
       }
     }
+}
+
+@media (min-width:320px) and (max-width:767px){
+    .container{
+        flex: $flex;
+        width: 90%;
+        flex-wrap: wrap;
+        display: inline;
+    }
+    .left{
+        flex: $flex;
+        width: 85%;
+        border-top-right-radius: $border-size;
+        border-bottom-left-radius: $border-none;
+        margin: $margin;
+    }
+    .right{
+        flex: $flex;
+        border-top-right-radius: $border-none;
+        border-bottom-left-radius: $border-size;
+        border-top: 5px solid $text-color;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        width: 85%;
+        margin: $margin;
+    }
+    .left h3,.right h3{
+        @include font-size();
+        font-size: 20px;
+        margin-bottom:18px;
+        margin-top: -1px;
+    }
+    input[type="email"], input[type="password"]{
+        @include border();
+        width: 80%;
+        box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+        margin-bottom: -0.1px;
+    }
+    .btn{
+        width: 50%;
+    }
+    .forget ,a{
+        margin-top: 17px;
+        font-size: 15px;
+    }
+    .icon-img img{
+        width: 35px;
+        cursor: pointer;
+    }
+    .png img{
+        width: 35px;
+        display: flex;
+        cursor: pointer;
+    }
+    .png{
+        margin-top: 15px;
+        width: 90%;
+        margin-left: -3%;
+    }
+    .container h4{
+        font-size: 15px;  
+        margin-top: 23px;
+    }
+    #choice{
+        display: none
+    }
+    iframe{
+        height: 60vh;  
+        width: 88%;
+    }
+    
 }
