@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&family=Vast+Shadow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Changa+One:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Righteous&family=Vast+Shadow&display=swap");
@@ -89,50 +88,45 @@
   font-size: 17px;
 }
 
-.background-foot {
-  position: absolute;
-  width: 100%;
-  min-height: 240px;
-  background-image: url(../../images/contact-image/rady.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-}
-
 footer {
+  display: flex;
+}
+footer .group-footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  background: rgba(204, 204, 204, 0.8);
+  padding: 20px 30px 50px 30px;
+  background-color: rgba(26, 61, 125, 0.768627451);
   min-height: 200px;
+  position: absolute;
 }
-
-.foot-img img {
-  width: 55%;
-  margin-left: 100px;
+footer .group-footer .foot-img img {
+  width: 60%;
+  margin-left: 40px;
   padding: 10px;
 }
-
-.about ul li {
+footer .group-footer .about ul li {
   list-style-type: none;
-  color: #000;
-  margin-bottom: 7px;
+  color: #fff;
+  margin-bottom: 10px;
   font-size: 14px;
 }
-
-.about ul li:hover {
+footer .group-footer .about ul li:hover {
   cursor: pointer;
-  color: rgb(0, 0, 104);
-}
-
-.contact-us li:hover {
   text-decoration: underline;
 }
-
-.title p {
+footer .group-footer .contact-us li:hover {
+  text-decoration: underline;
+}
+footer .group-footer .title p {
   font-size: 20px;
-  margin-bottom: 17px;
+  margin-bottom: 20px;
+}
+footer .background-foot {
+  width: 100%;
+  min-height: 270px;
+  background-image: url(../../images/foot.png);
+  background-position: center;
 }
 
 * {

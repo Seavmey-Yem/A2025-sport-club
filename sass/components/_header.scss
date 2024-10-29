@@ -1,7 +1,6 @@
 @import"../components/mixin";
-@import"./variable";
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 .nav-bar-header {
+  
   display: flex;
   .left-nav {
     @include display();
@@ -21,7 +20,7 @@
       padding: 20px;  
     }
     .title-name{
-      font-weight: $font-weight;
+      font-weight: bold;
       font-family: "Audiowide", sans-serif;
       font-size: 32px
     }
