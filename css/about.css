@@ -101,9 +101,10 @@ footer .group-footer {
   position: absolute;
 }
 footer .group-footer .foot-img img {
-  width: 60%;
+  width: 54%;
   margin-left: 40px;
   padding: 10px;
+  padding-top: 30px;
 }
 footer .group-footer .about ul li {
   list-style-type: none;
@@ -124,9 +125,10 @@ footer .group-footer .title p {
 }
 footer .background-foot {
   width: 100%;
-  min-height: 270px;
+  min-height: 275px;
   background-image: url(../../images/foot.png);
   background-position: center;
+  background-size: cover;
 }
 
 * {
@@ -255,6 +257,8 @@ footer .background-foot {
 .about-event h1 {
   font-size: 45px;
   font-weight: bold;
+  color: #001E56;
+  margin-bottom: 20px;
 }
 .about-event p {
   font-size: 19px;
@@ -448,6 +452,8 @@ footer .background-foot {
 .lead-member h1 {
   font-size: 45px;
   font-weight: bold;
+  color: #001E56;
+  margin-bottom: 20px;
 }
 .lead-member p {
   font-size: 19px;

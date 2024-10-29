@@ -10,9 +10,10 @@ footer {
         position: absolute;
 
         .foot-img img {
-            width:  60%;
+            width:  54%;
             margin-left: 40px;
             padding: 10px;
+            padding-top: 30px;
         }
 
         .about ul li {
@@ -39,9 +40,9 @@ footer {
 
     .background-foot {
         width: 100%;
-        min-height: 270px;
+        min-height: 275px;
         background-image: url(../../images/foot.png);
         background-position: center;
+        background-size: cover;
     }
-
 }
