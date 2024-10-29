@@ -1,38 +1,48 @@
-.background-foot{
-    position:absolute;
-    width: 100%;
-    min-height: 240px;
-    background-image: url(../../images/contact-image/rady.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index:-1;
-}
-@import"./mixin";
-footer{
-    @include display();
-    padding: 20px;
-    background: #cccc;
-    min-height: 200px;   
-}
-.foot-img img{
-    width: 55%;
-    margin-left: 100px;
-    padding: 10px; 
-}
-.about ul li{
-    list-style-type: none;
-    color: #000;
-    margin-bottom: 7px;
-    font-size: 14px;
-}
-.about ul li:hover{
-    cursor: pointer;
-    color: rgb(0, 0, 104);
-}
-.contact-us li:hover{
-    text-decoration: underline;
-}
-.title p{
-    font-size: 20px;
-    margin-bottom: 17px;
+@import "../components/mixin";
+
+footer {
+    display: flex;
+    .group-footer {
+        @include display();
+        padding: 20px 30px 50px 30px;
+        background-color: #1a3d7dc4;
+        min-height: 200px;
+        position: absolute;
+
+        .foot-img img {
+            width:  60%;
+            margin-left: 40px;
+            padding: 10px;
+        }
+
+        .about ul li {
+            list-style-type: none;
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .about ul li:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .contact-us li:hover {
+            text-decoration: underline;
+        }
+
+        .title p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .background-foot {
+        width: 100%;
+        min-height: 270px;
+        background-image: url(../../images/foot.png);
+        background-position: center;
+        background-size: cover;
+    }
+
 }

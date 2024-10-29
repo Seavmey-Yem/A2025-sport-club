@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
 * {
+  font-family: "Inter", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -84,8 +86,127 @@
   font-weight: bold;
 }
 
-.card {
-  width: 100%;
+.container-training {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.card1 {
+  border: 1px solid;
+  border-radius: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.card1 img {
+  width: 90%;
+  margin-left: 15%;
+  height: 60vh;
+  border-radius: 15px;
+}
+
+.card1 {
+  display: flex;
+  color: #5084E4;
+}
+.card1 .infomation {
+  margin-left: 8%;
+}
+.card1 h4 {
+  font-size: 32px;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.card1 h2 {
+  margin-bottom: 5%;
+  margin-left: 10%;
+  font-size: 45px;
+  letter-spacing: 4px;
+}
+.card1 p {
+  margin-bottom: 10%;
+  margin-left: 10%;
+  font-style: 20px;
+  color: #001E56;
+}
+.card1 .join {
+  margin-left: 10%;
+  border: none;
+  background-color: #5084E4;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  border-radius: 10px;
+}
+.card1 .fa-arrow-right {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 50%;
+  color: #5084E4;
+  background-color: white;
+}
+
+.card2 {
+  border: 1px solid;
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.card2 img {
+  width: 90%;
+  margin-left: 40%;
+  height: 60vh;
+  border-radius: 15px;
+}
+
+.card2 {
+  display: flex;
+  color: #5084E4;
+}
+.card2 h4 {
+  font-size: 32px;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.card2 h2 {
+  margin-bottom: 5%;
+  margin-left: 10%;
+  font-size: 45px;
+  letter-spacing: 4px;
+}
+.card2 p {
+  margin-bottom: 10%;
+  margin-left: 10%;
+  font-style: 20px;
+  color: #001E56;
+}
+.card2 .join {
+  margin-left: 10%;
+  border: none;
+  background-color: #5084E4;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  border-radius: 10px;
+}
+.card2 .fa-arrow-right {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 50%;
+  color: #5084E4;
+  background-color: white;
 }
 
 .title {
@@ -98,48 +219,44 @@
   padding-top: 15px;
 }
 
-.background-foot {
-  position: absolute;
-  width: 100%;
-  min-height: 240px;
-  background-image: url(../../images/contact-image/rady.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-}
-
 footer {
+  display: flex;
+}
+footer .group-footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  background: rgba(204, 204, 204, 0.8);
+  padding: 20px 30px 50px 30px;
+  background-color: rgba(26, 61, 125, 0.768627451);
   min-height: 200px;
+  position: absolute;
 }
-
-.foot-img img {
-  width: 55%;
-  margin-left: 100px;
+footer .group-footer .foot-img img {
+  width: 60%;
+  margin-left: 40px;
   padding: 10px;
 }
-
-.about ul li {
+footer .group-footer .about ul li {
   list-style-type: none;
-  color: #000;
-  margin-bottom: 7px;
+  color: #fff;
+  margin-bottom: 10px;
   font-size: 14px;
 }
-
-.about ul li:hover {
+footer .group-footer .about ul li:hover {
   cursor: pointer;
-  color: rgb(0, 0, 104);
-}
-
-.contact-us li:hover {
   text-decoration: underline;
 }
-
-.title p {
+footer .group-footer .contact-us li:hover {
+  text-decoration: underline;
+}
+footer .group-footer .title p {
   font-size: 20px;
-  margin-bottom: 17px;
+  margin-bottom: 20px;
+}
+footer .background-foot {
+  width: 100%;
+  min-height: 270px;
+  background-image: url(../../images/foot.png);
+  background-position: center;
+  background-size: cover;
 }/*# sourceMappingURL=training.css.map */
