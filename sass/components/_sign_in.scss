@@ -1,3 +1,5 @@
+@import"./mixin";
+@import"./variable";
 .container{
     display: flex;
     flex: 4;
@@ -22,9 +24,7 @@
     border-bottom-right-radius: 20px;
 }
 .left h3,.right h3{
-    font-size: 30px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    @include font-size();
 }
 .right{
     flex: 2;
@@ -32,26 +32,30 @@
     text-align: center;
     padding: 20px;
 }
-@import"./mixin";
 input[type="email"], input[type="password"]{
     @include border();
-    background: #c3d8ff;
+    background: $bg-right;
 }
 input[type="password"]{
     margin-top: 0;
 }
 input[type="email"]:hover, input[type="password"]:hover{
     background: #fff;
-    transition: 0.2s;
-    outline: 1.7px solid gray;
+    outline: 2px solid gray;
 }
 .btn{
     @include border();
     background: $login-bg;
     color: #fff;
-    font-size: 15px;
+    font-size: 16px;
     width: 75%;
     margin-top: 35px;
+    padding: 10px;
+}
+.btn:hover{
+    background: $text-color;
+    cursor: pointer;
+    transition: 0.4s;
 }
 .forget ,a{
     margin-top: 17px;
@@ -85,10 +89,22 @@ input[type="email"]:hover, input[type="password"]:hover{
     justify-content: space-between;
     border-radius: 30px;
     width: 80%;
+    cursor: pointer;
+}
+.png:hover{
+    background:$text-color;
+    color: #fff;
+    transition: 0.4s;
 }
 .container h4{
-    margin-top: 20px;
+    margin-top: -20px;
     font-size: 18px;
+    font-weight: $font-weight;
+    margin-bottom: 20px;
+}
+#choice{
+    margin-top: 25px;
+    margin-bottom: 40px
 }
 .section-2{
     @include display();

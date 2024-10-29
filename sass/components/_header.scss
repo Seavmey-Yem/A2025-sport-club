@@ -1,13 +1,12 @@
-@import "./mixin";
+@import"../components/mixin";
 .nav-bar-header {
-  
   display: flex;
   .left-nav {
     @include display();
     color: #fff;
     background: #113B89;
     width: 40%;
-    padding: 19px;
+    padding: 20px;
     clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
     position: absolute;  
     .logo-header {
@@ -15,13 +14,17 @@
       height: 60px;
       margin-right: 20px;
     }
-
     .h1 {
       color: #fff;
       padding: 20px;  
     }
+    .title-name{
+      font-weight: bold;
+      font-family: "Audiowide", sans-serif;
+      font-size: 32px;
+      text-shadow: 0 5px 5px #000;
+    }
   }
-
   .right-nav{
     width: 100%;
     .fisrt {
@@ -43,8 +46,9 @@
               font-size: 30px;
           }
           .fa-brands:hover{
-              color:orangered;
+              color:skyblue;
         }
+    
       }
 
     }
@@ -77,7 +81,7 @@
         text-decoration: none;
         color: #ffff;
         font-weight: bold;
-
+        font-size: 17px;
       }
 
     }

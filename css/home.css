@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
 .nav-bar-header {
   display: flex;
 }
@@ -9,7 +10,11 @@
   color: #fff;
   background: #113B89;
   width: 40%;
+<<<<<<< HEAD
   padding: 19px;
+=======
+  padding: 20px;
+>>>>>>> db0b750754d98b3c448640b9c1526e061c43e492
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
           clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
   position: absolute;
@@ -22,6 +27,12 @@
 .nav-bar-header .left-nav .h1 {
   color: #fff;
   padding: 20px;
+}
+.nav-bar-header .left-nav .title-name {
+  font-weight: bold;
+  font-family: "Audiowide", sans-serif;
+  font-size: 32px;
+  text-shadow: 0 5px 5px #000;
 }
 .nav-bar-header .right-nav {
   width: 100%;
@@ -47,7 +58,7 @@
   font-size: 30px;
 }
 .nav-bar-header .right-nav .fisrt .text .fa-brands:hover {
-  color: orangered;
+  color: skyblue;
 }
 .nav-bar-header .right-nav ul {
   display: flex;
@@ -78,6 +89,7 @@
   text-decoration: none;
   color: white;
   font-weight: bold;
+  font-size: 17px;
 }
 
 * {
@@ -367,9 +379,10 @@ footer .group-footer {
   position: absolute;
 }
 footer .group-footer .foot-img img {
-  width: 60%;
+  width: 54%;
   margin-left: 40px;
   padding: 10px;
+  padding-top: 30px;
 }
 footer .group-footer .about ul li {
   list-style-type: none;
@@ -379,10 +392,8 @@ footer .group-footer .about ul li {
 }
 footer .group-footer .about ul li:hover {
   cursor: pointer;
-  text-decoration: underline;
-}
-footer .group-footer .contact-us li:hover {
-  text-decoration: underline;
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
 }
 footer .group-footer .title p {
   font-size: 20px;

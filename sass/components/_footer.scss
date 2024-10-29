@@ -1,5 +1,4 @@
 @import "../components/mixin";
-
 footer {
     display: flex;
     .group-footer {
@@ -10,9 +9,10 @@ footer {
         position: absolute;
 
         .foot-img img {
-            width:  60%;
+            width:  54%;
             margin-left: 40px;
             padding: 10px;
+            padding-top: 30px;
         }
 
         .about ul li {
@@ -24,13 +24,8 @@ footer {
 
         .about ul li:hover {
             cursor: pointer;
-            text-decoration: underline;
+            text-decoration: underline 2px;
         }
-
-        .contact-us li:hover {
-            text-decoration: underline;
-        }
-
         .title p {
             font-size: 20px;
             margin-bottom: 20px;
@@ -44,5 +39,4 @@ footer {
         background-position: center;
         background-size: cover;
     }
-
 }
