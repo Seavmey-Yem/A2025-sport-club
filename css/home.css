@@ -23,6 +23,11 @@
   color: #fff;
   padding: 20px;
 }
+.nav-bar-header .left-nav .title-name {
+  font-weight: bold;
+  font-family: "Audiowide", sans-serif;
+  font-size: 32px;
+}
 .nav-bar-header .right-nav {
   width: 100%;
 }
@@ -78,6 +83,7 @@
   text-decoration: none;
   color: white;
   font-weight: bold;
+  font-size: 17px;
 }
 
 * {
