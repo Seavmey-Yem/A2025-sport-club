@@ -12,11 +12,7 @@
   color: #fff;
   background: #113B89;
   width: 40%;
-<<<<<<< HEAD
-  padding: 19px;
-=======
   padding: 20px;
->>>>>>> db0b750754d98b3c448640b9c1526e061c43e492
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
           clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
   position: absolute;
@@ -527,9 +523,9 @@ footer .background-foot {
   align-items: center;
   background: #E0EBFF;
   padding: 30px;
-  padding-top: 60px;
   text-align: center;
   margin-bottom: 70px;
+  height: 50vh;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .team-member .card img {
@@ -538,8 +534,17 @@ footer .background-foot {
   border-radius: 10px;
   box-shadow: 0 4px 7px gray;
 }
+.team-member .card img:hover {
+  transform: translateY(-10px);
+  transition: 0.3s;
+  width: 90%;
+  box-shadow: 0 15px 20px gray;
+}
 .team-member .card p {
   text-align: center;
   margin-top: 10px;
   font-weight: bold;
+}
+.team-member .card .fa-fire {
+  color: orangered;
 }/*# sourceMappingURL=about.css.map */

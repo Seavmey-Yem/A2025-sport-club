@@ -9,8 +9,8 @@
     font-weight: 450;
 }
 @import"../sass/components/title";
-@import"../sass/components/mixin";
 @import"../sass/components/mix-sports";
+
 .about-event{
     @include main-h1();
     text-shadow: 0 2px 5px gray;
@@ -35,7 +35,7 @@
     .event-football-card{
         h1{
             margin-bottom: 15px;
-            font-weight: bold;
+            font-weight: $font-weight;
             font-size: 30px;
             margin-top: -8px;
         }
@@ -134,7 +134,7 @@
 }
 .member-container{
     @include display();
-    margin: 0 auto;
+    margin: $margin;
     background: $bg-left;
     padding: 45px;
     width: 80%;
@@ -173,19 +173,30 @@
     @include display();
     background: $bg-left;
     padding: 30px;
-    padding-top: 60px;
     text-align: center;
     margin-bottom: 70px;
+    height: 50vh;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     .card img{
         width: 85%;
         border: 2px solid $text-color;
         border-radius: 10px;
-        box-shadow: 0 4px 7px gray;        
+        box-shadow: 0 4px 7px gray;    
+    }
+    .card img:hover{
+        transform: translateY(-10px);
+        transition: 0.3s;
+        width: 90%;
+        box-shadow: 0 15px 20px gray;
     }
     .card p{
         text-align: center;
         margin-top: 10px;
-        font-weight: bold;
+        font-weight: $font-weight;
+    }
+    .card{
+        .fa-fire{
+            color: orangered;
+        }
     }
 }

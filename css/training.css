@@ -17,11 +17,7 @@
   color: #fff;
   background: #113B89;
   width: 40%;
-<<<<<<< HEAD
-  padding: 19px;
-=======
   padding: 20px;
->>>>>>> db0b750754d98b3c448640b9c1526e061c43e492
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
           clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
   position: absolute;
@@ -271,8 +267,6 @@ footer .background-foot {
   background-image: url(../../images/foot.png);
   background-position: center;
   background-size: cover;
-<<<<<<< HEAD
-=======
 }
 
 .mix-sport {
@@ -554,5 +548,4 @@ footer .background-foot {
 }
 .mini-content .icon-share .fa-heart, .mini-content .icon-share .fa-share, .mini-content .icon-share .fa-bookmark, .mini-content .icon-share .fa-message {
   color: #001E56;
->>>>>>> db0b750754d98b3c448640b9c1526e061c43e492
 }/*# sourceMappingURL=training.css.map */
