@@ -393,7 +393,35 @@ footer .background-foot {
   background-position: center;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+  footer {
+    width: 100%;
+  }
+  footer .group-footer {
+    min-height: 33%;
+    padding: 20px 0px 35px 0px;
+    width: 100%;
+  }
+  footer .group-footer .foot-img img {
+    text-decoration: none;
+    opacity: 0;
+  }
+  footer .group-footer .about ul li {
+    list-style-type: none;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  footer .group-footer .title p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  footer .background-foot {
+    min-height: 230px;
+    min-width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
   .header-page .imag .image-header {
     height: 310px;
   }
@@ -530,7 +558,7 @@ footer .background-foot {
     margin-left: -400px;
   }
 }
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .header-page .imag .image-header {
     height: 150px;
   }

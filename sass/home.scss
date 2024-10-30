@@ -8,6 +8,7 @@
     font-weight: 450;
 }
 
+
 // <!-- Nav bar page-->//
 // <!-- container page -->//
 .header-page {
@@ -37,7 +38,7 @@
         }
 
         h2 {
-            color:$text-color-header-home ;
+            color: $text-color-header-home ;
             font-size: 50px;
             font-weight: bold;
         }
@@ -302,7 +303,6 @@
                 margin-top: 80px;
                 width: 45%;
                 height: 370px;
-                // background: #174395;
                 background: radial-gradient(circle, rgba(23, 67, 149, 1) 0%, rgba(80, 132, 228, 1) 0%, rgba(23, 67, 149, 1) 54%);
                 position: absolute;
                 margin-top: -302px;
@@ -333,10 +333,79 @@
 // <!-- footer page-->//
 @import "./components/_title";
 @import "../sass/components/footer";
+@media (min-width:768px) and (max-width:1024px) {
+    footer {
+        width: 100%;
+
+        .group-footer {
+            min-height: 33%;
+            padding: 20px 0px 35px 0px;
+            width: 100%;
+
+            .foot-img img {
+                text-decoration: none;
+                opacity: 0;
+            }
+
+            .about ul li {
+                list-style-type: none;
+                color: #fff;
+                margin-bottom: 10px;
+                font-size: 14px;
+            }
+
+            .title p {
+                font-size: 18px;
+                margin-bottom: 15px;
+            }
+        }
+
+        .background-foot {
+            min-height: 230px;
+            min-width: 100%;
+        }
+
+    }
+
+}
+
+// @media (min-width:320px) and (max-width:767px) {
+//     footer {
+//         .group-footer {
+//             min-height: 160px;
+
+//             .foot-img img {
+//                 text-decoration: none;
+//                 opacity: 0;
+//             }
+
+
+//             .about ul li {
+//                 list-style-type: none;
+//                 color: #fff;
+//                 margin-bottom: 10px;
+//                 font-size: 14px;
+//             }
+
+//             .title p {
+//                 font-size: 18px;
+//                 margin-bottom: 15px;
+//             }
+//         }
+
+//         .background-foot {
+//             min-height: 230px;
+//             min-width: 100%;
+//         }
+
+//     }
+
+// }
+
 // <!-- footer page -->//
 
 
-@media(max-width:768px){
+@media (min-width:768px) and (max-width:1024px) {
 
     .header-page {
         .imag {
@@ -369,8 +438,6 @@
                 border: 1px solid #fff;
             }
 
-           
-
             .btn-right {
                 border: 1px solid #fff;
                 padding: 10px;
@@ -379,19 +446,20 @@
             }
         }
     }
+
     .container-page {
         padding: 30px;
         margin-top: 5px;
-    
+
         h1 {
             padding: 5px;
         }
-    
+
         p {
             padding: 0px 15px 15px 15px;
         }
-    
-    
+
+
         .our-gallery {
             gap: 10px;
             grid-template-columns: 1.5fr 1.5fr;
@@ -401,26 +469,26 @@
                 'menu right'
                 'footer footer';
             height: 40vh;
-    
+
         }
-    
+
         .our-gallery div {
-            padding: 10px;    
+            padding: 10px;
         }
-    
+
         .header {
             background-position: center;
             background-size: 350px;
-            border-radius: 7.5px;    
+            border-radius: 7.5px;
         }
-    
-    
+
+
         .menu {
             background-position: bottom;
             border-radius: 7.5px;
-            background-size:300px;    
+            background-size: 300px;
         }
-    
+
         .main {
             background-position: center;
             border-radius: 7.5px;
@@ -432,27 +500,28 @@
             border-radius: 7.5px;
             background-size: 350px;
         }
-    
+
         .footer {
             background-position: center;
             background-size: 650px;
             border-radius: 7.5px;
-          
+
         }
     }
+
     .footer-page-home {
         padding: 8px 30px 30px 30px;
         margin-top: 10px;
-    
+
         h1 {
             padding: 8px;
         }
-    
-        .join-team-home {    
+
+        .join-team-home {
             h1 {
                 padding: 10px;
             }
-    
+
             .text {
                 padding: 10px;
                 margin-top: 40px;
@@ -463,7 +532,7 @@
                     padding: 20px 15px 10px 15px;
                     font-size: 15px;
                 }
-    
+
                 p {
                     padding: 0px 15px 15px 15px;
                     font-size: 9px;
@@ -473,10 +542,10 @@
                         width: 150px;
                         border-radius: 8px;
                         margin-left: 15px;
-    
+
                     }
                 }
-    
+
                 .btn-top {
                     padding: 10px;
                     width: 150px;
@@ -485,7 +554,7 @@
                     margin-top: -33px;
                     margin-left: 30px;
                 }
-    
+
                 .btn-join {
                     margin-left: 15px;
                     padding: 7px;
@@ -507,26 +576,26 @@
                     border-bottom-right-radius: 10px;
                 }
             }
-    
-    
+
+
             .image-footer-home {
                 img {
                     width: 250px;
                     height: 250px;
-                    margin-left:-400px;
+                    margin-left: -400px;
                 }
-    
+
             }
         }
     }
 }
 
-@media(max-width:480px) {
+@media (min-width:320px) and (max-width:767px) {
 
     .header-page {
         .imag {
             .image-header {
-                height:150px;
+                height: 150px;
             }
         }
 
@@ -555,7 +624,7 @@
                 border: 1px solid #fff;
             }
 
-           
+
 
             .btn-right {
                 border: 1px solid #fff;
@@ -565,19 +634,20 @@
             }
         }
     }
+
     .container-page {
         padding: 30px;
         margin-top: 5px;
-    
+
         h1 {
             padding: 5px;
         }
-    
+
         p {
             padding: 0px 15px 15px 15px;
         }
-    
-    
+
+
         .our-gallery {
             gap: 10px;
             grid-template-columns: 1.5fr 1.5fr;
@@ -587,26 +657,26 @@
                 'menu right'
                 'footer footer';
             height: 40vh;
-    
+
         }
-    
+
         .our-gallery div {
-            padding: 10px;    
+            padding: 10px;
         }
-    
+
         .header {
             background-position: center;
             background-size: 350px;
-            border-radius: 7.5px;    
+            border-radius: 7.5px;
         }
-    
-    
+
+
         .menu {
             background-position: bottom;
             border-radius: 7.5px;
-            background-size:300px;    
+            background-size: 300px;
         }
-    
+
         .main {
             background-position: center;
             border-radius: 7.5px;
@@ -618,27 +688,28 @@
             border-radius: 7.5px;
             background-size: 350px;
         }
-    
+
         .footer {
             background-position: center;
             background-size: 650px;
             border-radius: 7.5px;
-          
+
         }
     }
+
     .footer-page-home {
         padding: 8px 30px 30px 30px;
         margin-top: 10px;
-    
+
         h1 {
             padding: 8px;
         }
-    
-        .join-team-home {    
+
+        .join-team-home {
             h1 {
                 padding: 10px;
             }
-    
+
             .text {
                 padding: 10px;
                 margin-top: 40px;
@@ -649,7 +720,7 @@
                     padding: 20px 15px 10px 15px;
                     font-size: 15px;
                 }
-    
+
                 p {
                     padding: 0px 15px 15px 15px;
                     font-size: 9px;
@@ -659,10 +730,10 @@
                         width: 150px;
                         border-radius: 8px;
                         margin-left: 15px;
-    
+
                     }
                 }
-    
+
                 .btn-top {
                     padding: 10px;
                     width: 150px;
@@ -671,7 +742,7 @@
                     margin-top: -33px;
                     margin-left: 30px;
                 }
-    
+
                 .btn-join {
                     margin-left: 15px;
                     padding: 7px;
@@ -693,15 +764,15 @@
                     border-bottom-right-radius: 10px;
                 }
             }
-    
-    
+
+
             .image-footer-home {
                 img {
                     width: 250px;
                     height: 250px;
-                    margin-left:-400px;
+                    margin-left: -400px;
                 }
-    
+
             }
         }
     }
