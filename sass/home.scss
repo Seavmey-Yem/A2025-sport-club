@@ -8,7 +8,6 @@
     font-weight: 450;
 }
 
-
 // <!-- Nav bar page-->//
 // <!-- container page -->//
 .header-page {
@@ -342,6 +341,7 @@
             padding: 20px 0px 35px 0px;
             width: 100%;
 
+
             .foot-img img {
                 text-decoration: none;
                 opacity: 0;
@@ -366,7 +366,6 @@
         }
 
     }
-
 }
 
 // @media (min-width:320px) and (max-width:767px) {
@@ -399,7 +398,6 @@
 //         }
 
 //     }
-
 // }
 
 // <!-- footer page -->//
@@ -590,190 +588,190 @@
     }
 }
 
-@media (min-width:320px) and (max-width:767px) {
+// @media (min-width:320px) and (max-width:767px) {
 
-    .header-page {
-        .imag {
-            .image-header {
-                height: 150px;
-            }
-        }
+//     .header-page {
+//         .imag {
+//             .image-header {
+//                 height: 150px;
+//             }
+//         }
 
-        .text-header {
-            margin-top: 120px;
-            padding: 10px 0 10px;
+//         .text-header {
+//             margin-top: 120px;
+//             padding: 10px 0 10px;
 
-            h1 {
-                font-size: 25px;
-            }
+//             h1 {
+//                 font-size: 25px;
+//             }
 
-            h2 {
-                font-size: 19px;
-            }
+//             h2 {
+//                 font-size: 19px;
+//             }
 
-            p {
-                padding: 8px;
-            }
+//             p {
+//                 padding: 8px;
+//             }
 
-            .btn-left {
-                font-size: 10px;
-                padding: 10px;
-                width: 100px;
-                border-top-right-radius: 7px;
-                border-bottom-left-radius: 7px;
-                border: 1px solid #fff;
-            }
-
-
-
-            .btn-right {
-                border: 1px solid #fff;
-                padding: 10px;
-                border-top-left-radius: 10px;
-                border-bottom-right-radius: 10px;
-            }
-        }
-    }
-
-    .container-page {
-        padding: 30px;
-        margin-top: 5px;
-
-        h1 {
-            padding: 5px;
-        }
-
-        p {
-            padding: 0px 15px 15px 15px;
-        }
+//             .btn-left {
+//                 font-size: 10px;
+//                 padding: 10px;
+//                 width: 100px;
+//                 border-top-right-radius: 7px;
+//                 border-bottom-left-radius: 7px;
+//                 border: 1px solid #fff;
+//             }
 
 
-        .our-gallery {
-            gap: 10px;
-            grid-template-columns: 1.5fr 1.5fr;
-            grid-template-rows: 1.5fr 1.5fr 1.5fr;
-            grid-template-areas:
-                'header main'
-                'menu right'
-                'footer footer';
-            height: 40vh;
 
-        }
+//             .btn-right {
+//                 border: 1px solid #fff;
+//                 padding: 10px;
+//                 border-top-left-radius: 10px;
+//                 border-bottom-right-radius: 10px;
+//             }
+//         }
+//     }
 
-        .our-gallery div {
-            padding: 10px;
-        }
+//     .container-page {
+//         padding: 30px;
+//         margin-top: 5px;
 
-        .header {
-            background-position: center;
-            background-size: 350px;
-            border-radius: 7.5px;
-        }
+//         h1 {
+//             padding: 5px;
+//         }
 
-
-        .menu {
-            background-position: bottom;
-            border-radius: 7.5px;
-            background-size: 300px;
-        }
-
-        .main {
-            background-position: center;
-            border-radius: 7.5px;
-            background-size: 350px;
-        }
-
-        .right {
-            background-position: center;
-            border-radius: 7.5px;
-            background-size: 350px;
-        }
-
-        .footer {
-            background-position: center;
-            background-size: 650px;
-            border-radius: 7.5px;
-
-        }
-    }
-
-    .footer-page-home {
-        padding: 8px 30px 30px 30px;
-        margin-top: 10px;
-
-        h1 {
-            padding: 8px;
-        }
-
-        .join-team-home {
-            h1 {
-                padding: 10px;
-            }
-
-            .text {
-                padding: 10px;
-                margin-top: 40px;
-                height: 200px;
-                border-radius: 8px;
-
-                h2 {
-                    padding: 20px 15px 10px 15px;
-                    font-size: 15px;
-                }
-
-                p {
-                    padding: 0px 15px 15px 15px;
-                    font-size: 9px;
-
-                    span {
-                        padding: 8px;
-                        width: 150px;
-                        border-radius: 8px;
-                        margin-left: 15px;
-
-                    }
-                }
-
-                .btn-top {
-                    padding: 10px;
-                    width: 150px;
-                    font-size: 17px;
-                    border-radius: 7px;
-                    margin-top: -33px;
-                    margin-left: 30px;
-                }
-
-                .btn-join {
-                    margin-left: 15px;
-                    padding: 7px;
-                    border-radius: 7px;
-
-                    .fa-arrow-right {
-                        border: 1px solid #fff;
-                        padding: 4px;
-                        border-radius: 50%;
-                    }
-                }
-
-                .right-card {
-                    width: 45%;
-                    height: 223px;
-                    margin-top: -175px;
-                    margin-left: 328px;
-                    border-top-right-radius: 10px;
-                    border-bottom-right-radius: 10px;
-                }
-            }
+//         p {
+//             padding: 0px 15px 15px 15px;
+//         }
 
 
-            .image-footer-home {
-                img {
-                    width: 250px;
-                    height: 250px;
-                    margin-left: -400px;
-                }
+//         .our-gallery {
+//             gap: 10px;
+//             grid-template-columns: 1.5fr 1.5fr;
+//             grid-template-rows: 1.5fr 1.5fr 1.5fr;
+//             grid-template-areas:
+//                 'header main'
+//                 'menu right'
+//                 'footer footer';
+//             height: 40vh;
 
-            }
-        }
-    }
-}
+//         }
+
+//         .our-gallery div {
+//             padding: 10px;
+//         }
+
+//         .header {
+//             background-position: center;
+//             background-size: 350px;
+//             border-radius: 7.5px;
+//         }
+
+
+//         .menu {
+//             background-position: bottom;
+//             border-radius: 7.5px;
+//             background-size: 300px;
+//         }
+
+//         .main {
+//             background-position: center;
+//             border-radius: 7.5px;
+//             background-size: 350px;
+//         }
+
+//         .right {
+//             background-position: center;
+//             border-radius: 7.5px;
+//             background-size: 350px;
+//         }
+
+//         .footer {
+//             background-position: center;
+//             background-size: 650px;
+//             border-radius: 7.5px;
+
+//         }
+//     }
+
+//     .footer-page-home {
+//         padding: 8px 30px 30px 30px;
+//         margin-top: 10px;
+
+//         h1 {
+//             padding: 8px;
+//         }
+
+//         .join-team-home {
+//             h1 {
+//                 padding: 10px;
+//             }
+
+//             .text {
+//                 padding: 10px;
+//                 margin-top: 40px;
+//                 height: 200px;
+//                 border-radius: 8px;
+
+//                 h2 {
+//                     padding: 20px 15px 10px 15px;
+//                     font-size: 15px;
+//                 }
+
+//                 p {
+//                     padding: 0px 15px 15px 15px;
+//                     font-size: 9px;
+
+//                     span {
+//                         padding: 8px;
+//                         width: 150px;
+//                         border-radius: 8px;
+//                         margin-left: 15px;
+
+//                     }
+//                 }
+
+//                 .btn-top {
+//                     padding: 10px;
+//                     width: 150px;
+//                     font-size: 17px;
+//                     border-radius: 7px;
+//                     margin-top: -33px;
+//                     margin-left: 30px;
+//                 }
+
+//                 .btn-join {
+//                     margin-left: 15px;
+//                     padding: 7px;
+//                     border-radius: 7px;
+
+//                     .fa-arrow-right {
+//                         border: 1px solid #fff;
+//                         padding: 4px;
+//                         border-radius: 50%;
+//                     }
+//                 }
+
+//                 .right-card {
+//                     width: 45%;
+//                     height: 223px;
+//                     margin-top: -175px;
+//                     margin-left: 328px;
+//                     border-top-right-radius: 10px;
+//                     border-bottom-right-radius: 10px;
+//                 }
+//             }
+
+
+//             .image-footer-home {
+//                 img {
+//                     width: 250px;
+//                     height: 250px;
+//                     margin-left: -400px;
+//                 }
+
+//             }
+//         }
+//     }
+// }

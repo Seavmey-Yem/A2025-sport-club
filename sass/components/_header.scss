@@ -1,7 +1,6 @@
 @import "./mixin";
-
 .nav-bar-header {
-
+  
   display: flex;
 
   .left-nav {
@@ -9,7 +8,7 @@
     color: #fff;
     background: #113B89;
     width: 40%;
-    padding: 19px;
+    padding: 20px;
     clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
     position: absolute;
 
@@ -18,14 +17,13 @@
       height: 60px;
       margin-right: 20px;
     }
-
     .h1 {
       color: #fff;
       padding: 20px;
     }
   }
 
-  .right-nav {
+  .right-nav{
     width: 100%;
 
     .fisrt {
@@ -35,23 +33,21 @@
       background: #00205A;
       color: #ffff;
       padding: 20px;
-
-      .text {
-        margin-right: 180px;
-        font-size: 17px;
-        align-items: center;
-        cursor: pointer;
-        display: flex;
-        gap: 1rem;
-        font-style: italic;
-
-        .fa-brands {
-          font-size: 30px;
+      .text{
+          margin-right: 180px;
+          font-size: 17px;
+          align-items: center;
+          cursor: pointer;
+          display: flex;
+          gap: 1rem;
+          font-style: italic;
+          .fa-brands{
+              font-size: 30px;
+          }
+          .fa-brands:hover{
+              color:orangered;
         }
-
-        .fa-brands:hover {
-          color: orangered;
-        }
+    
       }
 
     }
@@ -88,7 +84,7 @@
         text-decoration: none;
         color: #ffff;
         font-weight: bold;
-
+        font-size: 17px;
       }
 
     }

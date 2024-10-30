@@ -1,17 +1,23 @@
-@mixin display{
+@mixin display(){
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+@mixin display-start(){
+    display: flex;
+    justify-content: start;
     align-items: center;
 }
 @mixin border(){
     border: none;
     border-radius: 7px;
     outline: none;
-    padding: 10px;
+    padding: 12px;
     font-size: 14px;
     width: 70%;
     margin-top: 10px;
     margin-bottom: 15px;
+    box-shadow: 0 2px 3px gray;
 }
 @mixin padding(){
     display: flex;
@@ -19,7 +25,6 @@
     margin-top: 15px;
     padding: 5px;
 }
-
 @mixin btn-shape(){
     .btn-learn-more button{
         margin-top: 20px;
@@ -49,10 +54,36 @@
     h1{
         font-size: 45px;
         font-weight: bold;
+        color: $text-color;
+        margin-bottom: 20px;
     }
     p{
         font-size: 19px;
         color: $text-color;
         font-weight: bold;
     }
+}
+@mixin memeber(){
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    margin:70px;
+    text-shadow: 0 2px 5px gray;
+}
+@mixin bg-image(){
+    position:absolute;
+    z-index: -1;
+    margin-top: -25px;
+    height: 275px;
+    width: 538px;
+    object-fit: fill;
+    margin-left: -26px;
+    border-radius: 8px;
+    opacity: 0.4;
+}
+@mixin font-size(){
+    font-size: 30px;
+    margin: 30px 30px;
+    font-weight: bold;
+    text-shadow: 0 5px 3px gray;
 }
