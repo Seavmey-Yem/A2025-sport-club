@@ -139,6 +139,60 @@
     font-size: 15px;
   }
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .nav-bar-header .left-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 15px;
+    clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+  }
+  .nav-bar-header .left-nav .logo-header {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .nav-bar-header .left-nav .h1 {
+    font-size: 5px;
+    padding: 8px;
+  }
+  .nav-bar-header .right-nav {
+    width: 100%;
+  }
+  .nav-bar-header .right-nav .fisrt {
+    height: 13.5px;
+    padding: 10px;
+  }
+  .nav-bar-header .right-nav .fisrt .text {
+    margin-right: 180px;
+    font-size: 13px;
+    gap: 1rem;
+    font-style: italic;
+  }
+  .nav-bar-header .right-nav .fisrt .text .fa-brands {
+    font-size: 25px;
+  }
+  .nav-bar-header .right-nav .fisrt .text .fa-brands:hover {
+    color: orangered;
+  }
+  .nav-bar-header .right-nav ul .active-link {
+    padding: 5px;
+  }
+  .nav-bar-header .right-nav ul li {
+    padding: 8px;
+    margin-right: 20px;
+  }
+  .nav-bar-header .right-nav ul li .fa-magnifying-glass {
+    font-size: 20px;
+    margin-top: -8px;
+    padding: 8px;
+    margin-left: -25px;
+  }
+  .nav-bar-header .right-nav ul a {
+    font-size: 15px;
+  }
+}
 .header-page {
   display: flex;
 }
@@ -475,6 +529,30 @@ footer .background-foot {
     min-width: 100%;
   }
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  footer .group-footer {
+    width: 100%;
+    min-height: 160px;
+  }
+  footer .group-footer .foot-img img {
+    text-decoration: none;
+    opacity: 0;
+  }
+  footer .group-footer .about .about ul li {
+    list-style-type: none;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  footer .group-footer .title p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  footer .background-foot {
+    min-height: 230px;
+    min-width: 100%;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .header-page .imag .image-header {
     height: 100%;
@@ -616,5 +694,144 @@ footer .background-foot {
     height: 330px;
     margin-left: -50%;
     margin-top: -10px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .header-page .imag .image-header {
+    height: 20% px;
+  }
+  .header-page .text-header {
+    margin-top: 123px;
+    padding: 10px 0 10px;
+  }
+  .header-page .text-header h1 {
+    font-size: 30px;
+  }
+  .header-page .text-header h2 {
+    font-size: 20px;
+  }
+  .header-page .text-header p {
+    padding: 7px;
+  }
+  .header-page .text-header .btn-left {
+    font-size: 12px;
+    padding: 10px;
+    width: 140px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: 1px solid #fff;
+  }
+  .header-page .text-header .btn-right {
+    font-size: 12px;
+    border: 1px solid #fff;
+    padding: 10px;
+    width: 140px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .container-page {
+    padding: 30px;
+    margin-top: 5px;
+  }
+  .container-page h1 {
+    padding: 5px;
+  }
+  .container-page p {
+    padding: 0px 15px 15px 15px;
+  }
+  .container-page .our-gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header " "main" "menu" "right" "footer";
+    height: 150vh;
+  }
+  .container-page .our-gallery div {
+    padding: 10px;
+  }
+  .container-page .header {
+    background-position: center;
+    background-size: 350px;
+    border-radius: 7.5px;
+  }
+  .container-page .menu {
+    background-position: bottom;
+    border-radius: 7.5px;
+    background-size: 300px;
+  }
+  .container-page .main {
+    background-position: center;
+    border-radius: 7.5px;
+    background-size: 350px;
+  }
+  .container-page .right {
+    background-position: center;
+    border-radius: 7.5px;
+    background-size: 350px;
+  }
+  .container-page .footer {
+    background-position: center;
+    background-size: 650px;
+    border-radius: 7.5px;
+  }
+  .footer-page-home {
+    padding: 8px 30px 30px 30px;
+    margin-top: 10px;
+  }
+  .footer-page-home h1 {
+    padding: 8px;
+  }
+  .footer-page-home .join-team-home h1 {
+    padding: 10px;
+  }
+  .footer-page-home .join-team-home .text {
+    padding: 10px;
+    margin-top: 40px;
+    height: 200px;
+    border-radius: 8px;
+  }
+  .footer-page-home .join-team-home .text h2 {
+    padding: 20px 15px 10px 15px;
+    font-size: 15px;
+  }
+  .footer-page-home .join-team-home .text p {
+    padding: 0px 15px 15px 15px;
+    font-size: 9px;
+  }
+  .footer-page-home .join-team-home .text p span {
+    padding: 8px;
+    width: 150px;
+    border-radius: 8px;
+    margin-left: 15px;
+  }
+  .footer-page-home .join-team-home .text .btn-top {
+    padding: 10px;
+    width: 150px;
+    font-size: 17px;
+    border-radius: 7px;
+    margin-top: -33px;
+    margin-left: 30px;
+  }
+  .footer-page-home .join-team-home .text .btn-join {
+    margin-left: 15px;
+    padding: 7px;
+    border-radius: 7px;
+  }
+  .footer-page-home .join-team-home .text .btn-join .fa-arrow-right {
+    border: 1px solid #fff;
+    padding: 4px;
+    border-radius: 50%;
+  }
+  .footer-page-home .join-team-home .text .right-card {
+    width: 45%;
+    height: 223px;
+    margin-top: -175px;
+    margin-left: 328px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .footer-page-home .join-team-home .image-footer-home img {
+    width: 250px;
+    height: 250px;
+    margin-left: -400px;
   }
 }/*# sourceMappingURL=home.css.map */
