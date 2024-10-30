@@ -89,6 +89,12 @@ input[type="email"]:hover, input[type="password"]:hover{
     justify-content: space-between;
     border-radius: 30px;
     width: 80%;
+    cursor: pointer;
+}
+.png:hover{
+    background:$text-color;
+    color: #fff;
+    transition: 0.4s;
 }
 .container h4{
     margin-top: -20px;

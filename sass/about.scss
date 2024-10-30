@@ -8,6 +8,7 @@
     font-family: "Inter", sans-serif;
     font-weight: 450;
 }
+@import"../sass/components/title";
 @import"../sass/components/mixin";
 @import"../sass/components/mix-sports";
 .about-event{
@@ -174,6 +175,7 @@
     padding: 30px;
     padding-top: 60px;
     text-align: center;
+    margin-bottom: 70px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     .card img{
         width: 85%;
