@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Bruno+Ace&family=Faster+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
-<<<<<<< HEAD
-=======
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
 .title {
   margin-right: 180px;
 }
@@ -15,7 +10,6 @@
   padding-top: 15px;
 }
 
->>>>>>> f5e4122c70905cc18b1b6dd0f69d2d64a8e0c19a
 footer {
   display: flex;
 }
@@ -244,51 +238,6 @@ body h2 {
   color: rgb(212, 3, 3);
 }
 
-<<<<<<< HEAD
-footer {
-  display: flex;
-}
-footer .group-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 30px 50px 30px;
-  background-color: rgba(26, 61, 125, 0.768627451);
-  min-height: 200px;
-  position: absolute;
-}
-footer .group-footer .foot-img img {
-  width: 60%;
-  margin-left: 40px;
-  padding: 10px;
-}
-footer .group-footer .about ul li {
-  list-style-type: none;
-  color: #fff;
-  margin-bottom: 10px;
-  font-size: 14px;
-}
-footer .group-footer .about ul li:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
-footer .group-footer .contact-us li:hover {
-  text-decoration: underline;
-}
-footer .group-footer .title p {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-footer .background-foot {
-  width: 100%;
-  min-height: 270px;
-  background-image: url(../../images/foot.png);
-  background-position: center;
-  background-size: cover;
-}
-
-=======
->>>>>>> db0b750754d98b3c448640b9c1526e061c43e492
 .nav-bar-header {
   display: flex;
 }
@@ -299,11 +248,7 @@ footer .background-foot {
   color: #fff;
   background: #113B89;
   width: 40%;
-<<<<<<< HEAD
-  padding: 19px;
-=======
   padding: 20px;
->>>>>>> db0b750754d98b3c448640b9c1526e061c43e492
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
           clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
   position: absolute;
@@ -319,9 +264,9 @@ footer .background-foot {
 }
 .nav-bar-header .left-nav .title-name {
   font-weight: bold;
-  font-family: "Audiowide", sans-serif;
   font-size: 32px;
   text-shadow: 0 5px 5px #000;
+  font-family: "Audiowide", sans-serif;
 }
 .nav-bar-header .right-nav {
   width: 100%;

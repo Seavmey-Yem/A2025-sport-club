@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 * {
   font-family: "Inter", sans-serif;
   padding: 0;
@@ -33,9 +32,9 @@
 }
 .nav-bar-header .left-nav .title-name {
   font-weight: bold;
-  font-family: "Audiowide", sans-serif;
   font-size: 32px;
   text-shadow: 0 5px 5px #000;
+  font-family: "Audiowide", sans-serif;
 }
 .nav-bar-header .right-nav {
   width: 100%;
@@ -548,4 +547,36 @@ footer .background-foot {
 }
 .mini-content .icon-share .fa-heart, .mini-content .icon-share .fa-share, .mini-content .icon-share .fa-bookmark, .mini-content .icon-share .fa-message {
   color: #001E56;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-bar-header {
+    display: flex;
+  }
+  .nav-bar-header .left-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    padding: 11px;
+  }
+  .nav-bar-header .left-nav .logo-header {
+    width: 80px;
+    height: 70px;
+  }
+  .nav-bar-header .left-nav .title-name {
+    font-weight: bold;
+    font-size: 27px;
+    letter-spacing: 2px;
+    font-family: "Audiowide", sans-serif;
+  }
+  .nav-bar-header .right-nav .fisrt .text {
+    margin-right: 150px;
+  }
+  .nav-bar-header .right-nav .fisrt .text li {
+    margin-right: 45px;
+  }
+  .nav-bar-header .right-nav .fisrt .text a {
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=training.css.map */
