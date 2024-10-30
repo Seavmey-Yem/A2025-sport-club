@@ -86,6 +86,59 @@
   font-weight: 450;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-bar-header .left-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 15px;
+    clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+  }
+  .nav-bar-header .left-nav .logo-header {
+    width: 50px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  .nav-bar-header .left-nav .h1 {
+    padding: 10px;
+  }
+  .nav-bar-header .right-nav {
+    width: 100%;
+  }
+  .nav-bar-header .right-nav .fisrt {
+    height: 13.5px;
+    padding: 10px;
+  }
+  .nav-bar-header .right-nav .fisrt .text {
+    margin-right: 180px;
+    font-size: 13px;
+    gap: 1rem;
+    font-style: italic;
+  }
+  .nav-bar-header .right-nav .fisrt .text .fa-brands {
+    font-size: 25px;
+  }
+  .nav-bar-header .right-nav .fisrt .text .fa-brands:hover {
+    color: orangered;
+  }
+  .nav-bar-header .right-nav ul .active-link {
+    padding: 5px;
+  }
+  .nav-bar-header .right-nav ul li {
+    padding: 8px;
+    margin-right: 20px;
+  }
+  .nav-bar-header .right-nav ul li .fa-magnifying-glass {
+    font-size: 20px;
+    margin-top: -8px;
+    padding: 8px;
+    margin-left: -25px;
+  }
+  .nav-bar-header .right-nav ul a {
+    font-size: 15px;
+  }
+}
 .header-page {
   display: flex;
 }
@@ -94,14 +147,14 @@
 }
 .header-page .imag .image-header {
   width: 100%;
-  height: 620px;
+  height: 100%;
 }
 .header-page .text-header {
   text-align: center;
   background: linear-gradient(0deg, rgb(13, 46, 105) 18%, rgba(13, 46, 105, 0.5664390756) 68%, rgba(23, 103, 255, 0) 100%);
   position: absolute;
   width: 100%;
-  margin-top: 322px;
+  margin-top: 20%;
   padding: 20px 0 20px;
 }
 .header-page .text-header h1 {
@@ -167,7 +220,7 @@
   display: grid;
   gap: 15px;
   grid-template-columns: 1.2fr 1.2fr 1fr 1fr;
-  grid-template-rows: 2fr 2fr 2.5fr;
+  grid-template-rows: 2fr 1.5fr 2.5fr;
   grid-template-areas: "header header main main" "header header menu right" "footer footer footer footer";
   height: 130vh;
 }
@@ -179,7 +232,7 @@
   grid-area: header;
   background-image: url(../images/imag-home-1.png);
   background-position: center;
-  background-size: 700px;
+  background-size: 100%;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   transition: 400ms;
@@ -190,8 +243,8 @@
 .container-page .menu {
   grid-area: menu;
   background-image: url(../images/imag-home-2.png);
-  background-position: bottom;
-  background-size: 310px;
+  background-position: center;
+  background-size: 100%;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   transition: 400ms;
@@ -204,7 +257,7 @@
   background-image: url(../images/imag-home-3.png);
   background-position: center;
   border-radius: 10px;
-  background-size: 600px;
+  background-size: 100%;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   transition: 400ms;
 }
@@ -216,7 +269,7 @@
   background-image: url(../images/imag-home-4.png);
   background-position: center;
   border-radius: 10px;
-  background-size: 310px;
+  background-size: 100%;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   transition: 400ms;
 }
@@ -227,7 +280,7 @@
   grid-area: footer;
   background-image: url(../images/imag-home-5.png);
   background-position: center;
-  background-size: 1300px;
+  background-size: 100%;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   transition: 400ms;
@@ -255,10 +308,10 @@
   color: #174395;
 }
 .footer-page-home .join-team-home .text {
-  padding: 10px;
+  padding: 30px;
   margin-top: 80px;
   width: 100%;
-  height: 350px;
+  height: 40%;
   background: #ECE8FF;
   border-radius: 15px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -280,7 +333,7 @@
 .footer-page-home .join-team-home .text p span {
   padding: 10px;
   background: #5084E4;
-  width: 150px;
+  width: 15%;
   border-radius: 8px;
   color: #fff;
   margin-left: 30px;
@@ -288,13 +341,13 @@
 .footer-page-home .join-team-home .text .btn-top {
   padding: 15px;
   background: #174395;
-  width: 200px;
+  width: 18%;
   font-size: 22px;
   border-radius: 9px;
   color: #fff;
   border: none;
   position: absolute;
-  margin-top: -40px;
+  margin-top: -60px;
   margin-left: 50px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: 400ms;
@@ -327,11 +380,11 @@
 .footer-page-home .join-team-home .text .right-card {
   margin-top: 80px;
   width: 45%;
-  height: 370px;
+  height: 59.5%;
   background: radial-gradient(circle, rgb(23, 67, 149) 0%, rgb(80, 132, 228) 0%, rgb(23, 67, 149) 54%);
   position: absolute;
-  margin-top: -302px;
-  margin-left: 604px;
+  margin-top: -25.5%;
+  margin-left: 46.4%;
   clip-path: polygon(37% 0, 100% 0%, 100% 100%, 0% 100%);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -399,7 +452,7 @@ footer .background-foot {
     width: 100%;
   }
   footer .group-footer {
-    min-height: 33%;
+    min-height: 35%;
     padding: 20px 0px 35px 0px;
     width: 100%;
   }
@@ -424,10 +477,12 @@ footer .background-foot {
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .header-page .imag .image-header {
-    height: 310px;
+    height: 100%;
+    background-size: cover;
+    width: 100%;
   }
   .header-page .text-header {
-    margin-top: 120px;
+    margin-top: 22%;
     padding: 10px 0 10px;
   }
   .header-page .text-header h1 {
@@ -463,39 +518,43 @@ footer .background-foot {
     padding: 0px 15px 15px 15px;
   }
   .container-page .our-gallery {
-    gap: 10px;
+    gap: 15px;
     grid-template-columns: 1.5fr 1.5fr;
     grid-template-rows: 1.5fr 1.5fr 1.5fr;
     grid-template-areas: "header main" "menu right" "footer footer";
-    height: 40vh;
   }
   .container-page .our-gallery div {
     padding: 10px;
   }
   .container-page .header {
     background-position: center;
-    background-size: 350px;
+    background-size: 100%;
     border-radius: 7.5px;
+    object-fit: cover;
   }
   .container-page .menu {
     background-position: bottom;
     border-radius: 7.5px;
-    background-size: 300px;
+    background-size: 100%;
+    object-fit: cover;
   }
   .container-page .main {
     background-position: center;
     border-radius: 7.5px;
-    background-size: 350px;
+    background-size: 100%;
+    object-fit: cover;
   }
   .container-page .right {
     background-position: center;
     border-radius: 7.5px;
-    background-size: 350px;
+    background-size: 100%;
+    object-fit: cover;
   }
   .container-page .footer {
     background-position: center;
-    background-size: 650px;
+    background-size: 100%;
     border-radius: 7.5px;
+    object-fit: cover;
   }
   .footer-page-home {
     padding: 8px 30px 30px 30px;
@@ -510,16 +569,16 @@ footer .background-foot {
   .footer-page-home .join-team-home .text {
     padding: 10px;
     margin-top: 40px;
-    height: 200px;
+    height: 250px;
     border-radius: 8px;
   }
   .footer-page-home .join-team-home .text h2 {
     padding: 20px 15px 10px 15px;
-    font-size: 15px;
+    font-size: 20px;
   }
   .footer-page-home .join-team-home .text p {
     padding: 0px 15px 15px 15px;
-    font-size: 9px;
+    font-size: 15px;
   }
   .footer-page-home .join-team-home .text p span {
     padding: 8px;
@@ -529,11 +588,11 @@ footer .background-foot {
   }
   .footer-page-home .join-team-home .text .btn-top {
     padding: 10px;
-    width: 150px;
-    font-size: 17px;
+    width: 15% px;
+    font-size: 20px;
     border-radius: 7px;
     margin-top: -33px;
-    margin-left: 30px;
+    margin-left: 50px;
   }
   .footer-page-home .join-team-home .text .btn-join {
     margin-left: 15px;
@@ -541,21 +600,21 @@ footer .background-foot {
     border-radius: 7px;
   }
   .footer-page-home .join-team-home .text .btn-join .fa-arrow-right {
-    border: 1px solid #fff;
     padding: 4px;
     border-radius: 50%;
   }
   .footer-page-home .join-team-home .text .right-card {
     width: 45%;
-    height: 223px;
-    margin-top: -175px;
-    margin-left: 328px;
+    height: 49.5%;
+    margin-top: -230px;
+    margin-left: 48%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   .footer-page-home .join-team-home .image-footer-home img {
-    width: 250px;
-    height: 250px;
-    margin-left: -400px;
+    width: 320px;
+    height: 330px;
+    margin-left: -50%;
+    margin-top: -10px;
   }
 }/*# sourceMappingURL=home.css.map */
