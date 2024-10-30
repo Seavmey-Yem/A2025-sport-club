@@ -5,19 +5,17 @@
     padding: 0;
     margin: 0;
 }
-
 @import "./components/header";
 @import "./components/card";
 @import "./components/_title";
 @import "./components/footer";
 @import "./components/shcedule";
-
+@import "./components/variable";
 @media (min-width:768px) and (max-width:1024px){
     .nav-bar-header {
         display: flex;
         .left-nav {
           @include display();
-          
           width: 35%;
           padding: 11px;
           .logo-header {
@@ -45,4 +43,44 @@
         }
       }
     }
+    .group-footer{
+      width: 94%;
+      .foot-img{
+        opacity: 0;
+      }
+    }
+  .content-about img{
+      width: 41.3%;
+      object-fit: cover;
+  }
+  .content-about{
+      .icon-share{
+        font-size: 10px;
+      }
+      .viewers{
+        display: none;
+      }
+  }
+  .mini-content img{
+      width: 41.5%;
+    object-fit: cover;
+  }
+   .mini-content1 img{
+    object-fit: cover; 
+}
+ .mini-content2 img{
+  object-fit: cover;
+  border-radius: 8px;
+}
+  .mini-event-section{
+    flex-wrap: wrap;
+  }
+  .mini-content{
+      width: 36.3%;
+      border-radius: 8px;
+      .icon-share{
+          font-size: 18px;
+          margin-left: 50%;
+      }
+  }
 }
