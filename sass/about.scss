@@ -1,4 +1,4 @@
-
+@import"../sass/components/header";
 @import"../sass/components/footer";
 @import"../sass/components/variable";
 @import"../sass/components/mixin";
@@ -207,7 +207,6 @@
         }
     }
 }
-
 @media (min-width:768px) and (max-width:1024px){
     .mix-sport{
         margin-left: 2%;    
@@ -402,16 +401,242 @@
         }
     }
 } 
-
 .team-member{
     height: 40vh;
 }
-
 footer {
     .group-footer{
+        width: 94%;
         .foot-img img {
             opacity: 0;
         }
     }
 }
+.nav-bar-header {
+    display: flex;
+    .left-nav {
+      @include display();
+      width: 35%;
+      padding: 15px;
+      .logo-header {
+        width: 80px;
+        height: 70px;
+      }
+      .title-name{
+        font-weight: $font-weight;
+        font-size: 27px;
+        letter-spacing: 2px;
+      }
+    }
+    .right-nav{
+      .fisrt {
+        .text{
+            margin-right: 150px;
+        li {
+          margin-right: 45px;
+        }
+        a{
+          font-size: 15px;
+        }
+      }
+    }
+  }
 }
+}
+
+@media (min-width:320px) and (max-width:767px){
+    .mix-sport{
+        margin-left: 2%;    
+        margin: 20px;
+    }
+    .mix-sport .football-image{
+        width: $width-img;
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+    .mix-sport .ruby-image{
+        width: $width-img;
+        margin-left: -230px;
+        margin-top: 190px;
+    }
+    .mix-sport .photo-image{
+        width: $width-img;
+        margin-top: 320px;
+        margin-left: -300px;
+    }
+    .title-club-sport{
+        p{
+            color: $text-color;
+            margin-top: 0px;
+            font-size: 20px;
+        }
+        .detail-club{
+            p{
+                margin-top: 70px
+            }
+        }
+    }
+    .cr7 img{
+        margin-left: 200px;
+    }
+
+    .content-about{
+        @include about-responsive();
+        width: 37.1%;
+        .event-football-card{
+            h1{
+                margin-bottom: 7px;
+                padding-top: 5px;
+            }
+            p{
+                font-size: 15px;
+            }
+            .date-day{
+                margin-bottom: 5px;
+                margin-top:25px;
+            }
+        }
+        .icon-share{
+            margin-bottom:180px;
+            margin-left: -25px;
+            margin-top: 2px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        .viewers{
+            margin-left: -15%;
+            .fa-eye{
+                color: $text-color;
+            }
+        }
+    }
+    .content-about img{
+        @include bg-img-responsive();
+    }
+    .mini-event-section{
+        display: $display-flex;
+        flex-wrap: wrap;
+    .mini-content{
+        @include about-responsive();
+        width: 37.1%;
+        .event-football-card{
+            h1{
+                margin-bottom: 7px;
+                padding-top: 5px;
+            }
+            p{
+                font-size: 14px;
+            }
+            .date-day{
+                margin-bottom: 0px;
+                margin-top:15px;
+                width: 155px;
+                margin-left: -0px;
+                padding: 10px;
+            }
+        }
+        .icon-share{
+            margin-bottom:175px;
+            margin-left: -17px;
+            margin-top: 7px
+        }
+        .viewers{
+            display: flex;
+            gap:7%;
+            margin-right: -250px;
+            .fa-eye{
+                color: $text-color;
+            }
+        }
+        .btn-learn-more button{
+            margin-left: -0px
+        }
+    }
+    .mini-content img{
+        @include bg-img-responsive();
+    }
+    .volley-ball{
+        width: 83%;
+        height: 71.3vh;
+        .event-football-card{
+            h1{
+                margin:0 0 0 170px;
+                padding-top: 10px;
+                font-size: 50px;
+                text-shadow: 0 10px 10px gray;
+            }
+            .none-respone{
+                display: none;
+            }
+            .none{
+                display: flex;
+                font-size: 18px;
+                font-weight: $font-weight;
+                margin: 20px 0 0 168px;
+            }
+            .second-none{
+                margin: 3px 0 0 280px;
+            }
+            .date-day{
+                padding: 15px;
+                width: 300px;
+                margin: 50px 0 0 252px;
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+        .icon-share{
+            margin:23% 0% 20% 120%;
+            display:inline-block;
+            font-size: 25px;
+            margin-bottom: 230px;
+            .fa-heart,.fa-share,.fa-bookmark,.fa-message{
+                margin-bottom: 15px;
+            }
+            .fa-heart:hover,.fa-share:hover,.fa-bookmark:hover,.fa-message:hover{
+                color: rgb(255, 170, 0);
+            }
+        }
+        .viewers{
+            gap:3%;
+            margin-left: 72%;
+            font-size: 20px;
+            .fa-eye{
+                font-size: 20px;
+            }
+            .fa-eye:hover{
+                color: rgb(255, 170, 0);
+            }
+        }
+        .btn-learn-more button{
+            margin:50px 0 0 335px;
+            padding: 5px;
+            font-size: 15px;
+        }
+    }
+    .volley-ball img{
+        width: 87.2%;
+        height: 80%;
+    }
+  }
+
+  .member-container{
+    .lead-img img:hover{
+        box-shadow: 0 10px 10px gray;
+        transition: 0.5s;
+        transform: translateY(-10px);
+        cursor: pointer;
+    }
+    #lead-name{
+        margin-left: -22%;
+        h1{
+            font-size: 40px;
+        }
+        h2{
+            font-size: 30px;
+        }
+    }
+}
+}
+

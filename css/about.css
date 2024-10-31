@@ -1,9 +1,99 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Changa+One:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Righteous&family=Vast+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&family=Vast+Shadow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Changa+One:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Righteous&family=Vast+Shadow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Changa+One:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Righteous&family=Vast+Shadow&display=swap");
+.nav-bar-header {
+  display: flex;
+}
+.nav-bar-header .left-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #113B89;
+  width: 40%;
+  padding: 20px;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+  position: absolute;
+}
+.nav-bar-header .left-nav .logo-header {
+  width: 70px;
+  height: 60px;
+  margin-right: 20px;
+}
+.nav-bar-header .left-nav .h1 {
+  color: #fff;
+  padding: 20px;
+}
+.nav-bar-header .left-nav .title-name {
+  font-weight: bold;
+  font-family: "Audiowide", sans-serif;
+  font-size: 32px;
+  text-shadow: 0 5px 5px #000;
+}
+.nav-bar-header .right-nav {
+  width: 100%;
+}
+.nav-bar-header .right-nav .fisrt {
+  height: 20px;
+  display: flex;
+  justify-content: right;
+  background: #00205A;
+  color: white;
+  padding: 20px;
+}
+.nav-bar-header .right-nav .fisrt .text {
+  margin-right: 180px;
+  font-size: 17px;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 1rem;
+  font-style: italic;
+}
+.nav-bar-header .right-nav .fisrt .text .fa-brands {
+  font-size: 30px;
+}
+.nav-bar-header .right-nav .fisrt .text .fa-brands:hover {
+  color: skyblue;
+}
+.nav-bar-header .right-nav ul {
+  display: flex;
+  justify-content: right;
+  background: #474747;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.nav-bar-header .right-nav ul .active-link {
+  background-color: #fff;
+  color: darkblue;
+  padding: 10px;
+  text-shadow: 2px 0 3px gray;
+}
+.nav-bar-header .right-nav ul li {
+  padding: 10px;
+  list-style-type: none;
+  margin-right: 50px;
+}
+.nav-bar-header .right-nav ul li .fa-magnifying-glass {
+  background-color: rgb(49, 49, 224);
+  position: absolute;
+  font-size: 30px;
+  margin-top: -10px;
+  padding: 5px;
+  margin-left: -25px;
+}
+.nav-bar-header .right-nav ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+
 footer {
   display: flex;
 }
@@ -748,7 +838,227 @@ footer .background-foot {
   .team-member {
     height: 40vh;
   }
+  footer .group-footer {
+    width: 94%;
+  }
   footer .group-footer .foot-img img {
     opacity: 0;
+  }
+  .nav-bar-header {
+    display: flex;
+  }
+  .nav-bar-header .left-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    padding: 15px;
+  }
+  .nav-bar-header .left-nav .logo-header {
+    width: 80px;
+    height: 70px;
+  }
+  .nav-bar-header .left-nav .title-name {
+    font-weight: bold;
+    font-size: 27px;
+    letter-spacing: 2px;
+  }
+  .nav-bar-header .right-nav .fisrt .text {
+    margin-right: 150px;
+  }
+  .nav-bar-header .right-nav .fisrt .text li {
+    margin-right: 45px;
+  }
+  .nav-bar-header .right-nav .fisrt .text a {
+    font-size: 15px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .mix-sport {
+    margin-left: 2%;
+    margin: 20px;
+  }
+  .mix-sport .football-image {
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+  .mix-sport .ruby-image {
+    width: 30%;
+    margin-left: -230px;
+    margin-top: 190px;
+  }
+  .mix-sport .photo-image {
+    width: 30%;
+    margin-top: 320px;
+    margin-left: -300px;
+  }
+  .title-club-sport p {
+    color: #001E56;
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  .title-club-sport .detail-club p {
+    margin-top: 70px;
+  }
+  .cr7 img {
+    margin-left: 200px;
+  }
+  .content-about {
+    height: 35vh;
+    padding: 20px;
+    width: 37.1%;
+  }
+  .content-about .event-football-card h1 {
+    margin-bottom: 7px;
+    padding-top: 5px;
+  }
+  .content-about .event-football-card p {
+    font-size: 15px;
+  }
+  .content-about .event-football-card .date-day {
+    margin-bottom: 5px;
+    margin-top: 25px;
+  }
+  .content-about .icon-share {
+    margin-bottom: 180px;
+    margin-left: -25px;
+    margin-top: 2px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  .content-about .viewers {
+    margin-left: -15%;
+  }
+  .content-about .viewers .fa-eye {
+    color: #001E56;
+  }
+  .content-about img {
+    margin-top: -20px;
+    height: 264px;
+    margin-left: -22px;
+    width: 417px;
+  }
+  .mini-event-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .mini-event-section .mini-content {
+    height: 35vh;
+    padding: 20px;
+    width: 37.1%;
+  }
+  .mini-event-section .mini-content .event-football-card h1 {
+    margin-bottom: 7px;
+    padding-top: 5px;
+  }
+  .mini-event-section .mini-content .event-football-card p {
+    font-size: 14px;
+  }
+  .mini-event-section .mini-content .event-football-card .date-day {
+    margin-bottom: 0px;
+    margin-top: 15px;
+    width: 155px;
+    margin-left: 0px;
+    padding: 10px;
+  }
+  .mini-event-section .mini-content .icon-share {
+    margin-bottom: 175px;
+    margin-left: -17px;
+    margin-top: 7px;
+  }
+  .mini-event-section .mini-content .viewers {
+    display: flex;
+    gap: 7%;
+    margin-right: -250px;
+  }
+  .mini-event-section .mini-content .viewers .fa-eye {
+    color: #001E56;
+  }
+  .mini-event-section .mini-content .btn-learn-more button {
+    margin-left: 0px;
+  }
+  .mini-event-section .mini-content img {
+    margin-top: -20px;
+    height: 264px;
+    margin-left: -22px;
+    width: 417px;
+  }
+  .mini-event-section .volley-ball {
+    width: 83%;
+    height: 71.3vh;
+  }
+  .mini-event-section .volley-ball .event-football-card h1 {
+    margin: 0 0 0 170px;
+    padding-top: 10px;
+    font-size: 50px;
+    text-shadow: 0 10px 10px gray;
+  }
+  .mini-event-section .volley-ball .event-football-card .none-respone {
+    display: none;
+  }
+  .mini-event-section .volley-ball .event-football-card .none {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0 0 168px;
+  }
+  .mini-event-section .volley-ball .event-football-card .second-none {
+    margin: 3px 0 0 280px;
+  }
+  .mini-event-section .volley-ball .event-football-card .date-day {
+    padding: 15px;
+    width: 300px;
+    margin: 50px 0 0 252px;
+  }
+  .mini-event-section .volley-ball .event-football-card .date-day p {
+    font-size: 20px;
+  }
+  .mini-event-section .volley-ball .icon-share {
+    margin: 23% 0% 20% 120%;
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 230px;
+  }
+  .mini-event-section .volley-ball .icon-share .fa-heart, .mini-event-section .volley-ball .icon-share .fa-share, .mini-event-section .volley-ball .icon-share .fa-bookmark, .mini-event-section .volley-ball .icon-share .fa-message {
+    margin-bottom: 15px;
+  }
+  .mini-event-section .volley-ball .icon-share .fa-heart:hover, .mini-event-section .volley-ball .icon-share .fa-share:hover, .mini-event-section .volley-ball .icon-share .fa-bookmark:hover, .mini-event-section .volley-ball .icon-share .fa-message:hover {
+    color: rgb(255, 170, 0);
+  }
+  .mini-event-section .volley-ball .viewers {
+    gap: 3%;
+    margin-left: 72%;
+    font-size: 20px;
+  }
+  .mini-event-section .volley-ball .viewers .fa-eye {
+    font-size: 20px;
+  }
+  .mini-event-section .volley-ball .viewers .fa-eye:hover {
+    color: rgb(255, 170, 0);
+  }
+  .mini-event-section .volley-ball .btn-learn-more button {
+    margin: 50px 0 0 335px;
+    padding: 5px;
+    font-size: 15px;
+  }
+  .mini-event-section .volley-ball img {
+    width: 87.2%;
+    height: 80%;
+  }
+  .member-container .lead-img img:hover {
+    box-shadow: 0 10px 10px gray;
+    transition: 0.5s;
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  .member-container #lead-name {
+    margin-left: -22%;
+  }
+  .member-container #lead-name h1 {
+    font-size: 40px;
+  }
+  .member-container #lead-name h2 {
+    font-size: 30px;
   }
 }/*# sourceMappingURL=about.css.map */
