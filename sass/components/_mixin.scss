@@ -87,3 +87,13 @@
     font-weight: bold;
     text-shadow: 0 5px 3px gray;
 }
+@mixin about-responsive(){
+    height: 35vh;
+    padding: 20px;
+}
+@mixin bg-img-responsive(){
+    margin-top: -20px;
+    height: 264px;
+    margin-left: -22px;
+    width: 417px;
+}
