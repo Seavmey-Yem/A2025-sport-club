@@ -98,6 +98,9 @@
         p{
             font-size: 13px;
         }
+        .none{
+            display: none;
+        }
         .date-day{
             @include display();
             margin-left: 30px;
@@ -318,11 +321,97 @@
     }
     .volley-ball{
         width: 83%;
-        height: 60vh;
+        height: 71.3vh;
+        .event-football-card{
+            h1{
+                margin:0 0 0 170px;
+                padding-top: 10px;
+                font-size: 50px;
+                text-shadow: 0 10px 10px gray;
+            }
+            .none-respone{
+                display: none;
+            }
+            .none{
+                display: flex;
+                font-size: 18px;
+                font-weight: $font-weight;
+                margin: 20px 0 0 168px;
+            }
+            .second-none{
+                margin: 3px 0 0 280px;
+            }
+            .date-day{
+                padding: 15px;
+                width: 300px;
+                margin: 50px 0 0 252px;
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+        .icon-share{
+            margin:23% 0% 20% 120%;
+            display:inline-block;
+            font-size: 25px;
+            margin-bottom: 230px;
+            .fa-heart,.fa-share,.fa-bookmark,.fa-message{
+                margin-bottom: 15px;
+            }
+            .fa-heart:hover,.fa-share:hover,.fa-bookmark:hover,.fa-message:hover{
+                color: rgb(255, 170, 0);
+            }
+        }
+        .viewers{
+            gap:3%;
+            margin-left: 72%;
+            font-size: 20px;
+            .fa-eye{
+                font-size: 20px;
+            }
+            .fa-eye:hover{
+                color: rgb(255, 170, 0);
+            }
+        }
+        .btn-learn-more button{
+            margin:50px 0 0 335px;
+            padding: 5px;
+            font-size: 15px;
+        }
     }
     .volley-ball img{
         width: 87.2%;
-        height: 66.5vh;
+        height: 80%;
     }
   }
+
+  .member-container{
+    .lead-img img:hover{
+        box-shadow: 0 10px 10px gray;
+        transition: 0.5s;
+        transform: translateY(-10px);
+        cursor: pointer;
+    }
+    #lead-name{
+        margin-left: -22%;
+        h1{
+            font-size: 50px;
+        }
+        p{
+            letter-spacing: 0.5px;
+        }
+    }
+} 
+
+.team-member{
+    height: 40vh;
+}
+
+footer {
+    .group-footer{
+        .foot-img img {
+            opacity: 0;
+        }
+    }
+}
 }
