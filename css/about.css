@@ -108,6 +108,7 @@ footer .group-footer .foot-img img {
   padding-top: 30px;
 }
 footer .group-footer .about ul li {
+  display: flex;
   list-style-type: none;
   color: #fff;
   margin-bottom: 10px;
