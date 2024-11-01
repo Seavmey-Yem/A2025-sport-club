@@ -229,8 +229,11 @@
     .footer-mobile{
         display: none;
     }
+    .about-container{
+        height: 65vh;
+    }
     .mix-sport{
-        margin-left: 2%;    
+        margin-left: 0%;    
         margin: 20px;
     }
     .mix-sport .football-image{
@@ -246,11 +249,17 @@
     .mix-sport .photo-image{
         width: $width-img;
         margin-top: 320px;
-        margin-left: -300px;
+        margin-left: -285px;
     }
     .title-club-sport{
+        width: 50%;
+        margin-right:80px;
         .add-heading{
-            display: none;
+            display: block;
+            position: relative;
+            top: 0px;
+            font-weight: $font-weight;
+            color: $text-color;
         }
         p{
             color: $text-color;
@@ -259,7 +268,7 @@
         }
         .detail-club{
             p{
-                margin-top: 70px
+                margin-top: 20px
             }
         }
     }
@@ -269,7 +278,8 @@
 
     .content-about{
         @include about-responsive();
-        width: 37.1%;
+        width: 39%;
+        height: 23.8vh;
         .event-football-card{
             h1{
                 margin-bottom: 7px;
@@ -305,7 +315,8 @@
         flex-wrap: wrap;
     .mini-content{
         @include about-responsive();
-        width: 37.1%;
+        width: 39%;
+        height: 23.8vh;
         .event-football-card{
             h1{
                 margin-bottom: 7px;
@@ -324,7 +335,7 @@
         }
         .icon-share{
             margin-bottom:175px;
-            margin-left: -17px;
+            margin-left: -0px;
             margin-top: 7px
         }
         .viewers{
@@ -343,8 +354,8 @@
         @include bg-respon-table();
     }
     .volley-ball{
-        width: 83%;
-        height: 71.3vh;
+        width: 87%;
+        height: 46.5vh;
         .event-football-card{
             h1{
                 margin:0 0 0 170px;
@@ -374,7 +385,7 @@
             }
         }
         .icon-share{
-            margin:23% 0% 20% 120%;
+            margin:23% 0% 20% 135%;
             display:inline-block;
             font-size: 25px;
             margin-bottom: 230px;
@@ -389,6 +400,7 @@
             gap:3%;
             margin-left: 72%;
             font-size: 20px;
+            margin-top: -30px;
             .fa-eye{
                 font-size: 20px;
             }
@@ -403,8 +415,8 @@
         }
     }
     .volley-ball img{
-        width: 87.2%;
-        height: 80%;
+        width: 91.5%;
+        height: 40%;
     }
   }
 
@@ -426,7 +438,7 @@
     }
 } 
 .team-member{
-    height: 40vh;
+    height: 25vh;
 }
 
 footer {
@@ -438,11 +450,12 @@ footer {
         }
     }
  }
+ 
  .nav-bar-header {
     display: flex;
     .left-nav {
       @include display();
-      width: 35%;
+      width: 33%;
       padding: 15px;
       .logo-header {
         width: 80px;
@@ -457,13 +470,7 @@ footer {
     .right-nav{
       .fisrt {
         .text{
-            margin-right: 150px;
-        li {
-          margin-right: 45px;
-        }
-        a{
-          font-size: 15px;
-        }
+            margin-right: 120px;
       }
     }
   }

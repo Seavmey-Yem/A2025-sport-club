@@ -685,8 +685,11 @@ footer .background-foot {
   .footer-mobile {
     display: none;
   }
+  .about-container {
+    height: 65vh;
+  }
   .mix-sport {
-    margin-left: 2%;
+    margin-left: 0%;
     margin: 20px;
   }
   .mix-sport .football-image {
@@ -702,10 +705,18 @@ footer .background-foot {
   .mix-sport .photo-image {
     width: 30%;
     margin-top: 320px;
-    margin-left: -300px;
+    margin-left: -285px;
+  }
+  .title-club-sport {
+    width: 50%;
+    margin-right: 80px;
   }
   .title-club-sport .add-heading {
-    display: none;
+    display: block;
+    position: relative;
+    top: 0px;
+    font-weight: bold;
+    color: #001E56;
   }
   .title-club-sport p {
     color: #001E56;
@@ -713,7 +724,7 @@ footer .background-foot {
     font-size: 20px;
   }
   .title-club-sport .detail-club p {
-    margin-top: 70px;
+    margin-top: 20px;
   }
   .cr7 img {
     margin-left: 200px;
@@ -721,7 +732,8 @@ footer .background-foot {
   .content-about {
     height: 35vh;
     padding: 20px;
-    width: 37.1%;
+    width: 39%;
+    height: 23.8vh;
   }
   .content-about .event-football-card h1 {
     margin-bottom: 7px;
@@ -748,8 +760,8 @@ footer .background-foot {
     color: #001E56;
   }
   .content-about img {
-    width: 417px;
-    height: 264px;
+    width: 424px;
+    height: 262px;
     margin-top: -20px;
     margin-left: -22px;
   }
@@ -760,7 +772,8 @@ footer .background-foot {
   .mini-event-section .mini-content {
     height: 35vh;
     padding: 20px;
-    width: 37.1%;
+    width: 39%;
+    height: 23.8vh;
   }
   .mini-event-section .mini-content .event-football-card h1 {
     margin-bottom: 7px;
@@ -778,7 +791,7 @@ footer .background-foot {
   }
   .mini-event-section .mini-content .icon-share {
     margin-bottom: 175px;
-    margin-left: -17px;
+    margin-left: 0px;
     margin-top: 7px;
   }
   .mini-event-section .mini-content .viewers {
@@ -793,14 +806,14 @@ footer .background-foot {
     margin-left: 0px;
   }
   .mini-event-section .mini-content img {
-    width: 417px;
-    height: 264px;
+    width: 424px;
+    height: 262px;
     margin-top: -20px;
     margin-left: -22px;
   }
   .mini-event-section .volley-ball {
-    width: 83%;
-    height: 71.3vh;
+    width: 87%;
+    height: 46.5vh;
   }
   .mini-event-section .volley-ball .event-football-card h1 {
     margin: 0 0 0 170px;
@@ -829,7 +842,7 @@ footer .background-foot {
     font-size: 20px;
   }
   .mini-event-section .volley-ball .icon-share {
-    margin: 23% 0% 20% 120%;
+    margin: 23% 0% 20% 135%;
     display: inline-block;
     font-size: 25px;
     margin-bottom: 230px;
@@ -844,6 +857,7 @@ footer .background-foot {
     gap: 3%;
     margin-left: 72%;
     font-size: 20px;
+    margin-top: -30px;
   }
   .mini-event-section .volley-ball .viewers .fa-eye {
     font-size: 20px;
@@ -857,8 +871,8 @@ footer .background-foot {
     font-size: 15px;
   }
   .mini-event-section .volley-ball img {
-    width: 87.2%;
-    height: 80%;
+    width: 91.5%;
+    height: 40%;
   }
   .member-container .lead-img img:hover {
     box-shadow: 0 10px 10px gray;
@@ -876,7 +890,7 @@ footer .background-foot {
     letter-spacing: 0.5px;
   }
   .team-member {
-    height: 40vh;
+    height: 25vh;
   }
   footer {
     width: 100%;
@@ -894,7 +908,7 @@ footer .background-foot {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35%;
+    width: 33%;
     padding: 15px;
   }
   .nav-bar-header .left-nav .logo-header {
@@ -907,13 +921,7 @@ footer .background-foot {
     letter-spacing: 2px;
   }
   .nav-bar-header .right-nav .fisrt .text {
-    margin-right: 150px;
-  }
-  .nav-bar-header .right-nav .fisrt .text li {
-    margin-right: 45px;
-  }
-  .nav-bar-header .right-nav .fisrt .text a {
-    font-size: 15px;
+    margin-right: 120px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
