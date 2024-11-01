@@ -484,7 +484,7 @@ footer {
         display: none;
     }
     .about-container{
-        height: 215vh;
+        height: 170vh;
         .mix-sport{
             margin: 120% 0 0 4%;    
         }
@@ -495,15 +495,15 @@ footer {
         }
         .mix-sport .ruby-image{
             width: 86.5%;
-            margin:250px 0 0 -424px;
+            margin:250px 0 0 -444px;
         }
         .mix-sport .photo-image{
             width: 86.5%;
-            margin: 450px 0 0 -424px;
+            margin: 450px 0 0 -444px;
         }
         .title-club-sport{
             h2{
-                margin-left: -85px;
+                margin-left: -95px;
                 text-shadow: 0 5px 4px gray;
                 font-size: 40px;
             }
@@ -527,7 +527,7 @@ footer {
                     margin-top: 40px;
                 }
                 p{
-                    margin: 10px 0 0 0;
+                    margin: 10px 0 0 -8px;
                     letter-spacing: 0.3px;
                     line-height: 30px;
                     font-size: 18px;
@@ -540,14 +540,13 @@ footer {
             width: 50%;
         }
         .btn-learn-more{
-            margin:15px 0 0 -95px
+            margin:15px 0 0 -103px
         }
     }
    .event-section{
     display: grid;
     .content-about{
         @include about-responsive();
-        width: 82%;
         .event-football-card{
             h1{
                 margin-bottom: 7px;
@@ -589,17 +588,17 @@ footer {
     }
     .content-about img{
         @include bg-img-responsive();
-        width: 86.5%;
-        height: 42.5%;
+        width: 81.8%;
+        height: 27.7%;
     }
    }
    .mini-event-section{
     display: grid;
     margin-left: 115px;
     .mini-content{
-        width: 98%;
-        height: 35.5vh;
-        margin-left: -78px;
+        width: 94%;
+        height: 27vh;
+        margin-left: -70px;
         .event-football-card{
             p{
                 font-size: 15px;
@@ -619,7 +618,8 @@ footer {
         }
     }
     .mini-content img{
-        width: 87%;
+        width: 83%;
+        height: 33.3vh;
     }
     .volley-ball{
         h1{
@@ -669,7 +669,7 @@ footer {
 }
 .team-member{
     flex-wrap: wrap;
-    height: 110vh;
+    height: 90vh;
     padding-top:50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -683,7 +683,7 @@ footer {
         box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
     }
     p{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     .card-1{
         width: 100%;

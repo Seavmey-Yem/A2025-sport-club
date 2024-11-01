@@ -88,8 +88,9 @@
     text-shadow: 0 5px 3px gray;
 }
 @mixin about-responsive(){
-    height: 35vh;
+    height: 28vh;
     padding: 20px;
+    width: 82%;
 }
 @mixin bg-img-responsive(){
     margin-top: -20px;
