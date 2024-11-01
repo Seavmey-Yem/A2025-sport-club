@@ -1,0 +1,15 @@
+.footer-mobile{
+    background: $bg-right;
+    padding: 15px;
+    .copy-sign{
+        text-align: center;
+        padding: 15px;
+    }
+    .foot-group-icon{
+        text-align: center;
+        font-size: 30px;
+        .fa-google-plus ,.fa-facebook, .fa-youtube,.fa-square-x-twitter{
+            padding: 10px;
+        } 
+    }
+}

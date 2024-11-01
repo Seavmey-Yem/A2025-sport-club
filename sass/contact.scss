@@ -8,7 +8,8 @@
 }
 @import"../sass/components/variable";
 @import"../sass/components/sign_in";
-
+@import"../sass/components/nav2";
+@import"../sass/components/footer-2";
 body h2{
     text-align: center;
     margin: 40px;
@@ -22,9 +23,18 @@ body h2{
         color:rgb(212, 3, 3);
     }
 }
+.nav-2{
+    display: none;
+}
+.footer-mobile{
+    display: none;
+}
 @import"../sass/components/header";
 @import"../sass/components/sign_in";
 @media (min-width:768px) and (max-width:1024px){
+    .nav-2{
+        display: none;
+    }
     .container{
         display: flex;
         flex: 6;
@@ -133,9 +143,67 @@ body h2{
         }
       }
     }
+    .footer-mobile{
+        display: none;
+    }
 }
 
 @media (min-width:320px) and (max-width:767px){
+    .nav-2{
+        display: flex;
+        background-color: $login-bg;
+        .navlogo2{
+          width: 15%;
+          margin: 2%;
+        }
+        h1{
+          font-size: 15px;
+          margin-top: 6%;
+          color: white;
+        }
+      }
+      .mobile{
+        display: flex;
+    }
+    ul {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 71px);
+        background-color: #18283B;
+        left: 0;
+        text-align: center;
+        display: none;
+        margin-top: 15%;
+        li {
+          display: block;
+          padding: 40px 20px;
+          
+      }
+    }
+    ul li a {
+        display: block;
+        padding: 10px 0;
+        color: white;
+    }
+    
+    #icon {
+        display: block;
+        margin-left: 140px;
+    }
+    
+    #checkbox:checked~ul {
+        display: block;
+    }
+    .group-footer{
+      width: 87%;
+      height: 20%;
+      .foot-img{
+        opacity: 0;
+      }
+    }
+    .nav-bar-header{
+        display: none;
+    }
     .container{
         flex: $flex;
         width: 90%;
@@ -203,4 +271,7 @@ body h2{
         width: 88%;
     }
     
+    .footer-mobile{
+        display: block;
+    }
 }

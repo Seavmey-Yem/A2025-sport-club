@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap");
 .nav-bar-header {
   display: flex;
 }
@@ -26,9 +25,9 @@
 }
 .nav-bar-header .left-nav .title-name {
   font-weight: bold;
-  font-family: "Audiowide", sans-serif;
   font-size: 32px;
   text-shadow: 0 5px 5px #000;
+  font-family: "Audiowide", sans-serif;
 }
 .nav-bar-header .right-nav {
   width: 100%;
@@ -381,6 +380,7 @@ footer .group-footer .foot-img img {
   padding-top: 30px;
 }
 footer .group-footer .about ul li {
+  display: flex;
   list-style-type: none;
   color: #fff;
   margin-bottom: 10px;
