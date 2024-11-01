@@ -11,7 +11,14 @@
 @import "./components/footer";
 @import "./components/shcedule";
 @import "./components/variable";
+@import "./components/nav2";
+ .nav-2{
+    display: none;
+  }
 @media (min-width:768px) and (max-width:1024px){
+  .nav-2{
+    display: none;
+  }
     .card1{
       .image img{
         margin-left: 10%;
@@ -160,4 +167,57 @@
           margin-left: 50%;
       }
   }
+}
+
+@media (min-width:320px) and (max-width:767px){
+  .nav-2{
+    display: flex;
+    background-color: $login-bg;
+    .navlogo2{
+      width: 15%;
+      margin: 2%;
+    }
+    h1{
+      font-size: 20px;
+      margin-top: 5%;
+      color: white;
+    }
+  }
+
+  .nav-bar-header{
+    display: none;
+  }
+ .mobile{
+    display: flex;
+}
+
+ul {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 71px);
+    background-color: #18283B;
+    left: 0;
+    text-align: center;
+    display: none;
+    margin-top: 15%;
+    li {
+      display: block;
+      padding: 40px 20px;
+      
+  }
+}
+ul li a {
+    display: block;
+    padding: 10px 0;
+    color: white;
+}
+
+#icon {
+    display: block;
+    margin-left: 140px;
+}
+
+#checkbox:checked~ul {
+    display: block;
+}
 }

@@ -548,7 +548,52 @@ footer .background-foot {
   color: #001E56;
 }
 
+nav .mobile {
+  display: flex;
+  align-items: center;
+  background: #18283B;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+#icon {
+  padding: 10px 7px 3px 7px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 100%;
+}
+
+#icon svg {
+  margin-top: 40%;
+  color: #FFF;
+  height: 28px;
+  transition: all 0.3s ease;
+}
+
+#checkbox,
+#icon {
+  display: none;
+}
+
+.nav-2 {
+  display: none;
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
+  .nav-2 {
+    display: none;
+  }
   .card1 .image img {
     margin-left: 10%;
     width: 80%;
@@ -691,5 +736,52 @@ footer .background-foot {
   .mini-content .icon-share {
     font-size: 18px;
     margin-left: 50%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .nav-2 {
+    display: flex;
+    background-color: #5084E4;
+  }
+  .nav-2 .navlogo2 {
+    width: 15%;
+    margin: 2%;
+  }
+  .nav-2 h1 {
+    font-size: 20px;
+    margin-top: 5%;
+    color: white;
+  }
+  .nav-bar-header {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+  }
+  ul {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 71px);
+    background-color: #18283B;
+    left: 0;
+    text-align: center;
+    display: none;
+    margin-top: 15%;
+  }
+  ul li {
+    display: block;
+    padding: 40px 20px;
+  }
+  ul li a {
+    display: block;
+    padding: 10px 0;
+    color: white;
+  }
+  #icon {
+    display: block;
+    margin-left: 140px;
+  }
+  #checkbox:checked ~ ul {
+    display: block;
   }
 }/*# sourceMappingURL=training.css.map */
