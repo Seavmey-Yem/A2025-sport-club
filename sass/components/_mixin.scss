@@ -93,7 +93,13 @@
 }
 @mixin bg-img-responsive(){
     margin-top: -20px;
-    height: 264px;
     margin-left: -22px;
+    width: 41.4%;
+    height: 270px;
+}
+@mixin bg-respon-table(){
     width: 417px;
+    height: 264px;
+    margin-top: -20px;
+    margin-left: -22px;
 }
