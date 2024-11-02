@@ -499,7 +499,11 @@ footer {
         }
         .mix-sport .photo-image{
             width: 86.5%;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
             margin: 450px 0 0 -444px;
+        }
+        .mix-sport .photo-image:hover,.mix-sport .ruby-image:hover, .mix-sport .football-image:hover{
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
         }
         .title-club-sport{
             h2{
@@ -546,6 +550,7 @@ footer {
    .event-section{
     display: grid;
     .content-about{
+        box-shadow: 0 10px 10px gray;
         @include about-responsive();
         .event-football-card{
             h1{
@@ -596,6 +601,7 @@ footer {
     display: grid;
     margin-left: 115px;
     .mini-content{
+        box-shadow: 0 10px 10px gray;
         width: 94%;
         height: 27vh;
         margin-left: -70px;

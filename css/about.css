@@ -365,7 +365,10 @@ footer .background-foot {
   font-size: 30px;
 }
 .footer-mobile .foot-group-icon .fa-google-plus, .footer-mobile .foot-group-icon .fa-facebook, .footer-mobile .foot-group-icon .fa-youtube, .footer-mobile .foot-group-icon .fa-square-x-twitter {
-  padding: 10px;
+  padding: 15px;
+}
+.footer-mobile .foot-group-icon .fa-google-plus:hover, .footer-mobile .foot-group-icon .fa-facebook:hover, .footer-mobile .foot-group-icon .fa-youtube:hover, .footer-mobile .foot-group-icon .fa-square-x-twitter:hover {
+  color: #fff;
 }
 
 .footer-mobile {
@@ -946,7 +949,11 @@ footer .background-foot {
   }
   .about-container .mix-sport .photo-image {
     width: 86.5%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     margin: 450px 0 0 -444px;
+  }
+  .about-container .mix-sport .photo-image:hover, .about-container .mix-sport .ruby-image:hover, .about-container .mix-sport .football-image:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   }
   .about-container .title-club-sport h2 {
     margin-left: -95px;
@@ -993,6 +1000,7 @@ footer .background-foot {
     display: grid;
   }
   .event-section .content-about {
+    box-shadow: 0 10px 10px gray;
     height: 28vh;
     padding: 20px;
     width: 82%;
@@ -1046,6 +1054,7 @@ footer .background-foot {
     margin-left: 115px;
   }
   .mini-event-section .mini-content {
+    box-shadow: 0 10px 10px gray;
     width: 94%;
     height: 27vh;
     margin-left: -70px;
