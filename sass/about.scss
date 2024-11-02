@@ -488,13 +488,58 @@ footer {
 }
 
 @media (min-width:320px) and (max-width:767px){
-    
 
+@import"../sass/components/nav_about";
 
+.nav-2{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    background: linear-gradient(90deg, rgba(98,199,255,1) 0%, rgba(0,34,163,1) 59%);
+    h1{
+      font-size: 23px;
+      color: white;
+      font-family: "Audiowide", serif;
+      margin:28px 0 0 35px;
+    }
+    .navlogo2{
+      width: 15%;
+      margin: 2%;
+    }
+  
+  }
+  ul {
+    top: 20px;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: calc(120vh - 71px);
+    background-color: #18283B;
+    left: 0;
+    text-align: center;
+    display: none;
+    margin-top: 15%;
+    li {
+      display: block;
+      padding: 40px 20px;
+      
+  }
+}
+ul li a {
+    display: block;
+    padding: 10px 0;
+    color: white;
+}
 
+#icon {
+    display: block;
+    margin:10px 0 0 60px;
+}
 
+#checkbox:checked~ul {
+    display: block;
+}
 
-    
 
     .nav-bar-header{
         display: none;

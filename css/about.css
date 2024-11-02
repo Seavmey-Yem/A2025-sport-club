@@ -977,6 +977,80 @@ footer .background-foot {
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
+  nav .mobile {
+    display: flex;
+    align-items: center;
+    background: #18283B;
+  }
+  ul {
+    list-style: none;
+  }
+  ul li {
+    display: inline-block;
+  }
+  ul li a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  #icon {
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  #icon svg {
+    margin-top: 40%;
+    color: #FFF;
+    height: 28px;
+    transition: all 0.3s ease;
+  }
+  #checkbox,
+  #icon {
+    display: none;
+  }
+  .nav-2 {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    background: linear-gradient(90deg, rgb(98, 199, 255) 0%, rgb(0, 34, 163) 59%);
+  }
+  .nav-2 h1 {
+    font-size: 23px;
+    color: white;
+    font-family: "Audiowide", serif;
+    margin: 28px 0 0 35px;
+  }
+  .nav-2 .navlogo2 {
+    width: 15%;
+    margin: 2%;
+  }
+  ul {
+    top: 20px;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: calc(120vh - 71px);
+    background-color: #18283B;
+    left: 0;
+    text-align: center;
+    display: none;
+    margin-top: 15%;
+  }
+  ul li {
+    display: block;
+    padding: 40px 20px;
+  }
+  ul li a {
+    display: block;
+    padding: 10px 0;
+    color: white;
+  }
+  #icon {
+    display: block;
+    margin: 10px 0 0 60px;
+  }
+  #checkbox:checked ~ ul {
+    display: block;
+  }
   .nav-bar-header {
     display: none;
   }
