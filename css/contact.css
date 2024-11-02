@@ -621,8 +621,8 @@ iframe {
     cursor: pointer;
   }
   .png {
-    margin: 20px 0 0 -13px;
-    width: 90%;
+    margin: 20px 0 0 -20px;
+    width: 100%;
   }
   .png p {
     border: none;
@@ -654,7 +654,7 @@ iframe {
     margin-left: -70px;
   }
   footer .group-footer .about {
-    margin-right: -10px;
+    margin-right: -40px;
   }
   footer .background-foot {
     width: 100%;
@@ -668,7 +668,7 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35%;
+    width: 39%;
     padding: 15.5px;
   }
   .nav-bar-header .left-nav .logo-header {
@@ -681,10 +681,10 @@ iframe {
     letter-spacing: 2px;
   }
   .nav-bar-header .right-nav .fisrt .text {
-    margin-right: 125px;
+    margin-right: 60px;
   }
   .nav-bar-header .right-nav ul li {
-    margin-right: 30px;
+    margin-right: 15px;
   }
   .nav-bar-header .right-nav ul a {
     font-size: 17px;
