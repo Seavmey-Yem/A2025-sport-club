@@ -264,7 +264,8 @@ ul li a {
 }
 
 .footer-mobile {
-  background: #9FC1FF;
+  background: rgb(98, 199, 255);
+  background: linear-gradient(90deg, rgb(98, 199, 255) 0%, rgb(0, 34, 163) 59%);
   padding: 15px;
 }
 .footer-mobile .copy-sign {
@@ -276,7 +277,10 @@ ul li a {
   font-size: 30px;
 }
 .footer-mobile .foot-group-icon .fa-google-plus, .footer-mobile .foot-group-icon .fa-facebook, .footer-mobile .foot-group-icon .fa-youtube, .footer-mobile .foot-group-icon .fa-square-x-twitter {
-  padding: 10px;
+  padding: 15px;
+}
+.footer-mobile .foot-group-icon .fa-google-plus:hover, .footer-mobile .foot-group-icon .fa-facebook:hover, .footer-mobile .foot-group-icon .fa-youtube:hover, .footer-mobile .foot-group-icon .fa-square-x-twitter:hover {
+  color: #fff;
 }
 
 body h2 {

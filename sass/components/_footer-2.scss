@@ -1,5 +1,6 @@
 .footer-mobile{
-    background: $bg-right;
+    background: rgb(98,199,255);
+    background: linear-gradient(90deg, rgba(98,199,255,1) 0%, rgba(0,34,163,1) 59%);
     padding: 15px;
     .copy-sign{
         text-align: center;
@@ -8,8 +9,11 @@
     .foot-group-icon{
         text-align: center;
         font-size: 30px;
-        .fa-google-plus ,.fa-facebook, .fa-youtube,.fa-square-x-twitter{
-            padding: 10px;
+        .fa-google-plus,.fa-facebook, .fa-youtube,.fa-square-x-twitter{
+            padding: 15px;
+        } 
+        .fa-google-plus:hover ,.fa-facebook:hover, .fa-youtube:hover,.fa-square-x-twitter:hover{
+            color: #fff;
         } 
     }
 }
