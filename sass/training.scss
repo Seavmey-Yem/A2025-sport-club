@@ -12,11 +12,18 @@
 @import "./components/shcedule";
 @import "./components/variable";
 @import "./components/nav2";
+@import "./components/footer-mobile";
  .nav-2{
+    display: none;
+  }
+  .footer-mobile{
     display: none;
   }
 @media (min-width:768px) and (max-width:1024px){
   .nav-2{
+    display: none;
+  }
+  .footer-mobile{
     display: none;
   }
     .card1{
@@ -171,17 +178,21 @@
 
 @media (min-width:320px) and (max-width:767px){
   .nav-2{
+    padding: 10px;
     display: flex;
-    background-color: $login-bg;
+    background: linear-gradient(90deg, rgba(98,199,255,1) 0%, rgba(0,34,163,1) 59%);
+    h1{
+      font-size: 23px;
+      margin: 25px 0 0 5px;
+      color: white;
+      font-family: "Audiowide", serif;
+
+    }
     .navlogo2{
       width: 15%;
       margin: 2%;
     }
-    h1{
-      font-size: 15px;
-      margin-top: 6%;
-      color: white;
-    }
+  
   }
 
   .nav-bar-header{
@@ -191,14 +202,13 @@
     .image img{
       margin-left: 10%;
       width: 90%;
-      height: 30vh;
+      height: 20vh;
     }
     .infomation{
       margin-left: 0.1%;
       width: 70%;
       p{
         display: none;
-
       }
       h2{
         font-size: 16px;
@@ -207,12 +217,12 @@
       }
       h4{
         font-size: 14px;
-        margin-top: 20%;
+        margin-top: 10%;
         margin-bottom: 10%;
       }
       .join{
         width: 65%;
-        font-size: 12px;
+        font-size: 10px;
         .fa-arrow-right{
           width: 10%;
         }
@@ -223,11 +233,11 @@
     .image img{
       margin-left: -20%;
       width: 110%;
-      height: 30vh;
+      height: 20vh;
     }
     .infomation{
       margin-left: 5%;
-      width: 72%;
+      width: 70%;
       p{
         display: none;
       }
@@ -238,12 +248,12 @@
       }
       h4{
         font-size: 14px;
-        margin-top: 23%;
+        margin-top: 15%;
         margin-bottom: 13%;
       }
       .join{
-        width: 65%;
-        font-size: 12px;
+        width:65%;
+        font-size: 10px;
         .fa-arrow-right{
           width: 10%;
         }
@@ -254,6 +264,7 @@
     display: flex;
 }
 .about-event{
+  margin-top: 10%;
   h1{
     font-size: 30px;
   }
@@ -264,19 +275,26 @@
 }
 .mini-content{
   width: 70%;
+  h1{
+    margin-bottom: 5%;
+  }
+  
   .icon-share{
-    margin-left: 10px;
+    margin-left: -40%;
   }
 }
 .mini-content img{
-  width: 82%;
+  width: 82.7%;
+  height: 42%;
+
 }
 .event-section{
   display: flex;
   flex-wrap: wrap;
 }
 .content-about img{
-  width: 82%;
+  height: 42%;
+  width: 82.7%;
   object-fit: cover;
 }
 .content-about{
@@ -290,9 +308,10 @@
   }
 }
 ul {
+  z-index: 2;
     position: absolute;
     width: 100%;
-    height: calc(100vh - 71px);
+    height: calc(110vh - 71px);
     background-color: #18283B;
     left: 0;
     text-align: center;
@@ -312,7 +331,7 @@ ul li a {
 
 #icon {
     display: block;
-    margin-left: 140px;
+    margin:5px 0 0 13px;
 }
 
 #checkbox:checked~ul {
@@ -325,6 +344,11 @@ ul li a {
     opacity: 0;
   }
 }
-
+footer{
+  display: none;
+}
+.footer-mobile{
+  display: block;
+}
 }
 
