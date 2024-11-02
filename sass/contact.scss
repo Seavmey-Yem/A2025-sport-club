@@ -23,10 +23,7 @@ body h2{
         color:rgb(212, 3, 3);
     }
 }
-.nav-2{
-    display: none;
-}
-.nav-about{
+.nav{
     display: none;
 }
 .footer-mobile{
@@ -163,8 +160,11 @@ body h2{
     .footer-mobile{
         display: none;
     }
-}
+    .nav{
+        display: none;
+    }
 
+}
 @media (min-width:320px) and (max-width:767px){
 @import"../sass/components/nav2";
     .nav{
@@ -182,17 +182,17 @@ body h2{
           margin-left: 20px;
         }
         h1{
-          text-align: center;
           font-size: 23px;
-          margin: 28px 0 0 40px;
+          margin: 20px 0 0 10px;
           color: white;
           font-family: "Audiowide", serif;
         }
       }
     ul {
+        top: 20px;
         position: absolute;
         width: 100%;
-        height: calc(100vh - 71px);
+        height: calc(110vh - 71px);
         background-color: #18283B;
         left: 0;
         text-align: center;
@@ -212,7 +212,7 @@ body h2{
     
     #icon{
         display: block;
-        margin: 8px 0 0 60px;
+        margin: 0px 0 0 20px;
     }
     
     #checkbox:checked~ul {
