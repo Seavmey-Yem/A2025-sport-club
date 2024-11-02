@@ -37,8 +37,7 @@ footer .group-footer .about ul li {
 }
 footer .group-footer .about ul li:hover {
   cursor: pointer;
-  -webkit-text-decoration: underline 2px;
-          text-decoration: underline 2px;
+  text-decoration: underline 2px;
 }
 footer .group-footer .title p {
   font-size: 20px;
@@ -250,8 +249,12 @@ body h2 {
   background: #113B89;
   width: 40%;
   padding: 20px;
+<<<<<<< HEAD
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
           clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+=======
+  clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+>>>>>>> 1611e7b5d1cb037f4a1440882e1d764f1c8540df
   position: absolute;
 }
 .nav-bar-header .left-nav .logo-header {
@@ -263,12 +266,15 @@ body h2 {
   color: #fff;
   padding: 20px;
 }
+<<<<<<< HEAD
 .nav-bar-header .left-nav .title-name {
   font-weight: bold;
   font-size: 32px;
   text-shadow: 0 5px 5px #000;
   font-family: "Audiowide", sans-serif;
 }
+=======
+>>>>>>> 1611e7b5d1cb037f4a1440882e1d764f1c8540df
 .nav-bar-header .right-nav {
   width: 100%;
 }
@@ -293,7 +299,7 @@ body h2 {
   font-size: 30px;
 }
 .nav-bar-header .right-nav .fisrt .text .fa-brands:hover {
-  color: skyblue;
+  color: orangered;
 }
 .nav-bar-header .right-nav ul {
   display: flex;

@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 
 @import"../components/mixin";
+=======
+@import "./mixin";
+>>>>>>> 1611e7b5d1cb037f4a1440882e1d764f1c8540df
 .nav-bar-header {
+  
   display: flex;
+
   .left-nav {
     @include display();
     color: #fff;
@@ -9,7 +15,8 @@
     width: 40%;
     padding: 20px;
     clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
-    position: absolute;  
+    position: absolute;
+
     .logo-header {
       width: 70px;
       height: 60px;
@@ -17,6 +24,7 @@
     }
     .h1 {
       color: #fff;
+<<<<<<< HEAD
       padding: 20px;  
 
     }
@@ -25,12 +33,17 @@
       font-size: 32px;
       text-shadow: 0 5px 5px #000;
       font-family: "Audiowide", sans-serif;
+=======
+      padding: 20px;
+>>>>>>> 1611e7b5d1cb037f4a1440882e1d764f1c8540df
     }
   }
+
   .right-nav{
     width: 100%;
+
     .fisrt {
-      height:20px;
+      height: 20px;
       display: flex;
       justify-content: right;
       background: #00205A;
@@ -48,7 +61,7 @@
               font-size: 30px;
           }
           .fa-brands:hover{
-              color:skyblue;
+              color:orangered;
         }
     
       }
@@ -58,28 +71,32 @@
     ul {
       display: flex;
       justify-content: right;
-      background: #474747; 
+      background: #474747;
       box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-      .active-link{
-          background-color:#fff;
-          color: darkblue;
-          padding: 10px;
-          text-shadow: 2px 0 3px gray;
+
+      .active-link {
+        background-color: #fff;
+        color: darkblue;
+        padding: 10px;
+        text-shadow: 2px 0 3px gray;
       }
+
       li {
         padding: 10px;
         list-style-type: none;
         margin-right: 50px;
-        .fa-magnifying-glass{
+
+        .fa-magnifying-glass {
           background-color: rgb(49, 49, 224);
           position: absolute;
           font-size: 30px;
           margin-top: -10px;
           padding: 5px;
           margin-left: -25px;
-    }
+        }
       }
-      a{
+
+      a {
         text-decoration: none;
         color: #ffff;
         font-weight: bold;

@@ -17,8 +17,12 @@
   background: #113B89;
   width: 40%;
   padding: 20px;
+<<<<<<< HEAD
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
           clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+=======
+  clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+>>>>>>> 1611e7b5d1cb037f4a1440882e1d764f1c8540df
   position: absolute;
 }
 .nav-bar-header .left-nav .logo-header {
@@ -30,12 +34,15 @@
   color: #fff;
   padding: 20px;
 }
+<<<<<<< HEAD
 .nav-bar-header .left-nav .title-name {
   font-weight: bold;
   font-size: 32px;
   text-shadow: 0 5px 5px #000;
   font-family: "Audiowide", sans-serif;
 }
+=======
+>>>>>>> 1611e7b5d1cb037f4a1440882e1d764f1c8540df
 .nav-bar-header .right-nav {
   width: 100%;
 }
@@ -60,7 +67,7 @@
   font-size: 30px;
 }
 .nav-bar-header .right-nav .fisrt .text .fa-brands:hover {
-  color: skyblue;
+  color: orangered;
 }
 .nav-bar-header .right-nav ul {
   display: flex;
@@ -253,8 +260,7 @@ footer .group-footer .about ul li {
 }
 footer .group-footer .about ul li:hover {
   cursor: pointer;
-  -webkit-text-decoration: underline 2px;
-          text-decoration: underline 2px;
+  text-decoration: underline 2px;
 }
 footer .group-footer .title p {
   font-size: 20px;
@@ -386,8 +392,7 @@ footer .background-foot {
   margin-top: -25px;
   height: 273px;
   width: 548px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   margin-left: -26px;
   border-radius: 8px;
   opacity: 0.4;
@@ -474,8 +479,7 @@ footer .background-foot {
   margin-top: -25px;
   height: 275px;
   width: 351px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   margin-left: -26px;
   border-radius: 8px;
   opacity: 0.4;
@@ -547,6 +551,7 @@ footer .background-foot {
 }
 .mini-content .icon-share .fa-heart, .mini-content .icon-share .fa-share, .mini-content .icon-share .fa-bookmark, .mini-content .icon-share .fa-message {
   color: #001E56;
+<<<<<<< HEAD
 }
 
 nav .mobile {
@@ -944,4 +949,6 @@ ul li a {
   .footer-mobile {
     display: block;
   }
+=======
+>>>>>>> 1611e7b5d1cb037f4a1440882e1d764f1c8540df
 }/*# sourceMappingURL=training.css.map */

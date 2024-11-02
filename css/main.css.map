@@ -1,1 +1,1 @@
-{"version":3,"sources":["../sass/main.scss","main.css","../sass/components/_title.scss"],"names":[],"mappings":"AACA;EACI,UAAA;EACA,SAAA;ACAJ;;ACHA;EACI,mBAAA;ADMJ;ACLI;EACI,eAAA;ADOR;ACLI;EACI,iBAAA;ADOR","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/main.scss","../sass/components/_title.scss"],"names":[],"mappings":"AACA;EACI;EACA;;;ACHJ;EACI;;AACA;EACI;;AAEJ;EACI","file":"main.css"}

@@ -12,8 +12,12 @@
   background: #113B89;
   width: 40%;
   padding: 20px;
+<<<<<<< HEAD
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
           clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+=======
+  clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+>>>>>>> 1611e7b5d1cb037f4a1440882e1d764f1c8540df
   position: absolute;
 }
 .nav-bar-header .left-nav .logo-header {
@@ -25,12 +29,15 @@
   color: #fff;
   padding: 20px;
 }
+<<<<<<< HEAD
 .nav-bar-header .left-nav .title-name {
   font-weight: bold;
   font-size: 32px;
   text-shadow: 0 5px 5px #000;
   font-family: "Audiowide", sans-serif;
 }
+=======
+>>>>>>> 1611e7b5d1cb037f4a1440882e1d764f1c8540df
 .nav-bar-header .right-nav {
   width: 100%;
 }
@@ -55,7 +62,7 @@
   font-size: 30px;
 }
 .nav-bar-header .right-nav .fisrt .text .fa-brands:hover {
-  color: skyblue;
+  color: orangered;
 }
 .nav-bar-header .right-nav ul {
   display: flex;
@@ -116,8 +123,7 @@ footer .group-footer .about ul li {
 }
 footer .group-footer .about ul li:hover {
   cursor: pointer;
-  -webkit-text-decoration: underline 2px;
-          text-decoration: underline 2px;
+  text-decoration: underline 2px;
 }
 footer .group-footer .title p {
   font-size: 20px;
@@ -288,8 +294,7 @@ footer .background-foot {
   margin-top: -25px;
   height: 275px;
   width: 538px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   margin-left: -26px;
   border-radius: 8px;
   opacity: 0.4;
@@ -376,8 +381,7 @@ footer .background-foot {
   margin-top: -25px;
   height: 275px;
   width: 538px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   margin-left: -26px;
   border-radius: 8px;
   opacity: 0.4;
@@ -495,8 +499,7 @@ footer .background-foot {
   font-weight: bold;
   margin-bottom: 5px;
   background: linear-gradient(to right, rgba(80, 132, 228, 0.9098039216), #092c76);
-  -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .member-container #lead-name h2 {
@@ -523,9 +526,9 @@ footer .background-foot {
   align-items: center;
   background: #E0EBFF;
   padding: 30px;
-  padding-top: 60px;
   text-align: center;
   margin-bottom: 70px;
+  height: 50vh;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .team-member .card img {
@@ -534,8 +537,17 @@ footer .background-foot {
   border-radius: 10px;
   box-shadow: 0 4px 7px gray;
 }
+.team-member .card img:hover {
+  transform: translateY(-10px);
+  transition: 0.3s;
+  width: 90%;
+  box-shadow: 0 15px 20px gray;
+}
 .team-member .card p {
   text-align: center;
   margin-top: 10px;
   font-weight: bold;
+}
+.team-member .card .fa-fire {
+  color: orangered;
 }/*# sourceMappingURL=about.css.map */
