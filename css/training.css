@@ -756,17 +756,19 @@ ul li a {
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .nav-2 {
+    padding: 10px;
     display: flex;
-    background-color: #5084E4;
+    background: linear-gradient(90deg, rgb(98, 199, 255) 0%, rgb(0, 34, 163) 59%);
+  }
+  .nav-2 h1 {
+    font-size: 11px;
+    margin-top: 6%;
+    color: white;
+    font-family: "Audiowide", serif;
   }
   .nav-2 .navlogo2 {
     width: 15%;
     margin: 2%;
-  }
-  .nav-2 h1 {
-    font-size: 15px;
-    margin-top: 6%;
-    color: white;
   }
   .nav-bar-header {
     display: none;
@@ -849,10 +851,10 @@ ul li a {
     margin-bottom: 5%;
   }
   .mini-content .icon-share {
-    margin-right: 10%;
+    margin-left: -40%;
   }
   .mini-content img {
-    width: 82%;
+    width: 82.7%;
     height: 41%;
   }
   .event-section {
@@ -861,7 +863,7 @@ ul li a {
   }
   .content-about img {
     height: 41%;
-    width: 82%;
+    width: 82.7%;
     -o-object-fit: cover;
        object-fit: cover;
   }
