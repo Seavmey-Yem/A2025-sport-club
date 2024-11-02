@@ -214,14 +214,13 @@
     .image img{
       margin-left: 10%;
       width: 90%;
-      height: 30vh;
+      height: 20vh;
     }
     .infomation{
       margin-left: 0.1%;
       width: 70%;
       p{
         display: none;
-
       }
       h2{
         font-size: 16px;
@@ -230,12 +229,12 @@
       }
       h4{
         font-size: 14px;
-        margin-top: 20%;
+        margin-top: 10%;
         margin-bottom: 10%;
       }
       .join{
         width: 65%;
-        font-size: 12px;
+        font-size: 10px;
         .fa-arrow-right{
           width: 10%;
         }
@@ -246,11 +245,11 @@
     .image img{
       margin-left: -20%;
       width: 110%;
-      height: 30vh;
+      height: 20vh;
     }
     .infomation{
       margin-left: 5%;
-      width: 72%;
+      width: 70%;
       p{
         display: none;
       }
@@ -261,12 +260,12 @@
       }
       h4{
         font-size: 14px;
-        margin-top: 23%;
+        margin-top: 15%;
         margin-bottom: 13%;
       }
       .join{
-        width: 65%;
-        font-size: 12px;
+        width:65%;
+        font-size: 10px;
         .fa-arrow-right{
           width: 10%;
         }
@@ -277,6 +276,7 @@
     display: flex;
 }
 .about-event{
+  margin-top: 10%;
   h1{
     font-size: 30px;
   }
@@ -287,18 +287,25 @@
 }
 .mini-content{
   width: 70%;
+  h1{
+    margin-bottom: 5%;
+  }
+  
   .icon-share{
-    margin-left: 10px;
+    margin-right: 10%;
   }
 }
 .mini-content img{
   width: 82%;
+  height: 41%;
+
 }
 .event-section{
   display: flex;
   flex-wrap: wrap;
 }
 .content-about img{
+  height: 41%;
   width: 82%;
   object-fit: cover;
 }

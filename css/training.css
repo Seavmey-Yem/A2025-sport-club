@@ -774,7 +774,7 @@ ul li a {
   .card1 .image img {
     margin-left: 10%;
     width: 90%;
-    height: 30vh;
+    height: 20vh;
   }
   .card1 .infomation {
     margin-left: 0.1%;
@@ -790,12 +790,12 @@ ul li a {
   }
   .card1 .infomation h4 {
     font-size: 14px;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-bottom: 10%;
   }
   .card1 .infomation .join {
     width: 65%;
-    font-size: 12px;
+    font-size: 10px;
   }
   .card1 .infomation .join .fa-arrow-right {
     width: 10%;
@@ -803,11 +803,11 @@ ul li a {
   .card2 .image img {
     margin-left: -20%;
     width: 110%;
-    height: 30vh;
+    height: 20vh;
   }
   .card2 .infomation {
     margin-left: 5%;
-    width: 72%;
+    width: 70%;
   }
   .card2 .infomation p {
     display: none;
@@ -819,18 +819,21 @@ ul li a {
   }
   .card2 .infomation h4 {
     font-size: 14px;
-    margin-top: 23%;
+    margin-top: 15%;
     margin-bottom: 13%;
   }
   .card2 .infomation .join {
     width: 65%;
-    font-size: 12px;
+    font-size: 10px;
   }
   .card2 .infomation .join .fa-arrow-right {
     width: 10%;
   }
   .mobile {
     display: flex;
+  }
+  .about-event {
+    margin-top: 10%;
   }
   .about-event h1 {
     font-size: 30px;
@@ -842,17 +845,22 @@ ul li a {
   .mini-content {
     width: 70%;
   }
+  .mini-content h1 {
+    margin-bottom: 5%;
+  }
   .mini-content .icon-share {
-    margin-left: 10px;
+    margin-right: 10%;
   }
   .mini-content img {
     width: 82%;
+    height: 41%;
   }
   .event-section {
     display: flex;
     flex-wrap: wrap;
   }
   .content-about img {
+    height: 41%;
     width: 82%;
     -o-object-fit: cover;
        object-fit: cover;
