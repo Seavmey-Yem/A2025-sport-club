@@ -586,12 +586,39 @@ ul li a {
   display: none;
 }
 
+.footer-mobile {
+  background: rgb(98, 199, 255);
+  background: linear-gradient(90deg, rgb(98, 199, 255) 0%, rgb(0, 34, 163) 59%);
+  padding: 15px;
+}
+.footer-mobile .copy-sign {
+  text-align: center;
+  padding: 15px;
+}
+.footer-mobile .foot-group-icon {
+  text-align: center;
+  font-size: 30px;
+}
+.footer-mobile .foot-group-icon .fa-google-plus, .footer-mobile .foot-group-icon .fa-facebook, .footer-mobile .foot-group-icon .fa-youtube, .footer-mobile .foot-group-icon .fa-square-x-twitter {
+  padding: 15px;
+}
+.footer-mobile .foot-group-icon .fa-google-plus:hover, .footer-mobile .foot-group-icon .fa-facebook:hover, .footer-mobile .foot-group-icon .fa-youtube:hover, .footer-mobile .foot-group-icon .fa-square-x-twitter:hover {
+  color: #fff;
+}
+
 .nav-2 {
+  display: none;
+}
+
+.footer-mobile {
   display: none;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .nav-2 {
+    display: none;
+  }
+  .footer-mobile {
     display: none;
   }
   .card1 .image img {
@@ -761,8 +788,8 @@ ul li a {
     background: linear-gradient(90deg, rgb(98, 199, 255) 0%, rgb(0, 34, 163) 59%);
   }
   .nav-2 h1 {
-    font-size: 11px;
-    margin-top: 6%;
+    font-size: 23px;
+    margin: 25px 0 0 5px;
     color: white;
     font-family: "Audiowide", serif;
   }
@@ -855,14 +882,14 @@ ul li a {
   }
   .mini-content img {
     width: 82.7%;
-    height: 41%;
+    height: 42%;
   }
   .event-section {
     display: flex;
     flex-wrap: wrap;
   }
   .content-about img {
-    height: 41%;
+    height: 42%;
     width: 82.7%;
     -o-object-fit: cover;
        object-fit: cover;
@@ -878,9 +905,10 @@ ul li a {
     display: none;
   }
   ul {
+    z-index: 2;
     position: absolute;
     width: 100%;
-    height: calc(100vh - 71px);
+    height: calc(110vh - 71px);
     background-color: #18283B;
     left: 0;
     text-align: center;
@@ -898,7 +926,7 @@ ul li a {
   }
   #icon {
     display: block;
-    margin-left: 140px;
+    margin: 5px 0 0 13px;
   }
   #checkbox:checked ~ ul {
     display: block;
@@ -909,5 +937,11 @@ ul li a {
   }
   .group-footer .foot-img {
     opacity: 0;
+  }
+  footer {
+    display: none;
+  }
+  .footer-mobile {
+    display: block;
   }
 }/*# sourceMappingURL=training.css.map */

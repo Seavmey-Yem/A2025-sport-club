@@ -12,11 +12,18 @@
 @import "./components/shcedule";
 @import "./components/variable";
 @import "./components/nav2";
+@import "./components/footer-mobile";
  .nav-2{
+    display: none;
+  }
+  .footer-mobile{
     display: none;
   }
 @media (min-width:768px) and (max-width:1024px){
   .nav-2{
+    display: none;
+  }
+  .footer-mobile{
     display: none;
   }
     .card1{
@@ -198,8 +205,8 @@
     display: flex;
     background: linear-gradient(90deg, rgba(98,199,255,1) 0%, rgba(0,34,163,1) 59%);
     h1{
-      font-size: 11px;
-      margin-top: 6%;
+      font-size: 23px;
+      margin: 25px 0 0 5px;
       color: white;
       font-family: "Audiowide", serif;
 
@@ -301,7 +308,7 @@
 }
 .mini-content img{
   width: 82.7%;
-  height: 41%;
+  height: 42%;
 
 }
 .event-section{
@@ -309,7 +316,7 @@
   flex-wrap: wrap;
 }
 .content-about img{
-  height: 41%;
+  height: 42%;
   width: 82.7%;
   object-fit: cover;
 }
@@ -324,9 +331,10 @@
   }
 }
 ul {
+  z-index: 2;
     position: absolute;
     width: 100%;
-    height: calc(100vh - 71px);
+    height: calc(110vh - 71px);
     background-color: #18283B;
     left: 0;
     text-align: center;
@@ -346,7 +354,7 @@ ul li a {
 
 #icon {
     display: block;
-    margin-left: 140px;
+    margin:5px 0 0 13px;
 }
 
 #checkbox:checked~ul {
@@ -359,6 +367,11 @@ ul li a {
     opacity: 0;
   }
 }
-
+footer{
+  display: none;
+}
+.footer-mobile{
+  display: block;
+}
 }
 
