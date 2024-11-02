@@ -23,21 +23,24 @@
       .image img{
         margin-left: 10%;
         width: 80%;
+        height: 100%;
       }
+      
     .infomation{
         margin-left: 0.1%;
-        width: 48%;
+        width: 80%;
+        margin-right: 5%;
     }
     h4{
-        font-size: 27px;
+        font-size: 22px;
         margin-left: 5%;
-        margin-top: 12%;
+        margin-top: 5%;
         margin-bottom: 4%;
     }
     h2{
       margin-left: 5%;
         margin-bottom: 4%;
-        font-size: 35px;
+        font-size: 25px;
         letter-spacing: normal;
     }
     p{
@@ -47,45 +50,47 @@
     }
     .join{
       margin-left: 5%;
+      margin-bottom: 3%;
     }
     }
     .card2{
       .image img{
         width: 90%;
+        height: 100%;
       }
       .infomation{
         margin-right: 5%;
+        width: 80%;
      }
      h4{
-      font-size: 27px;
-      margin-top: 12%;
+      font-size: 22px;
+      margin-top: 5%;
       margin-bottom: 4%;
   }
   h2{
       margin-bottom: 4%;
-      font-size: 35px;
+      font-size: 25px;
   }
   p{
       margin-bottom: 8%;
       text-align: justify;
   }
   .join{
-    margin-bottom: 12%;
+    margin-bottom: 3%;
   }
     }
     .nav-bar-header {
-        display: flex;
         .left-nav {
           @include display();
           width: 35%;
-          padding: 11px;
+          padding-bottom: 1.2%;
           .logo-header {
             width: 80px;
             height: 70px;  
           }
           .title-name{
             font-weight: $font-weight;
-            font-size: 27px;
+            font-size: 26px;
             letter-spacing: 2px;
             font-family: "Audiowide", sans-serif;
           }
@@ -93,26 +98,29 @@
         .right-nav{
           .fisrt {
             .text{
-                margin-right: 150px;
-            li {
-              margin-right: 45px;
-            }
-            a{
-              font-size: 15px;
-            }
+                margin-right: 125px;
+          }
+        }
+        ul {
+          li {
+            margin-right: 30px;    
           }
         }
       }
     }
     .group-footer{
+      p{
+        margin-left: 5%;
+      }
       width: 94%;
       .foot-img{
         opacity: 0;
       }
     }
   .content-about img{
-      width: 41.3%;
+      width: 41.7%;
       object-fit: cover;
+      height: 35%;
   }
   .content-about{
       .icon-share{
@@ -124,21 +132,21 @@
       }
   }
   .mini-content img{
-      width: 41.5%;
-      height: 43.9%;
+      width: 41.7%;
+      height: 35%;
     object-fit: cover;
   }
    .mini-content1 img{
     object-fit: cover; 
-    height: 43.9%;
-    width: 87%;
+    height: 35.4%;
+    width: 89.5%;
 }
 
  .mini-content2 img{
   object-fit: cover;
-  height: 43.9%;
+  height: 35.4%;
   border-radius: 8px;
-  width: 87%;
+  width: 89.5%;
 }
   .mini-event-section{
     flex-wrap: wrap;
@@ -147,24 +155,39 @@
   }
   .mini-content1{
     width: 60%;
-    flex: 0.9;
+    flex: 0.93;
     .group-of-icon{
-      margin-left: 55%;
+      margin-left: 50%;
     }
   }
   .mini-content2{
     width: 60%;
-    flex: 0.9;
+    flex: 0.93;
     .group-of-icon{
-      margin-left: 55%;
+      margin-left: 50%;
+      
     }
   }
   .mini-content{
       width: 36.3%;
-      border-radius: 8px;
       .icon-share{
           font-size: 18px;
-          margin-left: 50%;
+          margin-left: 5%;
+      }
+      h1{
+        margin-bottom: 5%;
+      }
+      p{
+        font-size: 18px;
+        margin-bottom: 10%;
+      }
+      .date-day{
+        margin-bottom: 30px;
+          border-radius: 4px;
+        p{
+          
+          padding-top: 10%;
+        }
       }
   }
 }

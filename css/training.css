@@ -597,21 +597,23 @@ ul li a {
   .card1 .image img {
     margin-left: 10%;
     width: 80%;
+    height: 100%;
   }
   .card1 .infomation {
     margin-left: 0.1%;
-    width: 48%;
+    width: 80%;
+    margin-right: 5%;
   }
   .card1 h4 {
-    font-size: 27px;
+    font-size: 22px;
     margin-left: 5%;
-    margin-top: 12%;
+    margin-top: 5%;
     margin-bottom: 4%;
   }
   .card1 h2 {
     margin-left: 5%;
     margin-bottom: 4%;
-    font-size: 35px;
+    font-size: 25px;
     letter-spacing: normal;
   }
   .card1 p {
@@ -621,38 +623,38 @@ ul li a {
   }
   .card1 .join {
     margin-left: 5%;
+    margin-bottom: 3%;
   }
   .card2 .image img {
     width: 90%;
+    height: 100%;
   }
   .card2 .infomation {
     margin-right: 5%;
+    width: 80%;
   }
   .card2 h4 {
-    font-size: 27px;
-    margin-top: 12%;
+    font-size: 22px;
+    margin-top: 5%;
     margin-bottom: 4%;
   }
   .card2 h2 {
     margin-bottom: 4%;
-    font-size: 35px;
+    font-size: 25px;
   }
   .card2 p {
     margin-bottom: 8%;
     text-align: justify;
   }
   .card2 .join {
-    margin-bottom: 12%;
-  }
-  .nav-bar-header {
-    display: flex;
+    margin-bottom: 3%;
   }
   .nav-bar-header .left-nav {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 35%;
-    padding: 11px;
+    padding-bottom: 1.2%;
   }
   .nav-bar-header .left-nav .logo-header {
     width: 80px;
@@ -660,29 +662,30 @@ ul li a {
   }
   .nav-bar-header .left-nav .title-name {
     font-weight: bold;
-    font-size: 27px;
+    font-size: 26px;
     letter-spacing: 2px;
     font-family: "Audiowide", sans-serif;
   }
   .nav-bar-header .right-nav .fisrt .text {
-    margin-right: 150px;
+    margin-right: 125px;
   }
-  .nav-bar-header .right-nav .fisrt .text li {
-    margin-right: 45px;
-  }
-  .nav-bar-header .right-nav .fisrt .text a {
-    font-size: 15px;
+  .nav-bar-header .right-nav ul li {
+    margin-right: 30px;
   }
   .group-footer {
     width: 94%;
+  }
+  .group-footer p {
+    margin-left: 5%;
   }
   .group-footer .foot-img {
     opacity: 0;
   }
   .content-about img {
-    width: 41.3%;
+    width: 41.7%;
     -o-object-fit: cover;
        object-fit: cover;
+    height: 35%;
   }
   .content-about .icon-share {
     font-size: 18px;
@@ -692,23 +695,23 @@ ul li a {
     display: none;
   }
   .mini-content img {
-    width: 41.5%;
-    height: 43.9%;
+    width: 41.7%;
+    height: 35%;
     -o-object-fit: cover;
        object-fit: cover;
   }
   .mini-content1 img {
     -o-object-fit: cover;
        object-fit: cover;
-    height: 43.9%;
-    width: 87%;
+    height: 35.4%;
+    width: 89.5%;
   }
   .mini-content2 img {
     -o-object-fit: cover;
        object-fit: cover;
-    height: 43.9%;
+    height: 35.4%;
     border-radius: 8px;
-    width: 87%;
+    width: 89.5%;
   }
   .mini-event-section {
     flex-wrap: wrap;
@@ -717,25 +720,38 @@ ul li a {
   }
   .mini-content1 {
     width: 60%;
-    flex: 0.9;
+    flex: 0.93;
   }
   .mini-content1 .group-of-icon {
-    margin-left: 55%;
+    margin-left: 50%;
   }
   .mini-content2 {
     width: 60%;
-    flex: 0.9;
+    flex: 0.93;
   }
   .mini-content2 .group-of-icon {
-    margin-left: 55%;
+    margin-left: 50%;
   }
   .mini-content {
     width: 36.3%;
-    border-radius: 8px;
   }
   .mini-content .icon-share {
     font-size: 18px;
-    margin-left: 50%;
+    margin-left: 5%;
+  }
+  .mini-content h1 {
+    margin-bottom: 5%;
+  }
+  .mini-content p {
+    font-size: 18px;
+    margin-bottom: 10%;
+  }
+  .mini-content .date-day {
+    margin-bottom: 30px;
+    border-radius: 4px;
+  }
+  .mini-content .date-day p {
+    padding-top: 10%;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
