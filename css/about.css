@@ -953,7 +953,7 @@ footer .background-foot {
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  nav .mobile-about {
+  nav .mobile {
     display: flex;
     align-items: center;
     background: #18283B;
@@ -968,48 +968,43 @@ footer .background-foot {
     text-decoration: none;
     transition: all 0.3s ease;
   }
-  #icon-about {
+  #icon {
     padding: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  #icon-about svg {
+  #icon svg {
     margin-top: 40%;
     color: #FFF;
     height: 28px;
     transition: all 0.3s ease;
   }
-  #checkbox-about,
-  #icon-about {
+  #checkbox,
+  #icon {
     display: none;
   }
-  @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
-  .nav-about {
-    display: block;
-  }
-  .nav-about {
+  .nav-2 {
+    width: 100%;
     padding: 10px;
     display: flex;
-    background: rgb(98, 199, 255);
     background: linear-gradient(90deg, rgb(98, 199, 255) 0%, rgb(0, 34, 163) 59%);
   }
-  .nav-about .navlogo2-about {
-    width: 15%;
-    margin: 2%;
-    margin-left: 20px;
-  }
-  .nav-about h1 {
-    text-align: center;
-    font-size: 21px;
-    margin-top: 6%;
-    margin: 30px 0 0 50px;
+  .nav-2 h1 {
+    font-size: 23px;
     color: white;
     font-family: "Audiowide", serif;
+    margin: 28px 0 0 35px;
+  }
+  .nav-2 .navlogo2 {
+    width: 15%;
+    margin: 2%;
   }
   ul {
+    top: 20px;
+    z-index: 2;
     position: absolute;
     width: 100%;
-    height: calc(100vh - 71px);
+    height: calc(120vh - 71px);
     background-color: #18283B;
     left: 0;
     text-align: center;
@@ -1025,12 +1020,11 @@ footer .background-foot {
     padding: 10px 0;
     color: white;
   }
-  #icon-about {
+  #icon {
     display: block;
-    margin-left: 70px;
-    margin-top: 10px;
+    margin: 10px 0 0 60px;
   }
-  #checkbox-about:checked ~ ul {
+  #checkbox:checked ~ ul {
     display: block;
   }
   .nav-bar-header {
