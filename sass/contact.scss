@@ -164,28 +164,27 @@ body h2{
         display: none;
     }
 }
-@import"../sass/components/nav_about";
-@media (min-width:320px) and (max-width:767px){
 
-    .nav-about{
+@media (min-width:320px) and (max-width:767px){
+@import"../sass/components/nav2";
+    .nav{
         display: block;
     }
 
-    .nav-about{
+    .nav{
         padding: 10px;
         display: flex;
         background: rgb(98,199,255);
         background: linear-gradient(90deg, rgba(98,199,255,1) 0%, rgba(0,34,163,1) 59%);
-        .navlogo2-about{
+        .navlogo2{
           width: 15%;
           margin: 2%;
           margin-left: 20px;
         }
         h1{
           text-align: center;
-          font-size: 21px;
-          margin-top: 6%;
-          margin:10px 0 0 40px;
+          font-size: 23px;
+          margin: 28px 0 0 40px;
           color: white;
           font-family: "Audiowide", serif;
         }
@@ -211,13 +210,12 @@ body h2{
         color: white;
     }
     
-    #icon-about {
+    #icon{
         display: block;
-        margin-left: 60px;
-        margin-top: 10px;
+        margin: 8px 0 0 60px;
     }
     
-    #checkbox-about:checked~ul {
+    #checkbox:checked~ul {
         display: block;
     }
     footer{
