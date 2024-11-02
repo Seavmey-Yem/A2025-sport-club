@@ -26,12 +26,18 @@ body h2{
 .nav-2{
     display: none;
 }
+.nav-about{
+    display: none;
+}
 .footer-mobile{
     display: none;
 }
 @import"../sass/components/header";
 @import"../sass/components/sign_in";
 @media (min-width:768px) and (max-width:1024px){
+    .nav-about{
+        display: none;
+    }
     .nav-2{
         display: none;
     }
@@ -158,24 +164,32 @@ body h2{
         display: none;
     }
 }
-
+@import"../sass/components/nav_about";
 @media (min-width:320px) and (max-width:767px){
-    .nav-2{
+
+    .nav-about{
+        display: block;
+    }
+
+    .nav-about{
+        padding: 10px;
         display: flex;
-        background-color: $login-bg;
-        .navlogo2{
+        background: rgb(98,199,255);
+        background: linear-gradient(90deg, rgba(98,199,255,1) 0%, rgba(0,34,163,1) 59%);
+        .navlogo2-about{
           width: 15%;
           margin: 2%;
+          margin-left: 20px;
         }
         h1{
-          font-size: 15px;
+          text-align: center;
+          font-size: 21px;
           margin-top: 6%;
+          margin:10px 0 0 40px;
           color: white;
+          font-family: "Audiowide", serif;
         }
       }
-      .mobile{
-        display: flex;
-    }
     ul {
         position: absolute;
         width: 100%;
@@ -187,7 +201,8 @@ body h2{
         margin-top: 15%;
         li {
           display: block;
-          padding: 40px 20px;  
+          padding: 40px 20px;
+          
       }
     }
     ul li a {
@@ -196,12 +211,13 @@ body h2{
         color: white;
     }
     
-    #icon {
+    #icon-about {
         display: block;
-        margin-left: 140px;
+        margin-left: 60px;
+        margin-top: 10px;
     }
     
-    #checkbox:checked~ul {
+    #checkbox-about:checked~ul {
         display: block;
     }
     footer{
