@@ -1,0 +1,119 @@
+@import"./mixin";
+@import"./variable";
+.container{
+    display: flex;
+    flex: 4;
+    width: 77%;
+    height: 75vh;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+.left{
+    flex: 2;
+    background: $bg-left;
+    text-align: center;
+    padding: 20px;
+}
+.left{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.right{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.left h3,.right h3{
+    @include font-size();
+}
+.right{
+    flex: 2;
+    background: $bg-right;
+    text-align: center;
+    padding: 20px;
+}
+input[type="email"], input[type="password"]{
+    @include border();
+    background: $bg-right;
+}
+input[type="password"]{
+    margin-top: 0;
+}
+input[type="email"]:hover, input[type="password"]:hover{
+    background: #fff;
+    outline: 2px solid gray;
+}
+.btn{
+    @include border();
+    background: $login-bg;
+    color: #fff;
+    font-size: 16px;
+    width: 75%;
+    margin-top: 35px;
+    padding: 10px;
+}
+.btn:hover{
+    background: $text-color;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.forget ,a{
+    margin-top: 17px;
+    font-size: 15px;
+}
+.icon-img img{
+    width: 30px;
+    cursor: pointer;
+}
+.icon-img{
+    @include display();
+    margin-top: 20px;
+    gap: 5%;
+}
+.icon-2 p{
+    font-size: 17px; 
+}
+.icon-2{
+    margin-left: 12%;
+}
+.icon-2 h4{
+    margin-left:-12% ;
+}
+.png img{
+    width: 30px;
+    display: flex;
+}
+.png{
+    @include padding();
+    @include display();
+    justify-content: space-between;
+    border-radius: 30px;
+    width: 80%;
+    cursor: pointer;
+}
+.png:hover{
+    background:$text-color;
+    color: #fff;
+    transition: 0.4s;
+}
+.container h4{
+    margin-top: -20px;
+    font-size: 18px;
+    font-weight: $font-weight;
+    margin-bottom: 20px;
+}
+#choice{
+    margin-top: 25px;
+    margin-bottom: 40px
+}
+.section-2{
+    @include display();
+}
+iframe{
+    width: 77%;
+    height: 75vh;   
+    margin-bottom: 100px;
+    outline: 3px solid gray;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}

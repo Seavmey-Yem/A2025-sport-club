@@ -1,0 +1,194 @@
+@import "./mixin";
+@import "./variable";
+.mix-sport{
+    margin-left: 2%;    
+    margin: 20px;
+}
+.mix-sport .football-image{
+    width: 27%;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 3px solid #f4f4f4;
+    margin-left: 70px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.mix-sport .ruby-image{
+    width: 25%;
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 190px;
+    border-radius: 15px;
+    border: 3px solid #f4f4f4;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.mix-sport .photo-image{
+    width: 25%;
+    position: absolute;
+    margin-top: 350px;
+    border-radius: 15px;
+    margin-left: -315px;
+    border: 3px solid #f4f4f4;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.mix-sport .football-image:hover, .photo-image:hover, .ruby-image:hover{
+    transition: 0.5s;
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+.title-club-sport{
+    flex: 2;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 50px;
+    width: 500px;
+    h2{
+        font-size: 40px;
+        color: #fff;
+        padding: 10px;
+        font-family: "Vast Shadow", serif;
+        background: $text-color;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    p{
+        color: $text-color;
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    .detail-club{
+        p{
+            font-size: 17px;
+            margin-top: 80px
+        }
+    }
+}
+@include btn-shape();
+.about-event{
+    @include main-h1();
+}
+.event-section{
+    @include display();
+}
+.content-about img{
+    position:absolute;
+    z-index: -1;
+    margin-top: -25px;
+    height: 273px;
+    width: 548px;
+    object-fit: fill;
+    margin-left: -26px;
+    border-radius: 8px;
+    opacity: 0.4;
+}
+.content-about{
+    display: flex;
+    justify-content: space-between;
+    height: 35vh;
+    width: 36%;
+    gap: 7%;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 8px;
+    border: 2px solid $text-color;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    .event-football-card{
+        h1{
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: 30px;
+            margin-top: -8px;
+        }
+        .date-day{
+            display: flex;
+            margin-bottom: 30px;
+            margin-top:20px;
+            background:#2e68d4aa;
+            padding: 10px;
+            gap: 8px;
+            width: 155px;
+            border-radius: 4px;
+        }
+        .btn-learn-more button{
+            @include btn-shape();
+            border-radius: 30px;
+        }
+    }
+    .icon-share{
+        margin-bottom:185px;
+        font-size: 20px;
+        cursor: pointer;
+        .fa-heart, .fa-share, .fa-bookmark, .fa-message{
+            color:$text-color;
+        }
+    }
+    .viewers{
+        display: flex;
+        gap:7px;
+        margin-left: -15px;
+        .fa-eye{
+            color: $text-color;
+        }
+    }
+}
+.mini-event-section{
+    @include display();
+}
+.mini-content img{
+    position:absolute;
+    z-index: -1;
+    margin-top: -25px;
+    height: 275px;
+    width: 351px;
+    object-fit: fill;
+    margin-left: -26px;
+    border-radius: 8px;
+    opacity: 0.4;
+}
+.mini-content{
+    display: flex;
+    height: 35vh;
+    width: 21.7%;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 8px;
+    border: 2px solid $text-color;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    .event-football-card{
+        h1{
+            margin-top: -8px;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        p{
+            font-size: 13px;
+        }
+        .date-day{
+            @include display();
+            margin-top:10px;
+            background:#2e68d4aa;
+            padding: 15px;
+            gap: 8px;
+            width: 200px;
+            border-radius: 4px;
+            p{
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+        .btn-learn-more button{
+            @include btn-shape();
+            border-radius: 30px;
+        }
+    }
+    .icon-share{
+        cursor: pointer;
+        font-size: 18px;
+        display: flex;
+        gap: 6px;
+        margin-left: -10px;
+        .fa-heart, .fa-share, .fa-bookmark, .fa-message{
+            color:$text-color;
+        }
+    }
+}

@@ -1,0 +1,206 @@
+@import "./components/_title";
+@import "./components/footer";
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bruno+Ace&family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+    font-weight: 450;
+}
+@import"../sass/components/variable";
+@import"../sass/components/sign_in";
+
+body h2{
+    text-align: center;
+    margin: 40px;
+    font-size: 26px;
+    font-weight: $font-weight;
+    color: darkblue;
+}
+.span{
+    .fa-location-dot{
+        font-size: 30px;
+        color:rgb(212, 3, 3);
+    }
+}
+@import"../sass/components/header";
+@import"../sass/components/sign_in";
+@media (min-width:768px) and (max-width:1024px){
+    .container{
+        display: flex;
+        flex: 6;
+        width: 77%;
+        margin: 20px auto;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 20px;
+    }
+    .left{
+        flex: 4;
+    }
+    .left h3,.right h3{
+        @include font-size();
+        font-size: 20px;
+        margin-bottom:18px;
+    }
+    .right{
+        flex: 2;
+        background: $bg-right;
+        text-align: center;
+        padding: 20px;
+    }
+    input[type="email"], input[type="password"]{
+        @include border();
+        background: $bg-right;
+        width: 90%;
+    }
+    .btn{
+        width: 50%;
+    }
+    .forget ,a{
+        margin-top: 17px;
+        font-size: 15px;
+    }
+    .icon-img img{
+        width: 35px;
+        cursor: pointer;
+    }
+    .png img{
+        width: 35px;
+        display: flex;
+        cursor: pointer;
+    }
+    .png{
+        margin-top: 20px;
+    }
+    .png p{
+        border: none;
+        .verify{
+            display: none;
+        }   
+    }
+    .container h4{
+        font-size: 15px;  
+        margin-top: 20px;
+    }
+    #choice{
+        display: none
+    }
+    iframe{
+        height: 50vh;   
+    }
+
+    footer {
+        width: 100%;
+        .group-footer{
+            width: 93.99%;
+            .foot-img img {
+                opacity: 0;
+            }
+        }
+        .background-foot{
+            width:100%;
+            background-image: url(../../images/foot.png);
+            background-size: cover;
+        }
+    }
+
+    .nav-bar-header {
+        display: flex;
+        .left-nav {
+          @include display();
+          width: 35%;
+          padding: 15px;
+          .logo-header {
+            width: 80px;
+            height: 70px;
+          }
+          .title-name{
+            font-weight: $font-weight;
+            font-size: 27px;
+            letter-spacing: 2px;
+          }
+        }
+        .right-nav{
+          .fisrt {
+            .text{
+                margin-right: 150px;
+            li {
+              margin-right: 45px;
+            }
+            a{
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+}
+
+@media (min-width:320px) and (max-width:767px){
+    .container{
+        flex: $flex;
+        width: 90%;
+        flex-wrap: wrap;
+        display: inline;
+    }
+    .left{
+        flex: $flex;
+        width: 85%;
+        border-top-right-radius: $border-size;
+        border-bottom-left-radius: $border-none;
+        margin: $margin;
+    }
+    .right{
+        flex: $flex;
+        border-top-right-radius: $border-none;
+        border-bottom-left-radius: $border-size;
+        border-top: 5px solid $text-color;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        width: 85%;
+        margin: $margin;
+    }
+    .left h3,.right h3{
+        @include font-size();
+        font-size: 20px;
+        margin-bottom:18px;
+        margin-top: -1px;
+    }
+    input[type="email"], input[type="password"]{
+        @include border();
+        width: 80%;
+        box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+        margin-bottom: -0.1px;
+    }
+    .btn{
+        width: 50%;
+    }
+    .forget ,a{
+        margin-top: 17px;
+        font-size: 15px;
+    }
+    .icon-img img{
+        width: 35px;
+        cursor: pointer;
+    }
+    .png img{
+        width: 35px;
+        display: flex;
+        cursor: pointer;
+    }
+    .png{
+        margin-top: 15px;
+        width: 90%;
+        margin-left: -3%;
+    }
+    .container h4{
+        font-size: 15px;  
+        margin-top: 23px;
+    }
+    #choice{
+        display: none
+    }
+    iframe{
+        height: 60vh;  
+        width: 88%;
+    }
+    
+}
