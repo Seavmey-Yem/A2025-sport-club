@@ -83,6 +83,26 @@
   padding: 5px;
   margin-left: -25px;
 }
+.nav-bar-header .right-nav ul li {
+  position: relative;
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+}
+.nav-bar-header .right-nav ul li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background: orangered;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+.nav-bar-header .right-nav ul li:hover::after {
+  transform: scaleX(1);
+}
 .nav-bar-header .right-nav ul a {
   text-decoration: none;
   color: white;
