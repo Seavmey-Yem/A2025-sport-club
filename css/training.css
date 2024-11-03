@@ -407,8 +407,8 @@ footer .background-foot {
   position: absolute;
   z-index: -1;
   margin-top: -25px;
-  height: 273px;
-  width: 548px;
+  height: 275px;
+  width: 538px;
   -o-object-fit: fill;
      object-fit: fill;
   margin-left: -26px;
@@ -496,7 +496,7 @@ footer .background-foot {
   z-index: -1;
   margin-top: -25px;
   height: 275px;
-  width: 351px;
+  width: 347px;
   -o-object-fit: fill;
      object-fit: fill;
   margin-left: -26px;
@@ -905,14 +905,14 @@ ul li a {
   }
   .mini-content img {
     width: 82.7%;
-    height: 42%;
+    height: 41.2%;
   }
   .event-section {
     display: flex;
     flex-wrap: wrap;
   }
   .content-about img {
-    height: 42%;
+    height: 41.2%;
     width: 82.7%;
     -o-object-fit: cover;
        object-fit: cover;
