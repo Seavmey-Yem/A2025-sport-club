@@ -1,4 +1,4 @@
-nav .mobile-about {
+nav .mobile {
     display: flex;
     align-items: center;
     background: #18283B;
@@ -13,18 +13,18 @@ ul li a {
     text-decoration: none;
     transition: all 0.3s ease;
 }
-#icon-about{
+#icon{
     padding: 10px;
     cursor: pointer;
     transition: all .3s ease;
 }
-#icon-about svg {
+#icon svg {
     margin-top: 40%;
     color: #FFF;
     height: 28px;
     transition: all .3s ease;
 }
-#checkbox-about,
-#icon-about {
+#checkbox,
+#icon{
     display: none;
 }
