@@ -77,6 +77,11 @@
         }
     }
 }
+
+// @media (min-width:320px) and (max-width:767px) 
+
+// <!-- Nav bar page-->//
+// <!-- container page -->//
 .header-page {
     display: flex;
 
@@ -320,7 +325,6 @@
                 }
             }
 
-
             .btn-top {
                 padding: 15px;
                 background: $text-color-container-home;
@@ -399,9 +403,11 @@
 .footer-mobile{
     display: none;
 }
+// <!-- container page -->//
+// <!-- footer page-->//
 @import "./components/_title";
 @import "../sass/components/footer";
-@import "./components/nav-2";
+@import "./components/nav2";
 @import "./components/footer-mobile";
 .nav-2{
     display: none;
@@ -474,6 +480,9 @@
     }
 }
 
+// <!-- footer page -->//
+
+
 @media (min-width:768px) and (max-width:1024px) {
 
     .footer-mobile{
@@ -484,188 +493,186 @@
       }
     .nav-bar-header {
 
-
         .left-nav {
-            @include display();
-            width: 40%;
-            
-            padding-top: 0.5%;
-              padding-bottom: 0.5px;
+          @include display();
+          width: 40%;
           
-            .logo-header {
-              width: 70px;
-              height: 60px;
-              padding-bottom: 5px;
-              margin-left: 5%;  
-            }
-            .title-name{
-              text-shadow: 0 5px 5px #000;
-              padding-right: 2%;
-              font-weight: $font-weight;
-              font-size: 23px;
-              letter-spacing: 2px;
-              font-family: "Audiowide", sans-serif;
-            }
+          padding-top: 0.5%;
+            padding-bottom: 0.5px;
+        
+          .logo-header {
+            width: 70px;
+            height: 60px;
+            padding-bottom: 5px;
+            margin-left: 5%;  
           }
-          .right-nav{
-            .fisrt {
-              .text{
-                  margin-right: 125px;
-            }
+          .title-name{
+            text-shadow: 0 5px 5px #000;
+            padding-right: 2%;
+            font-weight: $font-weight;
+            font-size: 23px;
+            letter-spacing: 2px;
+            font-family: "Audiowide", sans-serif;
           }
-          ul {
-            li {
-              margin-right: 30px;    
-            }
+        }
+        .right-nav{
+          .fisrt {
+            .text{
+                margin-right: 125px;
+          }
+        }
+        ul {
+          li {
+            margin-right: 30px;    
           }
         }
       }
-  
-      .header-page {
-          .imag {
-              .image-header {
-                  height: 100%;
-                  background-size: cover;
-                  width: 100%;
-              }
-          }
-  
-          .text-header {
-              margin-top: 22%;
-              padding: 20px 20pxpx 0px 0;
-  
-              h1 {
-                  font-size: 40px;
-              }
-  
-              h2 {
-                  font-size: 25px;
-              }
-  
-              p {
-                  padding: 10px;
-              }
-  
-              .btn-left {
-                  padding: 10px;
-                  width: 150px;
-                  border-top-right-radius: 10px;
-                  border-bottom-left-radius: 10px;
-                  border: 1px solid #fff;
-              }
-  
-              .btn-right {
-                  border: 1px solid #fff;
-                  padding: 10px;
-                  border-top-left-radius: 10px;
-                  border-bottom-right-radius: 10px;
-              }
-          }
-      }
-  
-      .container-page {
-          padding: 30px;
-          margin-top: 7%;
-  
-  
-  
-          .our-gallery {
-              gap: 40px;
-              grid-template-columns: 1.5fr 1.5fr;
-              grid-template-rows: 1.5fr 1.5fr 1.5fr;
-              grid-template-areas:
-                  'header main'
-                  'menu right'
-                  'footer footer';
-          }
-  
-          .our-gallery div {
-              padding: 10px;
-          }
-  
-          .header {
-              background-position: center;
-              background-size: 100%;
-              border-radius: 7.5px;
-              object-fit: cover;
-              height: 70%;
-              width: 100%;
-              margin-top: 15%;
-          }
-  
-  
-          .menu {
-              background-position: bottom;
-              border-radius: 7.5px;
-              background-size: 100%;
-              object-fit: cover;
-              height: 70%;
-              width: 100%;
-  
-          }
-  
-          .main {
-              margin-top: 15%;
-              background-position: center;
-              border-radius: 7.5px;
-              background-size: 100%;
-              object-fit: cover;
-              height: 70%;
-              width: 100%;
-          }
-  
-          .right {
-              background-position: center;
-              border-radius: 7.5px;
-              background-size: 100%;
-              object-fit: cover;
-              height: 70%;
-              width: 100%;
-          }
-  
-          .footer {
-              background-position: center;
-              background-size: 100%;
-              border-radius: 7.5px;
-              object-fit: cover;
-              height: 70%;
-              width: 100%;
-          }
-      }
-  
-      .footer-page-home {
-          padding: 8px 30px 30px 30px;
-          margin-top: 10px;
-          margin-bottom: 7%;
-          h1 {
-              // padding: 8px;
-              font-size: 40px;
-              margin-bottom: 3%;
-          }
-  
-          .join-team-home {
-              h1 {
-                  padding: 10px;
-                  
-              }
-  
-              .text {
-                  padding: 10px;
-                  margin-top: 40px;
-                  height: 250px;
-                  border-radius: 8px;
-  
-                  h2 {
-                      padding: 20px 15px 10px 15px;
-                      font-size: 20px;
-                  }
-  
-                  p {
-                      padding: 0px 15px 15px 15px;
-                      font-size: 15px;
+    }
+
+    .header-page {
+        .imag {
+            .image-header {
+                height: 100%;
+                background-size: cover;
+                width: 100%;
+            }
+        }
+
+        .text-header {
+            margin-top: 22%;
+            padding: 20px 20pxpx 0px 0;
+
+            h1 {
+                font-size: 40px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+
+            p {
+                padding: 10px;
+            }
+
+            .btn-left {
+                padding: 10px;
+                width: 150px;
+                border-top-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                border: 1px solid #fff;
+            }
+
+            .btn-right {
+                border: 1px solid #fff;
+                padding: 10px;
+                border-top-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+        }
+    }
+
+    .container-page {
+        padding: 30px;
+        margin-top: 7%;
 
 
-                      span {
+
+        .our-gallery {
+            gap: 40px;
+            grid-template-columns: 1.5fr 1.5fr;
+            grid-template-rows: 1.5fr 1.5fr 1.5fr;
+            grid-template-areas:
+                'header main'
+                'menu right'
+                'footer footer';
+        }
+
+        .our-gallery div {
+            padding: 10px;
+        }
+
+        .header {
+            background-position: center;
+            background-size: 100%;
+            border-radius: 7.5px;
+            object-fit: cover;
+            height: 70%;
+            width: 100%;
+            margin-top: 15%;
+        }
+
+
+        .menu {
+            background-position: bottom;
+            border-radius: 7.5px;
+            background-size: 100%;
+            object-fit: cover;
+            height: 70%;
+            width: 100%;
+
+        }
+
+        .main {
+            margin-top: 15%;
+            background-position: center;
+            border-radius: 7.5px;
+            background-size: 100%;
+            object-fit: cover;
+            height: 70%;
+            width: 100%;
+        }
+
+        .right {
+            background-position: center;
+            border-radius: 7.5px;
+            background-size: 100%;
+            object-fit: cover;
+            height: 70%;
+            width: 100%;
+        }
+
+        .footer {
+            background-position: center;
+            background-size: 100%;
+            border-radius: 7.5px;
+            object-fit: cover;
+            height: 70%;
+            width: 100%;
+        }
+    }
+
+    .footer-page-home {
+        padding: 8px 30px 30px 30px;
+        margin-top: 10px;
+        margin-bottom: 7%;
+        h1 {
+            // padding: 8px;
+            font-size: 40px;
+            margin-bottom: 3%;
+        }
+
+        .join-team-home {
+            h1 {
+                padding: 10px;
+                
+            }
+
+            .text {
+                padding: 10px;
+                margin-top: 40px;
+                height: 250px;
+                border-radius: 8px;
+
+                h2 {
+                    padding: 20px 15px 10px 15px;
+                    font-size: 20px;
+                }
+
+                p {
+                    padding: 0px 15px 15px 15px;
+                    font-size: 15px;
+
+                    span {
                         padding: 8px;
                         width: 150px;
                         border-radius: 8px;
@@ -849,7 +856,6 @@
                 border: 1px solid #fff;
             }
 
-
             .btn-right {
                 font-size: 10px;
                 padding: 8px;
@@ -1001,4 +1007,3 @@
     display: none;
    }
 }
-  
