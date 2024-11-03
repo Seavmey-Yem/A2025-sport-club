@@ -552,8 +552,8 @@ ul li a {
   }
   .header-page .text-header {
     margin-top: 22%;
-    padding: 20px 20pxpx 0px 0;
-    height: 24vh;
+    padding: 20px 20px 0px 0;
+    height: 23vh;
   }
   .header-page .text-header h1 {
     font-size: 40px;
@@ -769,7 +769,7 @@ ul li a {
     margin-right: 125px;
   }
   .nav-bar-header .right-nav ul li {
-    margin-right: 30px;
+    margin-right: 20px;
   }
   .header-page .imag .image-header {
     height: 100%;
@@ -778,7 +778,7 @@ ul li a {
   }
   .header-page .text-header {
     margin-top: 22%;
-    padding: 20px 20pxpx 0px 0;
+    padding: 20px 20px 0px 0;
   }
   .header-page .text-header h1 {
     font-size: 40px;
@@ -912,6 +912,7 @@ ul li a {
     border-radius: 50%;
   }
   .footer-page-home .join-team-home .text .right-card {
+    display: none;
     width: 45%;
     height: 25.8%;
     margin-top: -233px;

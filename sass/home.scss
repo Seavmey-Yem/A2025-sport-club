@@ -426,8 +426,8 @@
 
         .text-header {
             margin-top: 22%;
-            padding: 20px 20pxpx 0px 0;
-            height: 24vh;
+            padding: 20px 20px 0px 0;
+            height: 23vh;
 
             h1 {
                 font-size: 40px;
@@ -704,7 +704,7 @@
         }
         ul {
           li {
-            margin-right: 30px;    
+            margin-right: 20px;    
           }
         }
       }
@@ -721,7 +721,7 @@
 
         .text-header {
             margin-top: 22%;
-            padding: 20px 20pxpx 0px 0;
+            padding: 20px 20px 0px 0;
 
             h1 {
                 font-size: 40px;
@@ -883,6 +883,7 @@
                 }
 
                 .right-card {
+                    display: none;
                     width: 45%;
                     height: 25.8%;
                     margin-top: -233px;
