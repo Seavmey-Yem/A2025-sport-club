@@ -12,32 +12,42 @@
 @import "./components/shcedule";
 @import "./components/variable";
 @import "./components/nav2";
+@import "./components/footer-mobile";
  .nav-2{
+    display: none;
+  }
+  .footer-mobile{
     display: none;
   }
 @media (min-width:768px) and (max-width:1024px){
   .nav-2{
     display: none;
   }
+  .footer-mobile{
+    display: none;
+  }
     .card1{
       .image img{
         margin-left: 10%;
         width: 80%;
+        height: 100%;
       }
+      
     .infomation{
         margin-left: 0.1%;
-        width: 48%;
+        width: 80%;
+        margin-right: 5%;
     }
     h4{
-        font-size: 27px;
+        font-size: 22px;
         margin-left: 5%;
-        margin-top: 12%;
+        margin-top: 5%;
         margin-bottom: 4%;
     }
     h2{
       margin-left: 5%;
         margin-bottom: 4%;
-        font-size: 35px;
+        font-size: 25px;
         letter-spacing: normal;
     }
     p{
@@ -47,45 +57,47 @@
     }
     .join{
       margin-left: 5%;
+      margin-bottom: 3%;
     }
     }
     .card2{
       .image img{
         width: 90%;
+        height: 100%;
       }
       .infomation{
         margin-right: 5%;
+        width: 80%;
      }
      h4{
-      font-size: 27px;
-      margin-top: 12%;
+      font-size: 22px;
+      margin-top: 5%;
       margin-bottom: 4%;
   }
   h2{
       margin-bottom: 4%;
-      font-size: 35px;
+      font-size: 25px;
   }
   p{
       margin-bottom: 8%;
       text-align: justify;
   }
   .join{
-    margin-bottom: 12%;
+    margin-bottom: 3%;
   }
     }
     .nav-bar-header {
-        display: flex;
         .left-nav {
           @include display();
           width: 35%;
-          padding: 11px;
+          padding-bottom: 1.2%;
           .logo-header {
             width: 80px;
             height: 70px;  
           }
           .title-name{
             font-weight: $font-weight;
-            font-size: 27px;
+            font-size: 26px;
             letter-spacing: 2px;
             font-family: "Audiowide", sans-serif;
           }
@@ -93,26 +105,29 @@
         .right-nav{
           .fisrt {
             .text{
-                margin-right: 150px;
-            li {
-              margin-right: 45px;
-            }
-            a{
-              font-size: 15px;
-            }
+                margin-right: 125px;
+          }
+        }
+        ul {
+          li {
+            margin-right: 30px;    
           }
         }
       }
     }
     .group-footer{
+      p{
+        margin-left: 5%;
+      }
       width: 94%;
       .foot-img{
         opacity: 0;
       }
     }
   .content-about img{
-      width: 41.3%;
+      width: 41.7%;
       object-fit: cover;
+      height: 35%;
   }
   .content-about{
       .icon-share{
@@ -124,21 +139,21 @@
       }
   }
   .mini-content img{
-      width: 41.5%;
-      height: 43.9%;
+      width: 41.7%;
+      height: 35%;
     object-fit: cover;
   }
    .mini-content1 img{
     object-fit: cover; 
-    height: 43.9%;
-    width: 87%;
+    height: 35.4%;
+    width: 89.5%;
 }
 
  .mini-content2 img{
   object-fit: cover;
-  height: 43.9%;
+  height: 35.4%;
   border-radius: 8px;
-  width: 87%;
+  width: 89.5%;
 }
   .mini-event-section{
     flex-wrap: wrap;
@@ -147,41 +162,61 @@
   }
   .mini-content1{
     width: 60%;
-    flex: 0.9;
+    flex: 0.93;
     .group-of-icon{
-      margin-left: 55%;
+      margin-left: 50%;
     }
   }
   .mini-content2{
     width: 60%;
-    flex: 0.9;
+    flex: 0.93;
     .group-of-icon{
-      margin-left: 55%;
+      margin-left: 50%;
+      
     }
   }
   .mini-content{
       width: 36.3%;
-      border-radius: 8px;
       .icon-share{
           font-size: 18px;
-          margin-left: 50%;
+          margin-left: 5%;
+      }
+      h1{
+        margin-bottom: 5%;
+      }
+      p{
+        font-size: 18px;
+        margin-bottom: 10%;
+      }
+      .date-day{
+        margin-bottom: 30px;
+          border-radius: 4px;
+        p{
+          
+          padding-top: 10%;
+        }
       }
   }
 }
 
 @media (min-width:320px) and (max-width:767px){
   .nav-2{
+    padding: 10px;
     display: flex;
-    background-color: $login-bg;
+    background: linear-gradient(90deg, rgba(98,199,255,1) 0%, rgba(0,34,163,1) 59%);
+    h1{
+      font-size: 23px;
+      margin: 25px 0 0 5px;
+      color: white;
+      font-family: "Audiowide", serif;
+
+
+    }
     .navlogo2{
       width: 15%;
       margin: 2%;
     }
-    h1{
-      font-size: 15px;
-      margin-top: 6%;
-      color: white;
-    }
+  
   }
 
   .nav-bar-header{
@@ -191,14 +226,13 @@
     .image img{
       margin-left: 10%;
       width: 90%;
-      height: 30vh;
+      height: 20vh;
     }
     .infomation{
       margin-left: 0.1%;
       width: 70%;
       p{
         display: none;
-
       }
       h2{
         font-size: 16px;
@@ -207,12 +241,12 @@
       }
       h4{
         font-size: 14px;
-        margin-top: 20%;
+        margin-top: 10%;
         margin-bottom: 10%;
       }
       .join{
         width: 65%;
-        font-size: 12px;
+        font-size: 10px;
         .fa-arrow-right{
           width: 10%;
         }
@@ -223,11 +257,11 @@
     .image img{
       margin-left: -20%;
       width: 110%;
-      height: 30vh;
+      height: 20vh;
     }
     .infomation{
       margin-left: 5%;
-      width: 72%;
+      width: 70%;
       p{
         display: none;
       }
@@ -238,12 +272,12 @@
       }
       h4{
         font-size: 14px;
-        margin-top: 23%;
+        margin-top: 15%;
         margin-bottom: 13%;
       }
       .join{
-        width: 65%;
-        font-size: 12px;
+        width:65%;
+        font-size: 10px;
         .fa-arrow-right{
           width: 10%;
         }
@@ -254,6 +288,7 @@
     display: flex;
 }
 .about-event{
+  margin-top: 10%;
   h1{
     font-size: 30px;
   }
@@ -264,19 +299,26 @@
 }
 .mini-content{
   width: 70%;
+  h1{
+    margin-bottom: 5%;
+  }
+  
   .icon-share{
-    margin-left: 10px;
+    margin-left: -40%;
   }
 }
 .mini-content img{
-  width: 82%;
+  width: 82.7%;
+  height: 42%;
+
 }
 .event-section{
   display: flex;
   flex-wrap: wrap;
 }
 .content-about img{
-  width: 82%;
+  height: 42%;
+  width: 82.7%;
   object-fit: cover;
 }
 .content-about{
@@ -290,9 +332,10 @@
   }
 }
 ul {
+  z-index: 2;
     position: absolute;
     width: 100%;
-    height: calc(100vh - 71px);
+    height: calc(110vh - 71px);
     background-color: #18283B;
     left: 0;
     text-align: center;
@@ -312,7 +355,7 @@ ul li a {
 
 #icon {
     display: block;
-    margin-left: 140px;
+    margin:5px 0 0 8px;
 }
 
 #checkbox:checked~ul {
@@ -325,6 +368,10 @@ ul li a {
     opacity: 0;
   }
 }
-
+footer{
+  display: none;
 }
-
+.footer-mobile{
+  display: block;
+}
+}
