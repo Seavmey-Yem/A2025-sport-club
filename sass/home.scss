@@ -101,6 +101,7 @@
         width: 100%;
         margin-top: 20%;
         padding: 20px 0 20px;
+        height: 60vh;
 
         h1 {
             color: $text-color-white;
@@ -372,13 +373,13 @@
             }
 
             .right-card {
-                margin-top: 80px;
+                // margin-top: 10px;
                 width: 45%;
-                height: 59.5%;
+                height: 54.7%;
                 background: radial-gradient(circle, rgba(23, 67, 149, 1) 0%, rgba(80, 132, 228, 1) 0%, rgba(23, 67, 149, 1) 54%);
                 position: absolute;
-                margin-top: -25.5%;
-                margin-left: 46.4%;
+                margin-top: -23.7%;
+                margin-left: 47%;
                 clip-path: polygon(37% 0, 100% 0%, 100% 100%, 0% 100%);
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -413,39 +414,219 @@
     display: none;
   }
 @media (min-width:768px) and (max-width:1024px) {
-    footer {
-        width: 100%;
 
-        .group-footer {
-            min-height: 33.5%;
-            padding: 20px 0px 35px 0px;
+    .header-page {
+        .imag {
+            .image-header {
+                height: 100%;
+                background-size: cover;
+                width: 100%;
+            }
+        }
+
+        .text-header {
+            margin-top: 22%;
+            padding: 20px 20pxpx 0px 0;
+            height: 24vh;
+
+            h1 {
+                font-size: 40px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+
+            p {
+                padding: 10px;
+            }
+
+            .btn-left {
+                padding: 10px;
+                width: 150px;
+                border-top-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                border: 1px solid #fff;
+            }
+
+            .btn-right {
+                border: 1px solid #fff;
+                padding: 10px;
+                border-top-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+        }
+    }
+
+    .container-page {
+        padding: 30px;
+        margin-top: 7%;
+
+
+
+        .our-gallery {
+            gap: 40px;
+            grid-template-columns: 1.5fr 1.5fr;
+            grid-template-rows: 1.5fr 1.5fr 1.5fr;
+            grid-template-areas:
+                'header main'
+                'menu right'
+                'footer footer';
+        }
+
+        .our-gallery div {
+            padding: 10px;
+        }
+
+        .header {
+            background-position: center;
+            background-size: 100%;
+            border-radius: 7.5px;
+            object-fit: cover;
+            height: 70%;
+            width: 100%;
+            margin-top: 15%;
+        }
+
+
+        .menu {
+            background-position: bottom;
+            border-radius: 7.5px;
+            background-size: 100%;
+            object-fit: cover;
+            height: 70%;
             width: 100%;
 
+        }
 
-            .foot-img img {
-                text-decoration: none;
+        .main {
+            margin-top: 15%;
+            background-position: center;
+            border-radius: 7.5px;
+            background-size: 100%;
+            object-fit: cover;
+            height: 70%;
+            width: 100%;
+        }
+
+        .right {
+            background-position: center;
+            border-radius: 7.5px;
+            background-size: 100%;
+            object-fit: cover;
+            height: 70%;
+            width: 100%;
+        }
+
+        .footer {
+            background-position: center;
+            background-size: 100%;
+            border-radius: 7.5px;
+            object-fit: cover;
+            height: 70%;
+            width: 100%;
+        }
+    }
+
+    .footer-page-home {
+        padding: 8px 30px 30px 30px;
+        margin-top: 10px;
+        margin-bottom: 7%;
+        h1 {
+            // padding: 8px;
+            font-size: 40px;
+            margin-bottom: 3%;
+        }
+
+        .join-team-home {
+            h1 {
+                padding: 10px;
+                
+            }
+
+            .text {
+                padding: 10px;
+                margin-top: 40px;
+                height: 250px;
+                border-radius: 8px;
+
+                h2 {
+                    padding: 20px 15px 10px 15px;
+                    font-size: 20px;
+                }
+
+                p {
+                    padding: 0px 15px 15px 15px;
+                    font-size: 15px;
+
+                    span {
+                        padding: 8px;
+                        width: 150px;
+                        border-radius: 8px;
+                        margin-left: 15px;
+
+                    }
+                }
+
+                .btn-top {
+                    padding: 10px;
+                    width: 15%px;
+                    font-size: 20px;
+                    border-radius: 7px;
+                    margin-top: -33px;
+                    margin-left: 50px;
+                }
+
+                .btn-join {
+                    margin-left: 15px;
+                    padding: 7px;
+                    border-radius: 7px;
+
+                    .fa-arrow-right {
+                        padding: 4px;
+                        border-radius: 50%;
+                    }
+                }
+        
+
+                .right-card {
+                    width: 45%;
+                    height: 25.8%;
+                    margin-top: -333px;
+                    margin-left: 48%;
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    position: absolute;
+                    top: 218.4%;
+                    left: 4%;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+
+
+            .image-footer-home {
+                img {
+                    width: 40%;
+                    height: 30%;
+                    margin-left: -40%;
+                    margin-top: -10px;
+                }
+
+            }
+        }
+    }
+    footer{
+        .group-footer{
+            .foot-img img{
                 opacity: 0;
             }
-
-            .about ul li {
-                list-style-type: none;
-                color: #fff;
-                margin-bottom: 10px;
-                font-size: 14px;
-            }
-
-            .title p {
-                font-size: 18px;
-                margin-bottom: 15px;
-            }
         }
-
-        .background-foot {
-            min-height: 247px;
-            min-width: 100%;
+        .about ul li{
+            margin-left:-25px;
         }
-
     }
+
 }
 
 @media (min-width:320px) and (max-width:767px) {
