@@ -77,11 +77,6 @@
         }
     }
 }
-
-// @media (min-width:320px) and (max-width:767px) 
-
-// <!-- Nav bar page-->//
-// <!-- container page -->//
 .header-page {
     display: flex;
 
@@ -403,8 +398,6 @@
 .footer-mobile{
     display: none;
 }
-// <!-- container page -->//
-// <!-- footer page-->//
 @import "./components/_title";
 @import "../sass/components/footer";
 @import "./components/nav-2";
@@ -479,9 +472,6 @@
 
     }
 }
-
-// <!-- footer page -->//
-
 
 @media (min-width:768px) and (max-width:1024px) {
 
