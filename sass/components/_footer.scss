@@ -1,0 +1,42 @@
+@import "../components/mixin";
+footer {
+    display: flex;
+    .group-footer {
+        @include display();
+        padding: 20px 30px 50px 30px;
+        background-color: #1a3d7dc4;
+        min-height: 200px;
+        position: absolute;
+
+        .foot-img img {
+            width:  54%;
+            margin-left: 40px;
+            padding: 10px;
+            padding-top: 30px;
+        }
+
+        .about ul li {
+            display: flex;
+            list-style-type: none;
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .about ul li:hover {
+            cursor: pointer;
+            text-decoration: underline 2px;
+        }
+        .title p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .background-foot {
+        width: 100%;
+        min-height: 270px;
+        background-image: url(../../images/foot.png);
+        background-position: center;
+        background-size: cover;
+    }
+}
